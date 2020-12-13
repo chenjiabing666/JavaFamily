@@ -10,7 +10,7 @@
 
 以下内容全部出自公众号**码猿技术专栏**，欢迎关注。
 
-![](https://gitee.com/chenjiabing666/BlogImage/raw/master/myjszl_log.png)
+![](./myjszl_log.png)
 
 ## Mybatis相关文章
 
