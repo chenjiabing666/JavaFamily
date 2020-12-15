@@ -94,12 +94,23 @@ Mybatis专栏是作者的第一个专栏，花费了一个多月打造完成，�
 7. [面试官：索引是什么，如何实现？懵逼~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483797&idx=1&sn=115e9ece81a805ece3b8c0edba3fc4cf&chksm=fcf4de58cb83574ee3e975fe8d7f6947453ccb283da21d81943307b428b0401f0662edbe3975&token=890958715&lang=zh_CN#rd)
 8. [一文带你你搞懂索引如何优化！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483838&idx=1&sn=8136948deed57212f1dae0e20a5ecf50&chksm=fcf4de73cb835765ff6ad340b7a7b216dfea4c4e46c4cc94a41434867f40b64e60956f5b21a0&token=890958715&lang=zh_CN#rd)
 9. [吐血总结：MySQL性能如何优化？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483871&idx=1&sn=7ad822fe810f6716f59bf997b08faa71&chksm=fcf4de12cb83570426729d7f5ce1c6be972331441d2a14038be8f3d9e68d721078faef411f7a&token=890958715&lang=zh_CN#rd)
+10. [首长，Redis性能优化十三条军规立好了，请过目~](https://mp.weixin.qq.com/s?__biz=MzIxMDQwODMzNg==&mid=2247484183&idx=1&sn=81564a4f6ffed07cbcc080960929a72d&chksm=976445e8a013ccfe6c90b1475651158b3f677f537d70856df02c80c7d8d20aab1d73a5ac4c56&token=342810233&lang=zh_CN#rd)
+11. [阿里三面：为什么使用了索引，查询还是慢？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486769&idx=1&sn=4adb1b9de9583bb900d54a5bb1ef5c96&chksm=fcf4d2fccb835bea890d857607d884be9a266b3e6ebb8c16de073c54bd45e982c30267e3f2d6&token=419876322&lang=zh_CN#rd)
+12. [面试三连问：你这个数据量多大？分库分表怎么做？用的哪个组件？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486653&idx=1&sn=34e66d4d1541b3a4f5da34787d2f1a58&chksm=fcf4d370cb835a667d1bf86cced63cb1179c53acd9b30ba2f117d6d1260d0c4743794148bf08&token=419876322&lang=zh_CN#rd)
 
 
+
+## 并发编程
+
+1. [小姐姐都能看懂的Happens-before规则，你还愣住了？](https://mp.weixin.qq.com/s?__biz=MzIxMDQwODMzNg==&mid=2247484164&idx=1&sn=6c21c6087728e18911389d703e3d95c8&chksm=976445fba013ccedbfc5e0c08d1c0c61c397ffe32b789826c7a7ced410701bc18ea182760702&token=342810233&lang=zh_CN#rd)
+2. [了解这些坑，再也不会出现诡异的BUG了~](https://mp.weixin.qq.com/s?__biz=MzIxMDQwODMzNg==&mid=2247484124&idx=1&sn=05015fbe722df88f7988a466f44cc101&chksm=97644423a013cd3548a38133bb204372a9904f2abdaa79819000478f316c900c7128d827cc65&token=342810233&lang=zh_CN#rd)
 
 ## 面经
 
 1. [Redis面试突击专用](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486371&idx=2&sn=f5bab9041f85a84143fc579d7e6be80a&chksm=fcf4d46ecb835d78eef380cd0db3e07735bc3e691adecea496f838c3c924b5e4905d80b9bab8&token=890958715&lang=zh_CN#rd)
+2. [阿里二面：如何设计与实现短URL服务？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486666&idx=1&sn=cfbea56de2efbab8f4bc8d90ee6fef1c&chksm=fcf4d307cb835a11e71ff1d5473511338b03680f00315470cc09a8d0fbd151bff1459ee52f9a&token=419876322&lang=zh_CN#rd)
+3. [阿里三面：为什么使用了索引，查询还是慢？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486769&idx=1&sn=4adb1b9de9583bb900d54a5bb1ef5c96&chksm=fcf4d2fccb835bea890d857607d884be9a266b3e6ebb8c16de073c54bd45e982c30267e3f2d6&token=419876322&lang=zh_CN#rd)
+4. [面试三连问：你这个数据量多大？分库分表怎么做？用的哪个组件？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486653&idx=1&sn=34e66d4d1541b3a4f5da34787d2f1a58&chksm=fcf4d370cb835a667d1bf86cced63cb1179c53acd9b30ba2f117d6d1260d0c4743794148bf08&token=419876322&lang=zh_CN#rd)
 
 
 
@@ -115,4 +126,7 @@ Mybatis专栏是作者的第一个专栏，花费了一个多月打造完成，�
 
 1. [这可能是你看过最好的微服务架构详解文章](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486340&idx=1&sn=99010f44720116ea59eb81350823b87a&chksm=fcf4d449cb835d5fec606eb991687f7d82b7a2e629a79cd5eec89a698ef7764a034c24743a64&token=890958715&lang=zh_CN#rd)
 2. [不懂分布式事务，别说你懂微服务！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486210&idx=1&sn=0fb4ad670032b1f933c090eda4763f57&chksm=fcf4d4cfcb835dd9a47d6e446db4d94539017e23c4578146d7fc1a731be000431cb9612256b7&token=890958715&lang=zh_CN#rd)
+3. [一口气说出四种幂等性解决方案，面试官露出了姨母笑~](https://mp.weixin.qq.com/s?__biz=MzIxMDQwODMzNg==&mid=2247484275&idx=1&sn=1667a61a9452d4ad6511212974f2e12c&chksm=9764458ca013cc9a2b7afc0751bc9f6046bffccd31610308f4ae479ddb369d6c38dacd4b781f&token=342810233&lang=zh_CN#rd)
+4. [程序员必知的7种软件架构模式](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486691&idx=1&sn=0a88a871121db7be91723cd0090eb885&chksm=fcf4d32ecb835a38ac034d9196cbdbf85c5f19cbcc206c12f6677c7322249dca92168ea4722c&token=419876322&lang=zh_CN#rd)
+5. [阿里二面：如何设计与实现短URL服务？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486666&idx=1&sn=cfbea56de2efbab8f4bc8d90ee6fef1c&chksm=fcf4d307cb835a11e71ff1d5473511338b03680f00315470cc09a8d0fbd151bff1459ee52f9a&token=419876322&lang=zh_CN#rd)
 
