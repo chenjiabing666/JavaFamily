@@ -80,6 +80,7 @@ Mybatis专栏是作者的第一个专栏，花费了一个多月打造完成，�
 ## 消息队列
 
 1. [深入理解：一文讲透RabbitMQ](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486231&idx=1&sn=e3624c839e8adfec6955dafd7460a5c2&chksm=fcf4d4dacb835dcc6db4573f218e0f5dcfb6b0a4df8396f42bc4e2704b5e92d9fa983a3863ad&token=890958715&lang=zh_CN#rd)
+2. [如果面试官再问你消息队列，就把这篇甩给他！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486851&idx=1&sn=6fbb9a1b03165772b7892d153c42963d&chksm=fcf4d24ecb835b58822ea77ae8561e9b85b5c66c03a34a35c47bd72489ed89ce19f455c4a5ec&token=1862046825&lang=zh_CN#rd)
 
 
 
@@ -111,6 +112,7 @@ Mybatis专栏是作者的第一个专栏，花费了一个多月打造完成，�
 2. [阿里二面：如何设计与实现短URL服务？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486666&idx=1&sn=cfbea56de2efbab8f4bc8d90ee6fef1c&chksm=fcf4d307cb835a11e71ff1d5473511338b03680f00315470cc09a8d0fbd151bff1459ee52f9a&token=419876322&lang=zh_CN#rd)
 3. [阿里三面：为什么使用了索引，查询还是慢？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486769&idx=1&sn=4adb1b9de9583bb900d54a5bb1ef5c96&chksm=fcf4d2fccb835bea890d857607d884be9a266b3e6ebb8c16de073c54bd45e982c30267e3f2d6&token=419876322&lang=zh_CN#rd)
 4. [面试三连问：你这个数据量多大？分库分表怎么做？用的哪个组件？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486653&idx=1&sn=34e66d4d1541b3a4f5da34787d2f1a58&chksm=fcf4d370cb835a667d1bf86cced63cb1179c53acd9b30ba2f117d6d1260d0c4743794148bf08&token=419876322&lang=zh_CN#rd)
+5. [（2w字）106道Java并发和多线程基础面试题大集合，这波面试稳了](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486802&idx=1&sn=454513a2fdbcc644f15051870614f697&chksm=fcf4d29fcb835b89cd50df3cfd2a686aa8e3701e832ca2318e10f0afeafdba0120911a8eaab7&token=1862046825&lang=zh_CN#rd)
 
 
 
@@ -129,4 +131,5 @@ Mybatis专栏是作者的第一个专栏，花费了一个多月打造完成，�
 3. [一口气说出四种幂等性解决方案，面试官露出了姨母笑~](https://mp.weixin.qq.com/s?__biz=MzIxMDQwODMzNg==&mid=2247484275&idx=1&sn=1667a61a9452d4ad6511212974f2e12c&chksm=9764458ca013cc9a2b7afc0751bc9f6046bffccd31610308f4ae479ddb369d6c38dacd4b781f&token=342810233&lang=zh_CN#rd)
 4. [程序员必知的7种软件架构模式](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486691&idx=1&sn=0a88a871121db7be91723cd0090eb885&chksm=fcf4d32ecb835a38ac034d9196cbdbf85c5f19cbcc206c12f6677c7322249dca92168ea4722c&token=419876322&lang=zh_CN#rd)
 5. [阿里二面：如何设计与实现短URL服务？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486666&idx=1&sn=cfbea56de2efbab8f4bc8d90ee6fef1c&chksm=fcf4d307cb835a11e71ff1d5473511338b03680f00315470cc09a8d0fbd151bff1459ee52f9a&token=419876322&lang=zh_CN#rd)
+6. [限流10万QPS、跨域、过滤器、令牌桶算法-网关Gateway内容都在这儿](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486902&idx=1&sn=43f98594e980983bf075eaf0ffdf6378&chksm=fcf4d27bcb835b6d3bb1ee49d0f44225ae99cbe45b0db1cdb306344a18401c1849bd7160ae49&token=1862046825&lang=zh_CN#rd)
 
