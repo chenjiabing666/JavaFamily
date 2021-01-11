@@ -30,6 +30,7 @@
 12. [《Mybatis进阶》肝了30天专栏文章，整理成册，免费获取！！！](https://mp.weixin.qq.com/s/1x2G7Lqm6wd5bfrIj7nZzA)
 13. [面试官：MyBatis的SQL执行流程说这么详细，网上抄的吧！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488230&idx=2&sn=142d38286514f6ba3fb3dc5ab19c21e6&chksm=fcf4cd2bcb83443d34e06b222d81f734353345455786615636282842a3752ebc6805a92e1551&token=1097290083&lang=zh_CN#rd)
 14. [美团一面：如何干掉恶心的 SQL 注入？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488253&idx=1&sn=51303ab637b9755f4196e5dddf915b63&chksm=fcf4cd30cb8344262c8b67ac212d15a348f0c6e2cd58af66782b72bfbfd3a0388a18e59f6375&token=1097290083&lang=zh_CN#rd)
+15. [写给小白看的Mybatis-plus实用教程，高手勿入！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488499&idx=2&sn=a3336b51782e28ac2c814dde935c53f9&chksm=fcf4cc3ecb834528443cbe72fa76de93b35555ab096bfa7a592664742c7b911be124bf88b216&token=1559350210&lang=zh_CN#rd)
 
 
 
@@ -49,6 +50,7 @@
 10. [推荐三款插件，让你玩转Github](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247485605&idx=1&sn=f693079c08cb7e7316ca663e78a9248f&chksm=fcf4d768cb835e7e27fe159123c0a3c8cf177f7402e0df8154c63581a27447e0f59207edd26a&token=890958715&lang=zh_CN#rd)
 11. [太厉害了！推荐几款 Redis 可视化工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487044&idx=2&sn=19cf91d745e13df14ddde7f1cef07a63&chksm=fcf4d189cb83589f56168ff31d726e01cddc3fb5bc982b5cbd702ce895ed613eb8f1735a7e33&token=741646917&lang=zh_CN#rd)
 12. [Chrome 灵魂插件！爱了爱了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487421&idx=2&sn=34c30d881379463a329f1129a09a6707&chksm=fcf4d070cb835966eef0892db87506772881ee3077932cc7f508c50bf92140063e9339243857&token=1097290083&lang=zh_CN#rd)
+13. [接私活必备的 10 个开源项目！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488482&idx=2&sn=249e8bf514202ae9c85d731f0f86a8c4&chksm=fcf4cc2fcb834539006b3d21898463ec3bd0096b44ddb8a9ad69534bf23b13234760815745b0&token=1559350210&lang=zh_CN#rd)
 
 ## Spring Boot 相关文章
 
@@ -76,6 +78,7 @@
 22. [头秃了，Spring Boot 自动配置源码解析~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486058&idx=1&sn=18cc618c5deb0716b65dc2c394c8e09d&chksm=fcf4d5a7cb835cb183736c2bc468619b9c0e378c85476cd368e204d6bf1e47838990b5059c29&token=890958715&lang=zh_CN#rd)
 23. [头秃了，使用@AutoConfigureBefore调整配置顺序竟没生效？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486092&idx=1&sn=8c2c4fbe52de61c99cf0d53af77cd78a&chksm=fcf4d541cb835c57a8835bbaf066dc8c828b7016c14990a8422238ae5aac6f09845e80a645b8&token=890958715&lang=zh_CN#rd)
 24. [《Spring Boot 进阶》肝了五万多字的专栏文章，整理成册，免费获取！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486371&idx=1&sn=1d4047cf0fa6958acf35cba54fe63e21&chksm=fcf4d46ecb835d789c4e203a34d26db09388e2836b0b4a9d8f0fef03035a52ec516953be992b&token=890958715&lang=zh_CN#rd)
+25. [SpringBoot中使用注解来实现 Redis 分布式锁](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488347&idx=2&sn=a9cbd6966a0e06a07d126bd01275671c&chksm=fcf4cc96cb8345803f127172bdf381a596edb29248d0813fa7b4d1e8f9df211c7c6ee325ac20&token=1559350210&lang=zh_CN#rd)
 
 ## 消息队列
 
@@ -104,6 +107,9 @@
 14. [这篇 MySQL 索引和 B+Tree 讲的太通俗易懂！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487099&idx=1&sn=dfa5d6cae51d90d9b2e0d9422dca405b&chksm=fcf4d1b6cb8358a0a507406888e91183797834b8abec8f5ba8ed9df9fa60c0b2f7935b18d3eb&token=741646917&lang=zh_CN#rd)
 15. [SQL优化最干货总结-MySQL(2020最新版](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487121&idx=1&sn=7a1a6d5d22cdb411fc75c5694016659c&chksm=fcf4d15ccb83584a5588b58426fc5b881c58f9c96382afa7487621c25123e00f40a3db44a065&token=741646917&lang=zh_CN#rd)
 16. [SQL：事务你都阳性了，赶紧隔离吧~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488273&idx=2&sn=b9530bd2d4eff876c39e640e2be5b8a2&chksm=fcf4ccdccb8345ca4f1127fecdb510aa0c641a61685f68ad8fef550512a2a39728c642a317ac&token=1097290083&lang=zh_CN#rd)
+17. [强大的MySQL 官方压测神器，简单、易用！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488291&idx=2&sn=4180f31c9dead3532ab28c548f3d3d40&chksm=fcf4cceecb8345f88d2796c35a9e184911e403a7b8f2341870d262d05d93c3f0a1e93c1e2547&token=1559350210&lang=zh_CN#rd)
+18. [SQL优化极简法则，还有谁不会？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488347&idx=1&sn=83b05b72eeba6461805ea0389657886f&chksm=fcf4cc96cb834580fe3cabf06418f13cf435948dffbc73e6d80e0e13b57191fb1f44384550ac&token=1559350210&lang=zh_CN#rd)
+19. [CTO要我把这份MySQL规范贴在工位上！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488530&idx=1&sn=005204d3f170c8f8ab6d38a92684fc52&chksm=fcf4cbdfcb8342c9daf828d639fb62c7311439de2406eb8370cba2dd6b5d70d432afa61c8ca1&token=1559350210&lang=zh_CN#rd)
 
 
 
@@ -121,6 +127,7 @@
 5. [（2w字）106道Java并发和多线程基础面试题大集合，这波面试稳了](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486802&idx=1&sn=454513a2fdbcc644f15051870614f697&chksm=fcf4d29fcb835b89cd50df3cfd2a686aa8e3701e832ca2318e10f0afeafdba0120911a8eaab7&token=1862046825&lang=zh_CN#rd)
 6. [面试阿里被质问：ConcurrentHashMap线程安全吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487329&idx=1&sn=344c803b3455472faf87792eb2bfc981&chksm=fcf4d0accb8359ba63cc9559bf9675954f0f3074a31527638f559eefbef80c3a5b575aa8598f&token=741646917&lang=zh_CN#rd)
 7. [美团一面：如何干掉恶心的 SQL 注入？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488253&idx=1&sn=51303ab637b9755f4196e5dddf915b63&chksm=fcf4cd30cb8344262c8b67ac212d15a348f0c6e2cd58af66782b72bfbfd3a0388a18e59f6375&token=1097290083&lang=zh_CN#rd)
+8. [面试必杀技：Spring循环依赖居然还有人讲不清楚？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488499&idx=1&sn=1f9ebaa8d280417abb1244fb48c54f5f&chksm=fcf4cc3ecb834528b36eb3dfe785b0a44e066df0b70ddf41eea27acf6fcc404e2bdabd72a591&token=1559350210&lang=zh_CN#rd)
 
 
 
@@ -134,6 +141,8 @@
 4. [史上最污技术解读，我竟然秒懂了](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487099&idx=2&sn=0610934fa17d2f14b0856c5a08153d58&chksm=fcf4d1b6cb8358a0db20aa583a33f61198c9cc72151888e2b0ed145d0e3c63ce77dca3de65f4&token=741646917&lang=zh_CN#rd)
 5. [别乱提交代码了，你必须知道的 Git 分支开发规范！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487121&idx=2&sn=11097d8d4872f9de352176a97f598d08&chksm=fcf4d15ccb83584a4e2c69e9eb2ff8adf4df62978c775cd45b3d15204422224038aaabb6ae89&token=741646917&lang=zh_CN#rd)
 6. [收好这份 Git 应急手册，关键时刻可保你一命](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488273&idx=1&sn=485acbfad695011e514435462ba09ee5&chksm=fcf4ccdccb8345cac53ee8d8ad0295d3e118d3334e7031b0e1c296b7bf8734af3e64bffc64cd&token=1097290083&lang=zh_CN#rd)
+7. [真能一快遮百丑？为什么要弃坑FastJson](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488291&idx=1&sn=99fbcdd15b33fbbd50f30167235bebfa&chksm=fcf4cceecb8345f88e8ee3255e3bd00d4cb2ba54b9a9227dea1d7dbf293716f46cc8884d5899&token=1559350210&lang=zh_CN#rd)
+8. [用了几年的postman，原来只用了皮毛~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488482&idx=1&sn=bee1d48c19207d15db626e03b20306fe&chksm=fcf4cc2fcb8345396d6f68c8a9078e35367a03dc009c96fbef7ed27cfcf8b90f25f020ee8ea3&token=1559350210&lang=zh_CN#rd)
 
 
 
@@ -147,6 +156,7 @@
 6. [限流10万QPS、跨域、过滤器、令牌桶算法-网关Gateway内容都在这儿](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486902&idx=1&sn=43f98594e980983bf075eaf0ffdf6378&chksm=fcf4d27bcb835b6d3bb1ee49d0f44225ae99cbe45b0db1cdb306344a18401c1849bd7160ae49&token=1862046825&lang=zh_CN#rd)
 7. [一口气说出几种分布式ID生成方案，面试官有点懵了~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487421&idx=1&sn=5fb59ba89717acf5de701879bfe59f5d&chksm=fcf4d070cb8359668e82d062356fd9bbed1bcc5911023533c405fb4ef7a6f7f976fb630b8f20&token=1097290083&lang=zh_CN#rd)
 8. [阿里终面，聊一聊分布式一致性协议，又凉透了~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488230&idx=1&sn=676347f8694e403b202efe6532888634&chksm=fcf4cd2bcb83443d12e21e8e4f5d0a036691e0c456761a84b26ba043fc068df70a1938eb36bc&token=1097290083&lang=zh_CN#rd)
+9. [单点登录的三种实现方式！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488530&idx=2&sn=bc5c5ef45fbf1dd8bf7a1d2398fabdc2&chksm=fcf4cbdfcb8342c9ab2224186d4f0a18317e7418fdf5043b5adb59b79e9b3087ef84fce11c33&token=1559350210&lang=zh_CN#rd)
 
 ## JVM
 
