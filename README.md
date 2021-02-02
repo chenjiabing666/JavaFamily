@@ -53,6 +53,8 @@
 12. [Chrome 灵魂插件！爱了爱了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487421&idx=2&sn=34c30d881379463a329f1129a09a6707&chksm=fcf4d070cb835966eef0892db87506772881ee3077932cc7f508c50bf92140063e9339243857&token=1097290083&lang=zh_CN#rd)
 13. [接私活必备的 10 个开源项目！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488482&idx=2&sn=249e8bf514202ae9c85d731f0f86a8c4&chksm=fcf4cc2fcb834539006b3d21898463ec3bd0096b44ddb8a9ad69534bf23b13234760815745b0&token=1559350210&lang=zh_CN#rd)
 14. [9 个爱不释手的 JSON 工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488682&idx=2&sn=cd34dbbf310e9f6cb3a265ab42ac26e7&chksm=fcf4cb67cb8342719d0d6b41fe9fd953ec1c7fced8fbce4a9aea313242f40b704024953e95a3&token=206728157&lang=zh_CN#rd)
+15. [IntelliJ IDEA 最新15款 神级超级牛逼插件推荐（自用，真的超级牛逼）](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488866&idx=2&sn=c13aa3d3eac4a8a43eb03750c85c438d&chksm=fcf4caafcb8343b93c1620aefbd6ee38cdbe1696173882bd6c97c8780bd0c5d2944a1f647142&token=906317358&lang=zh_CN#rd)
+16. [Java 程序员常用的高效资源工具集合！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488885&idx=1&sn=7197b7d315d1b525fad297f65c4359b6&chksm=fcf4cab8cb8343ae87683f28cf66ad195dec416d3d9516ddf119737b5676d968d0f8ab1ae730&token=906317358&lang=zh_CN#rd)
 
 ## Spring Boot 相关文章
 
@@ -82,6 +84,8 @@
 24. [《Spring Boot 进阶》肝了五万多字的专栏文章，整理成册，免费获取！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486371&idx=1&sn=1d4047cf0fa6958acf35cba54fe63e21&chksm=fcf4d46ecb835d789c4e203a34d26db09388e2836b0b4a9d8f0fef03035a52ec516953be992b&token=890958715&lang=zh_CN#rd)
 25. [SpringBoot中使用注解来实现 Redis 分布式锁](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488347&idx=2&sn=a9cbd6966a0e06a07d126bd01275671c&chksm=fcf4cc96cb8345803f127172bdf381a596edb29248d0813fa7b4d1e8f9df211c7c6ee325ac20&token=1559350210&lang=zh_CN#rd)
 26. [SpringBoot，来实现MySQL读写分离技术](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488760&idx=1&sn=44098f5c79f7cf5ab01cdff11c84f917&chksm=fcf4cb35cb834223febda9caf0d76c454449af4dce14fd72039aeeef126c2adc429ab285756e&token=206728157&lang=zh_CN#rd)
+27. [SpringBoot+JWT整合实现单点登录SSO](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488809&idx=1&sn=bb32c683909fca282656f19aa5b4b9e1&chksm=fcf4cae4cb8343f22fed88c255ccee1ae7036d850db9246ec0978fddd159ce66879e28b09b4f&token=906317358&lang=zh_CN#rd)
+28. [SpringBoot 整合 MyCat 实现读写分离](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488885&idx=2&sn=c9cafdf894f889776a61ca323b4b6e6a&chksm=fcf4cab8cb8343ae2711ad7109e719b551289326e15d89f7a8513bb592862bf8a71914a1f572&token=906317358&lang=zh_CN#rd)
 
 ## 消息队列
 
@@ -91,6 +95,7 @@
 4. [因为一次 Kafka 宕机，我明白了 Kafka 高可用原理！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488253&idx=2&sn=3f0391845df6829d4fe40622d65677c9&chksm=fcf4cd30cb834426f095cbe069e1a1676d0b8cb97cbc66479c3154c2c7dd27c68df6f18b7c8c&token=1097290083&lang=zh_CN#rd)
 5. [非常强悍的 RabbitMQ 总结，写得真好！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488693&idx=2&sn=cbbf0601769b9c5f8d76a46ef972cc75&chksm=fcf4cb78cb83426e09fc866429a3ce5426e1bee37e6ba76db2101a393d262f06380a5e0b5845&token=206728157&lang=zh_CN#rd)
 6. [深度：Kafka 集群突破百万 partition 的技术探索](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488732&idx=2&sn=3b7704ae7a4982e0c51641993d6f2df9&chksm=fcf4cb11cb834207171a3351a5fc333f15bc775b86482dd057e2c7c84abc805919c3f08fc508&token=206728157&lang=zh_CN#rd)
+7. [字节一面：如何保障消息100%投递成功、消息幂等性？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488783&idx=1&sn=3f5cd4f8831ab322f34940e3d79e457b&chksm=fcf4cac2cb8343d44a0e955c8b63ecf9358f95058a32ea88860cb92282b852039f2e6d9639a9&token=906317358&lang=zh_CN#rd)
 
 
 
@@ -118,6 +123,7 @@
 20. [我用Redis实现了一个轻量级的搜索引擎！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488632&idx=2&sn=9a84edd5980032c000e27402d1054579&chksm=fcf4cbb5cb8342a333d3693b1359171fea7ced6434e83da61842dcca325a1e32ee3b3172e089&token=206728157&lang=zh_CN#rd)
 21. [分布式缓存的十个坑，你能挨住几个？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488732&idx=1&sn=028499aaa22a4fed7f8a51c29d3449e4&chksm=fcf4cb11cb834207223c902ec4fac82a88721aedfa6eafc83226284314c9a02f677ebcef2c2c&token=206728157&lang=zh_CN#rd)
 22. [一次线上Mysql 索引优化的思考，奇怪的知识又增加了~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488741&idx=1&sn=57493d6664f56aa97b9ffb4071b72f3c&chksm=fcf4cb28cb83423ed6792ea4093aa0f7b691f16be0605509e335b157c357c279df08f0659368&token=206728157&lang=zh_CN#rd)
+23. [涨姿势了！delete后加 limit是个好习惯么？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488809&idx=2&sn=d6bd41d9613254b62aa701ac9ec363e3&chksm=fcf4cae4cb8343f27d1a302811ec3a608c6a758cb07ac5d9d24f5b6421ecff08b860b170af2c&token=906317358&lang=zh_CN#rd)
 
 
 
@@ -137,6 +143,8 @@
 7. [美团一面：如何干掉恶心的 SQL 注入？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488253&idx=1&sn=51303ab637b9755f4196e5dddf915b63&chksm=fcf4cd30cb8344262c8b67ac212d15a348f0c6e2cd58af66782b72bfbfd3a0388a18e59f6375&token=1097290083&lang=zh_CN#rd)
 8. [面试必杀技：Spring循环依赖居然还有人讲不清楚？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488499&idx=1&sn=1f9ebaa8d280417abb1244fb48c54f5f&chksm=fcf4cc3ecb834528b36eb3dfe785b0a44e066df0b70ddf41eea27acf6fcc404e2bdabd72a591&token=1559350210&lang=zh_CN#rd)
 9. [Java分布式面试题集合，挺全乎儿的~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488750&idx=1&sn=69c903d45d9b1f3e1946859c40bf1a1a&chksm=fcf4cb23cb8342351e4a64143c2bb36f1dfba0b96649a5a3115b505c0568e77deb95d45da65e&token=206728157&lang=zh_CN#rd)
+10. [字节一面：如何保障消息100%投递成功、消息幂等性？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488783&idx=1&sn=3f5cd4f8831ab322f34940e3d79e457b&chksm=fcf4cac2cb8343d44a0e955c8b63ecf9358f95058a32ea88860cb92282b852039f2e6d9639a9&token=906317358&lang=zh_CN#rd)
+11. [TCP协议灵魂 12 问，面试常备！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488783&idx=2&sn=b0961c20ec8912ebd2e3d7c0e8a5d389&chksm=fcf4cac2cb8343d45e958163f46db2b9ce638b8ecd5167250714959c8e2783d86f562aaf2ad0&token=906317358&lang=zh_CN#rd)
 
 
 
@@ -158,6 +166,7 @@
 14. [程序员必知的4种主流的API架构风格对比](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488704&idx=1&sn=c56ac3aaf4976476c45e089fabedf617&chksm=fcf4cb0dcb83421bb0e93edf71c5470230b9125d862d8993b72998d64323a47fc93b240787fe&token=206728157&lang=zh_CN#rd)
 15. [Java的日志体系你知道几种？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488741&idx=2&sn=3b53d6eedcba733259612502983f2f95&chksm=fcf4cb28cb83423eef5d50b15ccc651bafae5d0ce04c07541fde3cf0f067c8d1873de38fa018&token=206728157&lang=zh_CN#rd)
 16. [你可能不太会用的10个Git命令](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488760&idx=2&sn=f4b72aad9566e4a4ee0474b67855faca&chksm=fcf4cb35cb83422356c36ed6e88faac9440a1516298c0b597e34141b30444fa3e9bff96bcde0&token=206728157&lang=zh_CN#rd)
+17. [程序员必知的几种限流方案~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488866&idx=1&sn=24626623dcfee25c78db0861fd01f947&chksm=fcf4caafcb8343b9993e8ec92fe99e0a9bb7fc6c23e2b56f1d4e989f5dd46e01af406ca3048f&token=906317358&lang=zh_CN#rd)
 
 ## 架构
 
@@ -172,6 +181,10 @@
 9. [单点登录的三种实现方式！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488530&idx=2&sn=bc5c5ef45fbf1dd8bf7a1d2398fabdc2&chksm=fcf4cbdfcb8342c9ab2224186d4f0a18317e7418fdf5043b5adb59b79e9b3087ef84fce11c33&token=1559350210&lang=zh_CN#rd)
 10. [画好架构图，是进阶的必经之路](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488672&idx=1&sn=19e3a53a5181de282db225becb5dc6b8&chksm=fcf4cb6dcb83427b40c16d6e93ae436067c347764504d6c3ccdb5ca7ce429568b982ebbd3691&token=206728157&lang=zh_CN#rd)
 11. [程序员必知的4种主流的API架构风格对比](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488704&idx=1&sn=c56ac3aaf4976476c45e089fabedf617&chksm=fcf4cb0dcb83421bb0e93edf71c5470230b9125d862d8993b72998d64323a47fc93b240787fe&token=206728157&lang=zh_CN#rd)
+12. [SpringBoot+JWT整合实现单点登录SSO](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488809&idx=1&sn=bb32c683909fca282656f19aa5b4b9e1&chksm=fcf4cae4cb8343f22fed88c255ccee1ae7036d850db9246ec0978fddd159ce66879e28b09b4f&token=906317358&lang=zh_CN#rd)
+13. [程序员必知的几种限流方案~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488866&idx=1&sn=24626623dcfee25c78db0861fd01f947&chksm=fcf4caafcb8343b9993e8ec92fe99e0a9bb7fc6c23e2b56f1d4e989f5dd46e01af406ca3048f&token=906317358&lang=zh_CN#rd)
+14. [深度介绍分布式系统原理与设计](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488953&idx=2&sn=d3261f3b0510cb399eb9fb13089fddb8&chksm=fcf4ca74cb8343623fa79c2fa5c5e9cf0cb71076ae76a69bcd9e9bfde90b8a321ca519a7b161&token=906317358&lang=zh_CN#rd)
+15. [API接口如何防止参数被篡改和重放攻击？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488953&idx=1&sn=a7f26dda8071a5973855d6ce5c504a80&chksm=fcf4ca74cb8343621db324ad38c02cbd02c5abe67b593db720c9f6c1011eb0e1572476467794&token=906317358&lang=zh_CN#rd)
 
 ## JVM
 
