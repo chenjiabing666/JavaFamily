@@ -71,6 +71,10 @@
 28. [推荐 18 个终端命令行工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247492608&idx=1&sn=3c15bb0fccddf7c49ff585e408d33b30&chksm=fcf73bcdcb80b2db208db5b4d9d603ca2c6c8d46e92f132719a938ba4b8cfeada53b6c42acd8&token=933200230&lang=zh_CN#rd)
 29. [最强代码生成器平台，杀疯了~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493012&idx=1&sn=312bc88c3cc3c4df9ea3fdc4aadc3ec6&chksm=fcf73a59cb80b34f3737604fc5ae82f69bd4fe46de1229dd17f65c0b0f4c5bcaddc57500eb73&token=933200230&lang=zh_CN#rd)
 30. [还在用Jenkins？试试Gitlab的CI/CD功能吧，贼带劲！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493316&idx=1&sn=57284cc8897bf7d98e697e426a020951&chksm=fcf73909cb80b01febab55f673e7d393d620d550e202a2d7c46d8082eba460130a768be5d1d8&token=933200230&lang=zh_CN#rd)
+31. [4 款 MySQL 调优工具，公司大神都在用！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494027&idx=1&sn=f4c4fa472d6aa015894d2fa5bef2cb83&chksm=fcf73646cb80bf503822e9973d0e51b456958446931557a46a447be2205c0d08d48f1070690e&token=1272468938&lang=zh_CN#rd)
+32. [IDEA那些既好用又好玩的30多款宝贝插件，你知道多少？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494145&idx=1&sn=3768ceccaf6ec9e4169c8a03c410df69&chksm=fcf735cccb80bcdaaf5b2915c64f88e00cb000e5cfca1bab17af2e3b030b37cdc30ac62bae99&token=1272468938&lang=zh_CN#rd)
+33. [后端进阶优质资源分享！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494373&idx=2&sn=37625f33b20b53ba051a7f321038ae5a&chksm=fcf73528cb80bc3e0299e68c43425d731caf8d1a7c6a8b76863f57ad1c60ddad3a29f6d43fe3&token=1272468938&lang=zh_CN#rd)
+34. [18个工具分析Linux系统占用网络带宽大的程序！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494515&idx=2&sn=db2e6f1af9d37b85d146d829a4db93d4&chksm=fcf734becb80bda8f96f7c1c3eaeca505e53e8b4aba0b0a263a171244e5ad1cb8b9c6390e718&token=1272468938&lang=zh_CN#rd)
 
 ## Spring Boot 相关文章
 
@@ -118,6 +122,13 @@
 42. [Spring Boot 青睐的数据库连接池HikariCP为什么是史上最快的？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247492953&idx=1&sn=0a74e548015d2e5d5e48e4e9a6086be3&chksm=fcf73a94cb80b382e23b6fb645dc88a5d8154073d89228aaca896ed5b8535a0363815a280251&token=933200230&lang=zh_CN#rd)
 43. [基于Sharding Sphere实现数据“一键脱敏”](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493021&idx=2&sn=f27a4eeb6dd3eb5b1551eabf6e31739e&chksm=fcf73a50cb80b3465e6f7cf1fd841bfec098fcde47c587a2c35e7793bad3b33ebe8f2433d3ff&token=933200230&lang=zh_CN#rd)
 44. [Spring Boot 这样优化，让你的项目飞起来！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493060&idx=1&sn=191a1e1e3e7e0cc20be53e2d0741724b&chksm=fcf73a09cb80b31f5ff2798e3f15816db974e2fad673af846eec789ffdc019754644badf9ca1&token=933200230&lang=zh_CN#rd)
+45. [SpringBoot集成Sentinel实现接口流量控制](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493802&idx=2&sn=70582c181e6689eaf56877eec2f0b54e&chksm=fcf73767cb80be712cca81f8d8ea9b21320950019c82f8d508a390ce349f37abd5d8401e66d9&token=1272468938&lang=zh_CN#rd)
+46. [SpringBoot 如何统一后端返回格式？老鸟们都是这样玩的！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493849&idx=1&sn=f0bf68a36e4d17106fb107d6b82e6dfb&chksm=fcf73714cb80be020c082f00f97b76ba7f1c1ebf2a5da9e919bafb366a7bb744fbe51d309f28&token=1272468938&lang=zh_CN#rd)
+47. [告别硬编码，SpringBoot实现动态增删启停定时任务](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494005&idx=1&sn=8d5bb95a15fbec3e66e76e785653eaa5&chksm=fcf736b8cb80bfae9bd59141f69957c701db70d201b9de9955e5ba7b0a65cc2910345bf46ccb&token=1272468938&lang=zh_CN#rd)
+48. [Spring Boot 集成 WebSocket，轻松实现信息推送！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494312&idx=2&sn=b3abfdb6b969b4630117087bc283c5d4&chksm=fcf73565cb80bc732fd91eddaa48026fe04f54a0c69e6aadd64438026ba36928813a8012160a&token=1272468938&lang=zh_CN#rd)
+49. [阿里巴巴为什么不建议直接使用 @Async 注解？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494414&idx=1&sn=f7a9ee8a0de3365576527a46ab282667&chksm=fcf734c3cb80bdd5099db43e191268c16636e5e49320b47eb6a7ed8ed9746a7e5b04b083cf20&token=1272468938&lang=zh_CN#rd)
+50. [SpringBoot 中 AOP 的内部调用陷阱！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494438&idx=2&sn=4a4b3f3e06a3d3ca0cae22b88214cb85&chksm=fcf734ebcb80bdfd7f7042d9172027fb8ea7e4aad06970dbc5ef96c379ca51a4cc3242542ff9&token=1272468938&lang=zh_CN#rd)
+51. [SpringBoot面试杀手锏——自动配置原理](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494472&idx=1&sn=11f09eb3d6e301d7d65d38a9f648eaa1&chksm=fcf73485cb80bd93503343a73c97fdf60539c2ca6a633b28ab3dc10c23c11b9792dfe2a3a878&token=1272468938&lang=zh_CN#rd)
 
 
 ## 消息队列
@@ -181,6 +192,8 @@
 36. [Java+Redis位图实现点赞签到相关功能](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491878&idx=2&sn=61a10bee8a5ec52b408e5e4408ad0c74&chksm=fcf73eebcb80b7fd0b177eeb79845fb7dbbd6394b0f842ac397478b6716342c486e949fad556&token=909257120&lang=zh_CN#rd)
 37. [同事升级了MySQL驱动8.0，导致应用大量超时](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491878&idx=1&sn=db5aa9b46e390312002a957c735f035d&chksm=fcf73eebcb80b7fdc4dfba689280cd1b10de273f37677fb4911c83b245cc39bc4de186d48221&token=909257120&lang=zh_CN#rd)
 38. [如果mysql磁盘满了，会发生什么？还真被我遇到了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493011&idx=2&sn=b902595e07faca908ea318511ad2c9cb&chksm=fcf73a5ecb80b348e2433e26ab7c438401104214ee1f9ddfe0a7e87ab9841c4b687e569cdc1c&token=933200230&lang=zh_CN#rd)
+39. [DBA整理的万字详解MySQL性能优化，值得收藏！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493961&idx=2&sn=7461406cc05a3a1c412c054643f45520&chksm=fcf73684cb80bf924ac5426fe27bc5f5a595e04c6fccd1e279959aa0c616af1dc461a80b8519&token=1272468938&lang=zh_CN#rd)
+40. [一口气说出 Redis 16 个常见使用场景](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494318&idx=2&sn=458981537a6050aa602ad05542f762b8&chksm=fcf73563cb80bc752a29bd266924c219cd71df24a9856379ee3309c78b1887dd994f1530f1d4&token=1272468938&lang=zh_CN#rd)
 
 
 
@@ -222,6 +235,7 @@
 22. [美团实习面试：熟悉红黑树？能不能手写一下？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491066&idx=2&sn=e7f3eab6f3ea00049cd66fcfeccf01c9&chksm=fcf4c237cb834b21fa70f97f3799088465e25d4f766d2ffeb85e673d1c6597b6339a50d8e026&token=1707245491&lang=zh_CN#rd)
 23. [用没用过SpringCloud，就看你会不会这35个面试题！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491886&idx=2&sn=9c37cb0ca861917bf030a90811d28c79&chksm=fcf73ee3cb80b7f56594e9835ce74d6b6c04e50ea47d4fe1544a8e0dde63d46400b596c5846a&token=909257120&lang=zh_CN#rd)
 24. [美团二面：Spring的@Transactional如何实现的？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493086&idx=2&sn=df421aaf8b03a616bb291e51a15aabab&chksm=fcf73a13cb80b30593adbff17ffbfd8f1967bebc8517a380f2e3de15f145ee569638dc75026b&token=933200230&lang=zh_CN#rd)
+25. [面试官：分布式环境下，如何实现session共享](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494472&idx=2&sn=3ed2210463718b4cb75dd087e9935a1e&chksm=fcf73485cb80bd9378157558a0eab5f25c2690c55c985ecb3165183753e26c9dfb013eb1b84a&token=1272468938&lang=zh_CN#rd)
 
 
 
@@ -269,6 +283,9 @@
 40. [Spring BeanUtils 和 Apache BeanUtils 你用哪个？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491904&idx=2&sn=2061f68de2d6615d5d0f3b2903162177&chksm=fcf73e8dcb80b79b132ece449b95750b875da09372330f97d9526b330bf20770c22cf881b7bf&token=909257120&lang=zh_CN#rd)
 41. [IDEA 解决 Java8 的数据流问题，用过的都说好！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247492102&idx=1&sn=844dadf80c7533a11c6ef9c3ebbdfcc9&chksm=fcf73dcbcb80b4dd0c55b394159049b2f43de9e495ceaf1a4f3ec5cf45240a6711373cf9ecd6&token=909257120&lang=zh_CN#rd)
 42. [几百万数据量的Excel导出会内存溢出和卡顿？那是你没用对方法！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247492131&idx=1&sn=a211646289ba15d11bc9e90062ba19a4&chksm=fcf73deecb80b4f845805b54853ad10e097344fb81410eb1012dded2ee9d3cac900d857cc3f5&token=909257120&lang=zh_CN#rd)
+43. [日志系统新贵，Loki到底优秀在哪里？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493849&idx=2&sn=2dad372d2e4773e005e5cf70af6242f7&chksm=fcf73714cb80be02a9c562893d7332ab19c081df110279cd87cf3d47f3b5b219ae43e0a2ea08&token=1272468938&lang=zh_CN#rd)
+44. [你了解Log4j2中RollingFile的文件滚动更新机制吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494005&idx=2&sn=ca936e9afb5717e0c309019246700867&chksm=fcf736b8cb80bfae81f5eef79b801af7e911c52429823fd205ac5fad706cda34dab01f199f97&token=1272468938&lang=zh_CN#rd)
+45. [分布式定时任务框架选型，你知道哪几种？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494525&idx=1&sn=de31bc8d21965cd502e25584456a7ab8&chksm=fcf734b0cb80bda603be31d7758c76aafcc6367548c4d7504412abfda2312aa9184b6f93d54c&token=1272468938&lang=zh_CN#rd)
 
 ## 架构
 
@@ -316,11 +333,13 @@
 7. [详解大型分布式电商系统架构](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490878&idx=2&sn=c6f99a82876cd6266b091b910926bc77&chksm=fcf4c2f3cb834be5a8973c8f91c4e96cd8fa931ea1a693301e77f36ade7a65946f01da718441&token=1707245491&lang=zh_CN#rd)
 8. [实现全链路监控平台很难吗？Pinpoint、SkyWalking、Zipkin 选型对比](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491860&idx=2&sn=c0f8ffe354190d9c0502d601c5e75405&chksm=fcf73ed9cb80b7cfc90943204fd235543f2fa6ff48627048aeffc840fcd2a676bb327e17a680&token=909257120&lang=zh_CN#rd)
 9. [用没用过SpringCloud，就看你会不会这35个面试题！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491886&idx=2&sn=9c37cb0ca861917bf030a90811d28c79&chksm=fcf73ee3cb80b7f56594e9835ce74d6b6c04e50ea47d4fe1544a8e0dde63d46400b596c5846a&token=909257120&lang=zh_CN#rd)
+10. [五十五张图告诉你微服务的灵魂摆渡者Nacos究竟有多强？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493854&idx=1&sn=4b3fb7f7e17a76000733899f511ef915&chksm=fcf73713cb80be05fe4473390f946dfbaf77848d7041c30f069bcb5a3629be782f4b1121bd6a&token=1272468938&lang=zh_CN#rd)
 
 ## JVM
 
 1. [[ 保姆级教程 ] JVM 完整深入解析](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487208&idx=2&sn=f60bf7a2a7b5dd9ebc6c38bf77f798ad&chksm=fcf4d125cb83583300c2e46255cb6b4eb462010eb481a8b747cbe2804aac9fbf349e6696d63e&token=741646917&lang=zh_CN#rd)
 2. [一次线上JVM调优实践，FullGC40次/天到10天一次的优化过程](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490645&idx=2&sn=554d3beb1116a5832b57271393b15889&chksm=fcf4c398cb834a8e1c50495a1eca550532a09812a17080c1f48357917e69125999a434901026&token=1707245491&lang=zh_CN#rd)
+3. [Java中关于内存泄漏分析和解决方案，都在这里了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494108&idx=2&sn=0cd7741e8bde7015c9053bf3eb1bcb8e&chksm=fcf73611cb80bf079917d8be91025b590a99eb879a6604042d0122fc117571d0734bdd9f3b6b&token=1272468938&lang=zh_CN#rd)
 
 
 
