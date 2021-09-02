@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+    <!-- 定义日志存放目录 -->
+    <properties>
+        <property name="logPath">logs</property>
+        <property name="PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} [%X{traceId}] [%t-%L] %-5level %logger{36} %L %M - %msg%xEx%n</property>
+        <!--"%-d{yyyy-MM-dd HH:mm:ss} [%thread] %m%n"-->
+    </properties>
+    <!--先定义所有的appender(输出器) -->
+    <Appenders>
+        <!--输出到控制台 -->
+        <Console name="ConsoleLog" target="SYSTEM_OUT">
+            <!--只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch） -->
+            <ThresholdFilter level="TRACE" onMatch="ACCEPT" onMismatch="DENY" />
+            <!--输出日志的格式，引用自定义模板 PATTERN -->
+            <CustomPatternLayout pattern="${PATTERN}" />
+        </Console>
+        <RollingFile name="APPLog" fileName="${logPath}/log_app.log" filePattern="${logPath}/log_app_%d{yyyy-MM-dd}.log">
+            <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY" />
+            <!--<CustomPatternLayout pattern="%-d{yyyy-MM-dd HH:mm:ss} [%thread] %m%n"/>-->
+            <CustomPatternLayout pattern="${PATTERN}" />
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+
+            <CronTriggeringPolicy schedule="0 0 5 * * ? "/>
+            <DefaultRolloverStrategy>
+                <Delete basePath="${logPath}" maxDepth="1">
+                    <IfFileName glob="log_app_*.log" />
+                    <!--删除15天前的文件-->
+                    <IfLastModified age="15d" />
+                </Delete>
+
+            </DefaultRolloverStrategy>
+
+        </RollingFile>
+        <!-- 把error等级记录到文件 一般不用 -->
+        <File name="ERRORLog" fileName="${logPath}/error.log">
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY" />
+            <CustomPatternLayout pattern="${PATTERN}" />
+        </File>
+    </Appenders>
+    <!--然后定义logger，只有定义了logger并引入的appender，appender才会生效 -->
+    <Loggers>
+        <!--建立一个默认的Root的logger，记录大于level高于warn的信息，如果这里的level高于Appenders中的，则Appenders中也是以此等级为起点，比如，这里level="fatal"，则Appenders中只出现fatal信息 -->
+        <!-- 生产环境level>=warn -->
+        <Root level="debug">
+            <!-- 输出器,可选上面定义的任何项组合，或全选，做到可随意定制 -->
+            <appender-ref ref="ConsoleLog" />
+            <appender-ref ref="ERRORLog" />
+            <appender-ref ref="APPLog" />
+        </Root>
+        <!-- 第三方日志系统 -->
+        <!--过滤掉spring和mybatis的一些无用的DEBUG信息，也可以在spring boot 的logging.level.org.springframework=FATAL设置-->
+        <logger name="org.springframework" level="DEBUG"></logger>
+         <logger name="java.sql.Connection" level="DEBUG"></logger>
+         <logger name="java.sql.Statement" level="DEBUG"></logger>
+         <logger name="java.sql.PreparedStatement" level="DEBUG"></logger>
+    </Loggers>
+</Configuration>

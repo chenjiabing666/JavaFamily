@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    #   数据源基本配置
+    username: PASS(L8I2RqYPptEtQNL4x8VhRVakSUdlsTGzEND/3TOnVTYPWe0ZnWsW0/5JdUsw9ulm)
+    password: PASS(EJYCSbBL8Pmf2HubIH7dHhpfDZcLyJCEGMR9jAV3apJtvFtx9TVdhUPsAxjQ2pnJ)
+    driver-class-name: com.mysql.jdbc.Driver
+    url: PASS(szkFDG56WcAOzG2utv0m2aoAvNFH5g3DXz0o6joZjT26Y5WNA+1Z+pQFpyhFBokqOp2jsFtB+P9b3gB601rfas3dSfvS8Bgo3MyP1nojJgVp6gCVi+B/XUs0keXPn+pbX/19HrlUN1LeEweHS/LCRZslhWJCsIXTwZo1PlpXRv3Vyhf2OEzzKLm3mIAYj51CrEaN3w5cMiCESlwvKUhpAJVz/uXQJ1spLUAMuXCKKrXM/6dSRnWyTtdFRost5cChEU9uRjw5M+8HU3BLemtcK0vM8iYDjEi5zDbZtwxD3hA=)
+    type: com.alibaba.druid.pool.DruidDataSource
+jasypt:
+  encryptor:
+    password: Y6M9fAJQdU7jNp5MW
+    ## 指定前缀、后缀
+    property:
+      prefix: 'PASS('
+      suffix: ')'
+
+
