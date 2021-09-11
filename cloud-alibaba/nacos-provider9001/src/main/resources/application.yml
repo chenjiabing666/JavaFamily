@@ -1,0 +1,17 @@
+server:
+  port: 9001
+spring:
+  application:
+    ## 指定服务名称，在nacos中的名字
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        ## yml文件中存在特殊字符，必须用单引号包含，否则启动报错
+        include: '*'

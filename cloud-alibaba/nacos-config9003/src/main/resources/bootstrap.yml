@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      config:
+        ## 指定命名空间
+        namespace: 51f0479b-a88d-4646-902b-f2a063801502
+        ## 指定分组
+        group: ORDER_GROUP
+        ## nacos的地址，作为配置中心
+        server-addr: 127.0.0.1:8848
+        ## 配置内容的数据格式，目前只支持 properties 和 yaml 类型，这个和dataId有关-> ${prefix}-${spring.profiles.active}.${file-extension}
+        file-extension: properties
+management:
+  endpoints:
+    web:
+      exposure:
+        ## yml文件中存在特殊字符，必须用单引号包含，否则启动报错
+        include: '*'

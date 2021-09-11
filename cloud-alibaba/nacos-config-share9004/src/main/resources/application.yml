@@ -1,0 +1,6 @@
+server:
+  port: 9004
+spring:
+  ## 当前环境，这个和dataId有关-> ${prefix}-${spring.profiles.active}.${file-extension}
+  profiles:
+    active: test

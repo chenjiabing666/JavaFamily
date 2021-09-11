@@ -1,0 +1,20 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        # nacos的服务地址
+        server-addr: 127.0.0.1:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        ## yml文件中存在特殊字符，必须用单引号包含，否则启动报错
+        include: '*'
+
+# 微服务的访问名称
+service-url:
+    nacos-provider: http://nacos-provider
