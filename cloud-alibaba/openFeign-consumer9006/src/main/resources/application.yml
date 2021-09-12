@@ -16,6 +16,9 @@ management:
         ## yml文件中存在特殊字符，必须用单引号包含，否则启动报错
         include: '*'
 feign:
+  ## 开启sentinel的熔断降级
+  sentinel:
+    enabled: true
   client:
     httpclient:
       # 开启 Http Client

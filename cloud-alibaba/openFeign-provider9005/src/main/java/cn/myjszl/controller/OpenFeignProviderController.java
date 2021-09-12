@@ -26,7 +26,9 @@ public class OpenFeignProviderController {
     }
 
     @PostMapping("/order3")
-    public String batchOrder(@RequestBody List<Order> orders){
+    public String batchOrder(@RequestBody List<Order> orders)  {
+        //造出异常
+        System.out.println(1/0);
         return orders.toString();
     }
 

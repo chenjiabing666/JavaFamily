@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(value = "openFeign-provider")
+@FeignClient(value = "openFeign-provider",fallback = OpenFeignFallbackService.class)
 public interface OpenFeignService {
 
     @GetMapping("/openfeign/provider/test/{id}")
