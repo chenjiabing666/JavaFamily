@@ -12,9 +12,7 @@
 
 ![](https://gitee.com/chenjiabing666/BlogImage/raw/master/@Async%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%BB%BA%E8%AE%AE%E4%BD%BF%E7%94%A8/16.jpg)
 
-## Mybatis相关文章
-
-
+## Mybatis 进阶
 
 1. [Mybatis入门之基本操作](https://mp.weixin.qq.com/s/KdrEvlShnVoYA8nr0qLSNw)
 2. [Mybatis结果映射，你射准了吗？](https://mp.weixin.qq.com/s/czICR6jv1yz6adi6G3xFgQ)
@@ -35,50 +33,7 @@
 17. [Mybatis-Plus 深入总结，超详细](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490645&idx=1&sn=a65e4f8ffb8c22fe0b0abbde86254380&chksm=fcf4c398cb834a8efb9d010446e580a599eb379aa940c59897306340e6ec3ce204890787ca4c&token=1707245491&lang=zh_CN#rd)
 18. [还在用分页？太Low ！试试 MyBatis 流式查询，真心强大！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247492448&idx=2&sn=6d284198474bf4c2efc4fea73a7a0e94&chksm=fcf73cadcb80b5bb961945e5fb4d281b4e9df59f454e04a484a98710528dbb880d8519ca4a7f&token=909257120&lang=zh_CN#rd)
 
-
-
-
-
-## 开发资源
-
-1. [IDEA插件之Mybatis Log plugin破解，亲测可用!!!](https://mp.weixin.qq.com/s/QDfrkqS9dK4zKaIePCLzqQ)
-2. [Navicat Premium 12免费安装，你懂得~](https://mp.weixin.qq.com/s/4d-4xgPKvYBFX9I-ChUYDA)
-3. [Linux一键安装包，环境安装不用愁！！！](https://mp.weixin.qq.com/s/fEvHd2U2pTsO1d25OnbR2g)
-4. [优质资源分享 | Spring Boot 入门到放弃！！！](https://mp.weixin.qq.com/s/lFU047y3kXX13_hKYHDIeA)
-5. [《Mybatis进阶》肝了30天专栏文章，整理成册，免费获取！！！](https://mp.weixin.qq.com/s/1x2G7Lqm6wd5bfrIj7nZzA)
-6. [撸个反向代理工具，搞一搞JRebel](https://mp.weixin.qq.com/s/VBGoGMz0y2Y-y6NcdMcaLg)
-7. [推荐三款插件，让你玩转Github](https://mp.weixin.qq.com/s/UEsrQrSLEEDXu7PqkzGHiw)
-8. [程序员需知的 58 个网站](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486375&idx=1&sn=0785971e06548c48228718270b7fc5c8&chksm=fcf4d46acb835d7c0b9334b86d22b07e9cd7e5f88ed77341a3b156798b24150d60d6a79662fc&token=890958715&lang=zh_CN#rd)
-9. [分享几个压箱底儿的实用工具~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247485719&idx=1&sn=a0a1b37dcc62e48cadeba0acc8e1fce1&chksm=fcf4d6dacb835fcc699261922f0cd88efe6b379a8e8edc91f8fe715665a72fe78cd5a8a3def4&token=890958715&lang=zh_CN#rd)
-10. [推荐三款插件，让你玩转Github](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247485605&idx=1&sn=f693079c08cb7e7316ca663e78a9248f&chksm=fcf4d768cb835e7e27fe159123c0a3c8cf177f7402e0df8154c63581a27447e0f59207edd26a&token=890958715&lang=zh_CN#rd)
-11. [太厉害了！推荐几款 Redis 可视化工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487044&idx=2&sn=19cf91d745e13df14ddde7f1cef07a63&chksm=fcf4d189cb83589f56168ff31d726e01cddc3fb5bc982b5cbd702ce895ed613eb8f1735a7e33&token=741646917&lang=zh_CN#rd)
-12. [Chrome 灵魂插件！爱了爱了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487421&idx=2&sn=34c30d881379463a329f1129a09a6707&chksm=fcf4d070cb835966eef0892db87506772881ee3077932cc7f508c50bf92140063e9339243857&token=1097290083&lang=zh_CN#rd)
-13. [接私活必备的 10 个开源项目！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488482&idx=2&sn=249e8bf514202ae9c85d731f0f86a8c4&chksm=fcf4cc2fcb834539006b3d21898463ec3bd0096b44ddb8a9ad69534bf23b13234760815745b0&token=1559350210&lang=zh_CN#rd)
-14. [9 个爱不释手的 JSON 工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488682&idx=2&sn=cd34dbbf310e9f6cb3a265ab42ac26e7&chksm=fcf4cb67cb8342719d0d6b41fe9fd953ec1c7fced8fbce4a9aea313242f40b704024953e95a3&token=206728157&lang=zh_CN#rd)
-15. [IntelliJ IDEA 最新15款 神级超级牛逼插件推荐（自用，真的超级牛逼）](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488866&idx=2&sn=c13aa3d3eac4a8a43eb03750c85c438d&chksm=fcf4caafcb8343b93c1620aefbd6ee38cdbe1696173882bd6c97c8780bd0c5d2944a1f647142&token=906317358&lang=zh_CN#rd)
-16. [Java 程序员常用的高效资源工具集合！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488885&idx=1&sn=7197b7d315d1b525fad297f65c4359b6&chksm=fcf4cab8cb8343ae87683f28cf66ad195dec416d3d9516ddf119737b5676d968d0f8ab1ae730&token=906317358&lang=zh_CN#rd)
-17. [5款牛逼的 API 工具，经典收藏](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489837&idx=2&sn=38ddfbe3a4690204eceaa47a118faa18&chksm=fcf4c6e0cb834ff6e643a5729b5ec7f26da7c13d113ed45f998b6ab761530661fb215c3a3d75&token=747593269&lang=zh_CN#rd)
-18. [JetBrains出品，一款好用到爆的数据库工具，惊艳到了！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489975&idx=1&sn=8c0a568ec8e8889775b66e5dd05ecbe6&chksm=fcf4c67acb834f6cda433aad874fb54e1f125b052560551ec0aff01782d8e0826bbc827592c8&token=747593269&lang=zh_CN#rd)
-19. [这样调优：让你的 IDEA 快到飞起来，效率真高！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490114&idx=1&sn=f26d40bd717647ae4f7ca427db0f509e&chksm=fcf4c58fcb834c994be0fe976dabe555c72182763323168c91a68906adc61d65510cf105db1a&token=1707245491&lang=zh_CN#rd)
-20. [能挣钱的，开源 SpringBoot 商城系统，功能超全，超漂亮！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490218&idx=2&sn=cf6e698fc652b5a023360a4df645a2d9&chksm=fcf4c567cb834c71e86e8b8e1fef574b206542dbad8a273e23e09086efd831f995d689af516a&token=1707245491&lang=zh_CN#rd)
-21. [卧槽！Intellij IDEA中竟然还有这么多炫酷的插件，玩儿一波！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490218&idx=1&sn=12c14f437313c73ccb9e08e7e2d3ec58&chksm=fcf4c567cb834c716b03f394ad4d7b425e73a8507e080730b8d75ad208cf04851611229d0fdd&token=1707245491&lang=zh_CN#rd)
-22. [阿里程序员常用的 15 款开发者工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490296&idx=1&sn=e840540324e1b54d29898861a8883ead&chksm=fcf4c535cb834c23116b383cafd4729e184772e81c4e9f2065f8bbbef687633c9cf848b3c470&token=1707245491&lang=zh_CN#rd)
-23. [免费的XShell替代品，又来一款国产良心工具....](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490998&idx=1&sn=f156ef0cf40f8bfd8442f4dd21859fc7&chksm=fcf4c27bcb834b6d832caa885c45b31cfc48ed086c7f647c959e971580ff21fcbe5b9f28821c&token=1707245491&lang=zh_CN#rd)
-24. [代码对比工具，就用这7个！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491066&idx=1&sn=bf1ff3cece95568269be2f59d87abe2c&chksm=fcf4c237cb834b21ad7dd4cc7d3d22f7f7b536e19043c26a29639658a14175f06011a54d2dc0&token=1707245491&lang=zh_CN#rd)
-25. [重装IDEA再也不愁了，一招搞定同步个人配置！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491776&idx=1&sn=6dd265510a4e9d513ead4b126b6e9f38&chksm=fcf73f0dcb80b61b8bd48395d6b54973623b4f0d49339b9fe0d3addd273f439b1e1ca981fc05&token=909257120&lang=zh_CN#rd)
-26. [2021年最新RabbitMQ视频教程](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491845&idx=2&sn=24bee11f0160e33c0c9db9f2373d4dc6&chksm=fcf73ec8cb80b7deea95df4bbe425b1b7778d12db72ee417b9803da23cd8facf77165a318010&token=909257120&lang=zh_CN#rd)
-27. [JetBrains 又出了一款新神器，一套代码适应多端！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491979&idx=1&sn=532df4341ca6d149341de7e570e47d75&chksm=fcf73e46cb80b750ba8747ab37a13661a5dcadf8228f3694cbf09e521e968d2412cb4640b4ee&token=909257120&lang=zh_CN#rd)
-28. [推荐 18 个终端命令行工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247492608&idx=1&sn=3c15bb0fccddf7c49ff585e408d33b30&chksm=fcf73bcdcb80b2db208db5b4d9d603ca2c6c8d46e92f132719a938ba4b8cfeada53b6c42acd8&token=933200230&lang=zh_CN#rd)
-29. [最强代码生成器平台，杀疯了~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493012&idx=1&sn=312bc88c3cc3c4df9ea3fdc4aadc3ec6&chksm=fcf73a59cb80b34f3737604fc5ae82f69bd4fe46de1229dd17f65c0b0f4c5bcaddc57500eb73&token=933200230&lang=zh_CN#rd)
-30. [还在用Jenkins？试试Gitlab的CI/CD功能吧，贼带劲！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493316&idx=1&sn=57284cc8897bf7d98e697e426a020951&chksm=fcf73909cb80b01febab55f673e7d393d620d550e202a2d7c46d8082eba460130a768be5d1d8&token=933200230&lang=zh_CN#rd)
-31. [4 款 MySQL 调优工具，公司大神都在用！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494027&idx=1&sn=f4c4fa472d6aa015894d2fa5bef2cb83&chksm=fcf73646cb80bf503822e9973d0e51b456958446931557a46a447be2205c0d08d48f1070690e&token=1272468938&lang=zh_CN#rd)
-32. [IDEA那些既好用又好玩的30多款宝贝插件，你知道多少？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494145&idx=1&sn=3768ceccaf6ec9e4169c8a03c410df69&chksm=fcf735cccb80bcdaaf5b2915c64f88e00cb000e5cfca1bab17af2e3b030b37cdc30ac62bae99&token=1272468938&lang=zh_CN#rd)
-33. [后端进阶优质资源分享！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494373&idx=2&sn=37625f33b20b53ba051a7f321038ae5a&chksm=fcf73528cb80bc3e0299e68c43425d731caf8d1a7c6a8b76863f57ad1c60ddad3a29f6d43fe3&token=1272468938&lang=zh_CN#rd)
-34. [18个工具分析Linux系统占用网络带宽大的程序！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494515&idx=2&sn=db2e6f1af9d37b85d146d829a4db93d4&chksm=fcf734becb80bda8f96f7c1c3eaeca505e53e8b4aba0b0a263a171244e5ad1cb8b9c6390e718&token=1272468938&lang=zh_CN#rd)
-35. [两万字长文，彻底搞懂Kafka](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494595&idx=1&sn=2b905b5aa2cc62b825bd78822fcb4dc9&chksm=fcf7340ecb80bd18bbc9a37e8fead39e74d0d050d9fd2ab75f832962f5a3d14cef42b607d698&token=1567630675&lang=zh_CN#rd)
-36. [在 IDEA 中的各种调试技巧，轻松定位 Bug（超级全面）](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494940&idx=1&sn=8d969a62779ffc1fcc7167ad7025dabb&chksm=fcf732d1cb80bbc76e11d4ff2cf68dee27602e62c5895bbce05304ba71bbc598bb5d93db1890&token=1567630675&lang=zh_CN#rd)
-
-## Spring Boot 相关文章
+## Spring Boot 进阶
 
 1. [Spring Boot第一弹，问候一下世界！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247484622&idx=1&sn=97cd8935454e621983e79137095cfc0a&chksm=fcf4db03cb83521559cb3608dd9fe531036e61bccc1b8108f36885105a033bbbff76434b22a7&token=890958715&lang=zh_CN#rd)
 2. [Spring Boot第二弹，配置文件怎么造？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247484677&idx=1&sn=47c2bae9139b30d4314cfc2e62c8e7fe&chksm=fcf4dac8cb8353de4a34177700c42d81c73b2c3f0c2cd69798dc2a2f3988edd86f5ccdb25e58&token=890958715&lang=zh_CN#rd)
@@ -134,6 +89,69 @@
 52. [SpringBoot+Kafka+ELK 完成海量日志收集](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494645&idx=1&sn=9ea4a8cac07e77190125305383a59d7f&chksm=fcf73438cb80bd2e291f11f7f6c740f080c6f0aa9f3a979baa3c0c8f83630e82e2179c502f6a&token=1567630675&lang=zh_CN#rd)
 53. [SpringBoot 2.0实现基于Restful风格的文件上传与下载](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494813&idx=2&sn=741e904945b45c6331aec755598dc39d&chksm=fcf73350cb80ba46359a35d8b2290443b9b6f721e22ea277d5e03f69fba841e2b0a640e45a80&token=1567630675&lang=zh_CN#rd)
 54. [六种方式，教你在SpringBoot初始化时搞点事情！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494978&idx=1&sn=4b7b98e3046418a1051e9fcdfd5f78d7&chksm=fcf7328fcb80bb99093407797a12b8383975e221fc07c37a1006694333b173ab19325cef2fba&token=1567630675&lang=zh_CN#rd)
+55. [Spring Boot 这样做可视化监控，一目了然！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495250&idx=1&sn=677041e037b2bdeeab95b6be1995994e&chksm=fcf7319fcb80b8898dbce093c8a005cafa92a85849b7d6e4f7fb0963e45818d5d4d47cbda7b9&token=1511514983&lang=zh_CN#rd)
+56. [Springboot 日志、配置文件、接口数据如何脱敏？老鸟们都是这样玩的！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495798&idx=1&sn=95f537d8e82823b668b1c7a2d6842827&chksm=fcf72fbbcb80a6ad42a12221d3b075670deb5014389db03b7cb8a9444f3776c54d52b98ba404&token=1511514983&lang=zh_CN#rd)
+57. [实战篇：断点续传？文件秒传？手撸大文件上传](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496667&idx=2&sn=3a9d88f1381851459953d594e03b0741&chksm=fcf72c16cb80a500570649ce8df29340cd11003b5ab37e7d9a83e34cf34ef6e39899e569ad49&token=1511514983&lang=zh_CN#rd)
+58. [快给你的 Spring Boot 做个埋点监控吧！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496682&idx=1&sn=e69f74abda18c0141ae09381d7ec2320&chksm=fcf72c27cb80a5317914a779e5a8ca4182e9c69a129864029545594a0a81669e0fab1d6d0c1f&token=1511514983&lang=zh_CN#rd)
+59. [40 个 SpringBoot 常用注解：让生产力爆表！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497053&idx=1&sn=df7467c5dd0140455e5b1e7c0c3cdbe5&chksm=fcf72a90cb80a3865e4b2bb2d1e7947e20654757dfb7792025edbb0a8b709600e735d1a013d8&token=1511514983&lang=zh_CN#rd)
+
+
+
+## Spring cloud 进阶
+
+1. [五十五张图告诉你微服务的灵魂摆渡者Nacos究竟有多强？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493854&idx=1&sn=4b3fb7f7e17a76000733899f511ef915&chksm=fcf73713cb80be05fe4473390f946dfbaf77848d7041c30f069bcb5a3629be782f4b1121bd6a&scene=178&cur_album_id=2042874937312346114#rd)
+2. [openFeign夺命连环9问，这谁受得了？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496653&idx=1&sn=7185077b3bdc1d094aef645d677ec472&chksm=fcf72c00cb80a516a8d1bc3b89400e202f2cbc1fd465e6c51e84a9a3543ec1c8bcfe8edeaec2&scene=178&cur_album_id=2042874937312346114#rd)
+3. [阿里面试这样问：Nacos、Apollo、Config配置中心如何选型？这10个维度告诉你！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496772&idx=1&sn=8a88b998920bb9b665f52320cf94d9c7&chksm=fcf72b89cb80a29f0c8f0d4a41857f2a5e3af01d0ffc85e826a3f4b434d9cbdffe56cf6433a5&scene=178&cur_album_id=2042874937312346114#rd)
+
+
+
+
+## 开发资源
+
+1. [IDEA插件之Mybatis Log plugin破解，亲测可用!!!](https://mp.weixin.qq.com/s/QDfrkqS9dK4zKaIePCLzqQ)
+2. [Navicat Premium 12免费安装，你懂得~](https://mp.weixin.qq.com/s/4d-4xgPKvYBFX9I-ChUYDA)
+3. [Linux一键安装包，环境安装不用愁！！！](https://mp.weixin.qq.com/s/fEvHd2U2pTsO1d25OnbR2g)
+4. [优质资源分享 | Spring Boot 入门到放弃！！！](https://mp.weixin.qq.com/s/lFU047y3kXX13_hKYHDIeA)
+5. [《Mybatis进阶》肝了30天专栏文章，整理成册，免费获取！！！](https://mp.weixin.qq.com/s/1x2G7Lqm6wd5bfrIj7nZzA)
+6. [撸个反向代理工具，搞一搞JRebel](https://mp.weixin.qq.com/s/VBGoGMz0y2Y-y6NcdMcaLg)
+7. [推荐三款插件，让你玩转Github](https://mp.weixin.qq.com/s/UEsrQrSLEEDXu7PqkzGHiw)
+8. [程序员需知的 58 个网站](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486375&idx=1&sn=0785971e06548c48228718270b7fc5c8&chksm=fcf4d46acb835d7c0b9334b86d22b07e9cd7e5f88ed77341a3b156798b24150d60d6a79662fc&token=890958715&lang=zh_CN#rd)
+9. [分享几个压箱底儿的实用工具~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247485719&idx=1&sn=a0a1b37dcc62e48cadeba0acc8e1fce1&chksm=fcf4d6dacb835fcc699261922f0cd88efe6b379a8e8edc91f8fe715665a72fe78cd5a8a3def4&token=890958715&lang=zh_CN#rd)
+10. [推荐三款插件，让你玩转Github](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247485605&idx=1&sn=f693079c08cb7e7316ca663e78a9248f&chksm=fcf4d768cb835e7e27fe159123c0a3c8cf177f7402e0df8154c63581a27447e0f59207edd26a&token=890958715&lang=zh_CN#rd)
+11. [太厉害了！推荐几款 Redis 可视化工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487044&idx=2&sn=19cf91d745e13df14ddde7f1cef07a63&chksm=fcf4d189cb83589f56168ff31d726e01cddc3fb5bc982b5cbd702ce895ed613eb8f1735a7e33&token=741646917&lang=zh_CN#rd)
+12. [Chrome 灵魂插件！爱了爱了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487421&idx=2&sn=34c30d881379463a329f1129a09a6707&chksm=fcf4d070cb835966eef0892db87506772881ee3077932cc7f508c50bf92140063e9339243857&token=1097290083&lang=zh_CN#rd)
+13. [接私活必备的 10 个开源项目！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488482&idx=2&sn=249e8bf514202ae9c85d731f0f86a8c4&chksm=fcf4cc2fcb834539006b3d21898463ec3bd0096b44ddb8a9ad69534bf23b13234760815745b0&token=1559350210&lang=zh_CN#rd)
+14. [9 个爱不释手的 JSON 工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488682&idx=2&sn=cd34dbbf310e9f6cb3a265ab42ac26e7&chksm=fcf4cb67cb8342719d0d6b41fe9fd953ec1c7fced8fbce4a9aea313242f40b704024953e95a3&token=206728157&lang=zh_CN#rd)
+15. [IntelliJ IDEA 最新15款 神级超级牛逼插件推荐（自用，真的超级牛逼）](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488866&idx=2&sn=c13aa3d3eac4a8a43eb03750c85c438d&chksm=fcf4caafcb8343b93c1620aefbd6ee38cdbe1696173882bd6c97c8780bd0c5d2944a1f647142&token=906317358&lang=zh_CN#rd)
+16. [Java 程序员常用的高效资源工具集合！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488885&idx=1&sn=7197b7d315d1b525fad297f65c4359b6&chksm=fcf4cab8cb8343ae87683f28cf66ad195dec416d3d9516ddf119737b5676d968d0f8ab1ae730&token=906317358&lang=zh_CN#rd)
+17. [5款牛逼的 API 工具，经典收藏](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489837&idx=2&sn=38ddfbe3a4690204eceaa47a118faa18&chksm=fcf4c6e0cb834ff6e643a5729b5ec7f26da7c13d113ed45f998b6ab761530661fb215c3a3d75&token=747593269&lang=zh_CN#rd)
+18. [JetBrains出品，一款好用到爆的数据库工具，惊艳到了！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489975&idx=1&sn=8c0a568ec8e8889775b66e5dd05ecbe6&chksm=fcf4c67acb834f6cda433aad874fb54e1f125b052560551ec0aff01782d8e0826bbc827592c8&token=747593269&lang=zh_CN#rd)
+19. [这样调优：让你的 IDEA 快到飞起来，效率真高！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490114&idx=1&sn=f26d40bd717647ae4f7ca427db0f509e&chksm=fcf4c58fcb834c994be0fe976dabe555c72182763323168c91a68906adc61d65510cf105db1a&token=1707245491&lang=zh_CN#rd)
+20. [能挣钱的，开源 SpringBoot 商城系统，功能超全，超漂亮！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490218&idx=2&sn=cf6e698fc652b5a023360a4df645a2d9&chksm=fcf4c567cb834c71e86e8b8e1fef574b206542dbad8a273e23e09086efd831f995d689af516a&token=1707245491&lang=zh_CN#rd)
+21. [卧槽！Intellij IDEA中竟然还有这么多炫酷的插件，玩儿一波！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490218&idx=1&sn=12c14f437313c73ccb9e08e7e2d3ec58&chksm=fcf4c567cb834c716b03f394ad4d7b425e73a8507e080730b8d75ad208cf04851611229d0fdd&token=1707245491&lang=zh_CN#rd)
+22. [阿里程序员常用的 15 款开发者工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490296&idx=1&sn=e840540324e1b54d29898861a8883ead&chksm=fcf4c535cb834c23116b383cafd4729e184772e81c4e9f2065f8bbbef687633c9cf848b3c470&token=1707245491&lang=zh_CN#rd)
+23. [免费的XShell替代品，又来一款国产良心工具....](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490998&idx=1&sn=f156ef0cf40f8bfd8442f4dd21859fc7&chksm=fcf4c27bcb834b6d832caa885c45b31cfc48ed086c7f647c959e971580ff21fcbe5b9f28821c&token=1707245491&lang=zh_CN#rd)
+24. [代码对比工具，就用这7个！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491066&idx=1&sn=bf1ff3cece95568269be2f59d87abe2c&chksm=fcf4c237cb834b21ad7dd4cc7d3d22f7f7b536e19043c26a29639658a14175f06011a54d2dc0&token=1707245491&lang=zh_CN#rd)
+25. [重装IDEA再也不愁了，一招搞定同步个人配置！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491776&idx=1&sn=6dd265510a4e9d513ead4b126b6e9f38&chksm=fcf73f0dcb80b61b8bd48395d6b54973623b4f0d49339b9fe0d3addd273f439b1e1ca981fc05&token=909257120&lang=zh_CN#rd)
+26. [2021年最新RabbitMQ视频教程](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491845&idx=2&sn=24bee11f0160e33c0c9db9f2373d4dc6&chksm=fcf73ec8cb80b7deea95df4bbe425b1b7778d12db72ee417b9803da23cd8facf77165a318010&token=909257120&lang=zh_CN#rd)
+27. [JetBrains 又出了一款新神器，一套代码适应多端！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491979&idx=1&sn=532df4341ca6d149341de7e570e47d75&chksm=fcf73e46cb80b750ba8747ab37a13661a5dcadf8228f3694cbf09e521e968d2412cb4640b4ee&token=909257120&lang=zh_CN#rd)
+28. [推荐 18 个终端命令行工具](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247492608&idx=1&sn=3c15bb0fccddf7c49ff585e408d33b30&chksm=fcf73bcdcb80b2db208db5b4d9d603ca2c6c8d46e92f132719a938ba4b8cfeada53b6c42acd8&token=933200230&lang=zh_CN#rd)
+29. [最强代码生成器平台，杀疯了~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493012&idx=1&sn=312bc88c3cc3c4df9ea3fdc4aadc3ec6&chksm=fcf73a59cb80b34f3737604fc5ae82f69bd4fe46de1229dd17f65c0b0f4c5bcaddc57500eb73&token=933200230&lang=zh_CN#rd)
+30. [还在用Jenkins？试试Gitlab的CI/CD功能吧，贼带劲！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493316&idx=1&sn=57284cc8897bf7d98e697e426a020951&chksm=fcf73909cb80b01febab55f673e7d393d620d550e202a2d7c46d8082eba460130a768be5d1d8&token=933200230&lang=zh_CN#rd)
+31. [4 款 MySQL 调优工具，公司大神都在用！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494027&idx=1&sn=f4c4fa472d6aa015894d2fa5bef2cb83&chksm=fcf73646cb80bf503822e9973d0e51b456958446931557a46a447be2205c0d08d48f1070690e&token=1272468938&lang=zh_CN#rd)
+32. [IDEA那些既好用又好玩的30多款宝贝插件，你知道多少？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494145&idx=1&sn=3768ceccaf6ec9e4169c8a03c410df69&chksm=fcf735cccb80bcdaaf5b2915c64f88e00cb000e5cfca1bab17af2e3b030b37cdc30ac62bae99&token=1272468938&lang=zh_CN#rd)
+33. [后端进阶优质资源分享！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494373&idx=2&sn=37625f33b20b53ba051a7f321038ae5a&chksm=fcf73528cb80bc3e0299e68c43425d731caf8d1a7c6a8b76863f57ad1c60ddad3a29f6d43fe3&token=1272468938&lang=zh_CN#rd)
+34. [18个工具分析Linux系统占用网络带宽大的程序！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494515&idx=2&sn=db2e6f1af9d37b85d146d829a4db93d4&chksm=fcf734becb80bda8f96f7c1c3eaeca505e53e8b4aba0b0a263a171244e5ad1cb8b9c6390e718&token=1272468938&lang=zh_CN#rd)
+35. [两万字长文，彻底搞懂Kafka](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494595&idx=1&sn=2b905b5aa2cc62b825bd78822fcb4dc9&chksm=fcf7340ecb80bd18bbc9a37e8fead39e74d0d050d9fd2ab75f832962f5a3d14cef42b607d698&token=1567630675&lang=zh_CN#rd)
+36. [在 IDEA 中的各种调试技巧，轻松定位 Bug（超级全面）](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494940&idx=1&sn=8d969a62779ffc1fcc7167ad7025dabb&chksm=fcf732d1cb80bbc76e11d4ff2cf68dee27602e62c5895bbce05304ba71bbc598bb5d93db1890&token=1567630675&lang=zh_CN#rd)
+37. [遇到线上问题不要慌，这些命令可以助你迅速定位！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495079&idx=1&sn=941c18def2e73d89f366b1402bf2c670&chksm=fcf7326acb80bb7c04bc5f2d3e6b0e61027d39714076826756b50b89c871ad0954e1bc2012af&token=1511514983&lang=zh_CN#rd)
+38. [阿里后端常用的 15 款开发工具，你不试试？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495267&idx=1&sn=7fc91db42ee70282a02b0bd5583febdd&chksm=fcf731aecb80b8b83eb0d1e40fca0196fbb0ca2c95afeef290158e8ab7129f0e39dcba24bbec&token=1511514983&lang=zh_CN#rd)
+39. [告别 swagger-ui ，我选择了这款神器！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495977&idx=1&sn=32028f5b1341f16597ee3060bf8ee62e&chksm=fcf72ee4cb80a7f285c9b527179d6e6a6efc5b8c85280712d1665dd768d2307a99c8ebccdd68&token=1511514983&lang=zh_CN#rd)
+40. [你还在用 BeanUtils？试试 MapStruct，优雅的对象转换解决方案！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496046&idx=1&sn=04ec38f0e3421557c4d16b67ded52b80&chksm=fcf72ea3cb80a7b529f097c7b2b564cdc10aa976f0423952727a435a359dbe2a092cd5f7a336&token=1511514983&lang=zh_CN#rd)
+41. [别再写上千行的类了，试试IDEA这些牛逼的重构技巧吧！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496490&idx=1&sn=17e098ff1adc40a4ea009220ef504845&chksm=fcf72ce7cb80a5f1204c69e1c1b24ee48b872d44ffe8690f6610a501698573492fd5f41bac30&token=1511514983&lang=zh_CN#rd)
+42. [还发愁画流程图？IDEA这款比visio快10倍的神仙插件全部帮你搞定！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496809&idx=1&sn=4f8a067406f1196ecbe30cc5149f527a&chksm=fcf72ba4cb80a2b27b71c045b8325b1d8782b0f166c075843eb7b192520b47ea1dda7b65ea7b&token=1511514983&lang=zh_CN#rd)
+
+
 
 
 ## 消息队列
@@ -201,6 +219,10 @@
 39. [DBA整理的万字详解MySQL性能优化，值得收藏！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493961&idx=2&sn=7461406cc05a3a1c412c054643f45520&chksm=fcf73684cb80bf924ac5426fe27bc5f5a595e04c6fccd1e279959aa0c616af1dc461a80b8519&token=1272468938&lang=zh_CN#rd)
 40. [一口气说出 Redis 16 个常见使用场景](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494318&idx=2&sn=458981537a6050aa602ad05542f762b8&chksm=fcf73563cb80bc752a29bd266924c219cd71df24a9856379ee3309c78b1887dd994f1530f1d4&token=1272468938&lang=zh_CN#rd)
 41. [缓存和数据库到底先写哪个？这次整明白了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494666&idx=2&sn=b79b8e8a002c6afc8e754602f952ccfa&chksm=fcf733c7cb80bad1622df6aa30109cfc9794333bc8924de618269835225d98ba0d268839feda&token=1567630675&lang=zh_CN#rd)
+42. [精心为你准备的最全的20道Mysql面试题](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495678&idx=1&sn=4f410323f08cb6d968fdd96e7dd19433&chksm=fcf73033cb80b925c62f88b17f8ecbaf19d95fe6f010e2b6e567008188cbe6183ab0394a36e2&token=1511514983&lang=zh_CN#rd)
+43. [懵了~ 面试官Redis夺命连环20问！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496059&idx=1&sn=5c0be2d107b54b73bd40cc89b474c63c&chksm=fcf72eb6cb80a7a03b3d9b76adb13b23250ce71f94219d82989c3df7cdc9f8a6b32a7ae02d29&token=1511514983&lang=zh_CN#rd)
+44. [Redis 核心篇：唯快不破的秘密](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496069&idx=1&sn=d5f856eddadd02b03ac0457cce217aac&chksm=fcf72e48cb80a75eb05948ab0b5b7e6dc83eef9890a12abee17127b844f82da7848a70be0f8a&token=1511514983&lang=zh_CN#rd)
+45. [Redis 实战篇：Geo 算法教你找出附近 “女朋友”！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496744&idx=1&sn=fd3b1e95562c62cdb6be37d1df511e3d&chksm=fcf72be5cb80a2f33b2b3cbeea565476b21f0be29d1c1258cebc2c6c4317130d8da421d4d54c&token=1511514983&lang=zh_CN#rd)
 
 
 
@@ -243,6 +265,7 @@
 23. [用没用过SpringCloud，就看你会不会这35个面试题！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491886&idx=2&sn=9c37cb0ca861917bf030a90811d28c79&chksm=fcf73ee3cb80b7f56594e9835ce74d6b6c04e50ea47d4fe1544a8e0dde63d46400b596c5846a&token=909257120&lang=zh_CN#rd)
 24. [美团二面：Spring的@Transactional如何实现的？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493086&idx=2&sn=df421aaf8b03a616bb291e51a15aabab&chksm=fcf73a13cb80b30593adbff17ffbfd8f1967bebc8517a380f2e3de15f145ee569638dc75026b&token=933200230&lang=zh_CN#rd)
 25. [面试官：分布式环境下，如何实现session共享](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494472&idx=2&sn=3ed2210463718b4cb75dd087e9935a1e&chksm=fcf73485cb80bd9378157558a0eab5f25c2690c55c985ecb3165183753e26c9dfb013eb1b84a&token=1272468938&lang=zh_CN#rd)
+26. [美团二面：生成订单30分钟未支付，则自动取消，该怎么实现？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496607&idx=1&sn=549b38336cba0dd6ffc92f97d6674cab&chksm=fcf72c52cb80a5442d840235a1a1e70117cd078584c14e66574a21baca9bd8b40ad557c782e5&token=1511514983&lang=zh_CN#rd)
 
 
 
@@ -329,6 +352,10 @@
 30. [Oauth2.0实现单点登录的原理流程，通俗易懂！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493105&idx=1&sn=79b40d40a193df7c7094b83cff588cf8&chksm=fcf73a3ccb80b32aa8b6415aa9816a048792e5126f9aeb3455f77d9b216142b62086305cbc4f&token=933200230&lang=zh_CN#rd)
 31. [5种全局ID生成方式、优缺点及改进方案，你知道哪几种？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494667&idx=1&sn=170c5c64013e50be5c87a13291b9dfb5&chksm=fcf733c6cb80bad04218ce2b00796d7cbd9ba8ff6c07be48c14411065c23d61fad1a7d1856ab&token=1567630675&lang=zh_CN#rd)
 32. [后端老鸟十张图讲透单点登录，看完不懂算我菜！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494752&idx=1&sn=c3e9abd5cc4f507e4c88db3c43e17c63&chksm=fcf733adcb80babbc3c5822a66e887d7d4c7daf013907484f3701fdefbecc080c7e3c231e551&token=1567630675&lang=zh_CN#rd)
+33. [这8种解决重复提交的方案，你知道哪几种呢？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495293&idx=1&sn=120685764d8403f82c91b2e8038b5eff&chksm=fcf731b0cb80b8a6f023e30fa50c953d2cd958e9b2a88d04577af325c82f9bb1f782ba0b360c&token=1511514983&lang=zh_CN#rd)
+34. [分库分表神器 Sharding-JDBC，几千万的数据你不搞一下？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496386&idx=1&sn=75571e38dbcc46327a04dd3b1f4aa54e&chksm=fcf72d0fcb80a419a875cf718351555669f0e98f15196ac903e1c07cb6f159425590f44300ae&token=1511514983&lang=zh_CN#rd)
+35. [一口气说出了七种分布式事务的解决方案，你知道哪几种？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496427&idx=1&sn=c4184cdf956406f10919f82c62335fb3&chksm=fcf72d26cb80a430fadf77feef826a327a076234c21914fbc7ff15748144fb39d152267c18e3&token=1511514983&lang=zh_CN#rd)
+36. [秒杀系统夺命9连斩，你hold住吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496671&idx=1&sn=815824eee238b708d6e6a7ada17a485d&chksm=fcf72c12cb80a504f1dd50af392a53a2bc93c0b646354f49bfc6076dd859427a6fb5ea4eccf4&token=1511514983&lang=zh_CN#rd)
 
 
 
@@ -350,6 +377,7 @@
 1. [[ 保姆级教程 ] JVM 完整深入解析](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487208&idx=2&sn=f60bf7a2a7b5dd9ebc6c38bf77f798ad&chksm=fcf4d125cb83583300c2e46255cb6b4eb462010eb481a8b747cbe2804aac9fbf349e6696d63e&token=741646917&lang=zh_CN#rd)
 2. [一次线上JVM调优实践，FullGC40次/天到10天一次的优化过程](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490645&idx=2&sn=554d3beb1116a5832b57271393b15889&chksm=fcf4c398cb834a8e1c50495a1eca550532a09812a17080c1f48357917e69125999a434901026&token=1707245491&lang=zh_CN#rd)
 3. [Java中关于内存泄漏分析和解决方案，都在这里了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494108&idx=2&sn=0cd7741e8bde7015c9053bf3eb1bcb8e&chksm=fcf73611cb80bf079917d8be91025b590a99eb879a6604042d0122fc117571d0734bdd9f3b6b&token=1272468938&lang=zh_CN#rd)
+4. [面试官：Java对象内存如何布局？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495678&idx=2&sn=f58b091f707f2650b11657392db48add&chksm=fcf73033cb80b9257dceb90b0599d65325e49b6a6f13b293fe4b99286e55fa13b52d02c23d0f&token=1511514983&lang=zh_CN#rd)
 
 
 
