@@ -1,0 +1,32 @@
+server:
+  port: 9010
+spring:
+  application:
+    ## 指定服务名称，在nacos中的名字
+    name: sentinel-openfeign-consumer
+  cloud:
+    nacos:
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      # 取消控制台懒加载，项目启动即连接Sentinel
+      eager: true
+      transport:
+        ## 指定控制台的地址，默认端口8080
+        dashboard: localhost:8080
+      ## nacos持久化配置
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: sentinel-openfeign-consumer
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+management:
+  endpoints:
+    web:
+      exposure:
+        ## yml文件中存在特殊字符，必须用单引号包含，否则启动报错
+        include: '*'

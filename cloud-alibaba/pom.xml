@@ -17,8 +17,10 @@
         <module>openFeign-consumer9006</module>
         <module>openFeign-provider9005</module>
         <module>openFeign-payment-provider9007</module>
-        <module>sentinel-provider9008</module>
-        <module>sentinel-consumer9009</module>
+        <module>sentinel-service9008</module>
+        <module>sentinel-openfeign-provider9009</module>
+        <module>sentinel-openfeign-consumer9010</module>
+        <module>cloud-common</module>
     </modules>
 
     <dependencyManagement>
