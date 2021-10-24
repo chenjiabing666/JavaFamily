@@ -1,0 +1,66 @@
+server:
+  port: 9021
+spring:
+  application:
+    ## 指定服务名称，在nacos中的名字
+    name: seata-account
+  cloud:
+    nacos:
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848
+        namespace: 798a1d9a-a435-4dbd-9e8a-87e898cf9963
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/seata_account?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: Nov2014
+  jpa:
+    show-sql: true # 默认false，在日志里显示执行的sql语句
+    database: mysql
+    database-platform: mysql
+    hibernate.ddl-auto: update #指定为update，每次启动项目检测表结构有变化的时候会新增字段，表不存在时会新建，如果指定create，则每次启动项目都会清空数据并删除表，再新建
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: false
+    hibernate:
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl #指定jpa的自动表生成策略，驼峰自动映射为下划线格式
+management:
+  endpoints:
+    web:
+      exposure:
+        ## yml文件中存在特殊字符，必须用单引号包含，否则启动报错
+        include: '*'
+
+## 客户端seata的相关配置
+seata:
+  ## 是否开启seata，默认true
+  enabled: true
+  application-id: ${spring.application.name}
+  ## seata事务组的名称，一定要和config.tx(nacos)中配置的相同
+  tx-service-group: ${spring.application.name}-tx-group
+  ## 配置中心的配置
+  config:
+    ## 使用类型nacos
+    type: nacos
+    ## nacos作为配置中心的相关配置
+    nacos:
+      ## 命名空间
+      namespace: 7a7581ef-433d-46f3-93f9-5fdc18239c65
+      ## 地址
+      server-addr: localhost:8848
+      ## 组
+      group: SEATA_GROUP
+      ## 用户名和密码
+      username: nacos
+      password: nacos
+  registry:
+    type: nacos
+    nacos:
+      ## 这里的名字一定要和seata服务端中的名称相同
+      application: seata-server
+      group: SEATA_GROUP
+      namespace: 7a7581ef-433d-46f3-93f9-5fdc18239c65
+      username: nacos
+      password: nacos
+      server-addr: localhost:8848
