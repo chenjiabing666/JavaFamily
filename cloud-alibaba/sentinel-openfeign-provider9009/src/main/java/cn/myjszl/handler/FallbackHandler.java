@@ -11,7 +11,7 @@ public class FallbackHandler {
     /**
      * 异常降级的兜底方法，参数签名必须和原业务方法一致，可以多个Throwable
      */
-    public static CommonResponse fallbackHandler(Order order,Throwable ex){
+    public static CommonResponse fallbackHandler(Order order, Throwable ex){
         log.error("进入了指定降级兜底方法，业务处理出现了运行时异常：{}",ex.getMessage());
         return CommonResponse.<Order>builder()
                 .code("1001")

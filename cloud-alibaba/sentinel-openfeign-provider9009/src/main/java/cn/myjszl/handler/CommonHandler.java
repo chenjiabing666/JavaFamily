@@ -16,7 +16,7 @@ public class CommonHandler {
     /**
      * 兜底方法，必须是public，必须是static方法，返回类型必须和原业务方法相同
      */
-    public static CommonResponse<Order> handler(Long id,BlockException exception){
+    public static CommonResponse<Order> handler(Long id, BlockException exception){
         log.error("哎，又被限流了，异常消息：{}", JSON.toJSONString(exception));
         return CommonResponse.<Order>builder()
                 .code("1001")

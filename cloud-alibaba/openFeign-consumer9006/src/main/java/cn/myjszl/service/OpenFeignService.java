@@ -1,10 +1,8 @@
 package cn.myjszl.service;
 
-import cn.myjszl.config.OpenFeignConfig;
 import cn.myjszl.model.Order;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.cloud.openfeign.SpringQueryMap;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

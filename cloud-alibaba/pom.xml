@@ -21,6 +21,9 @@
         <module>sentinel-openfeign-provider9009</module>
         <module>sentinel-openfeign-consumer9010</module>
         <module>cloud-common</module>
+        <module>seata-storage9020</module>
+        <module>seata-account9021</module>
+        <module>seata-order9022</module>
     </modules>
 
     <dependencyManagement>
@@ -66,6 +69,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
+
+        <!--springboot集成Aop-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
     </dependencies>
 
