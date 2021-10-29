@@ -94,6 +94,11 @@
 57. [实战篇：断点续传？文件秒传？手撸大文件上传](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496667&idx=2&sn=3a9d88f1381851459953d594e03b0741&chksm=fcf72c16cb80a500570649ce8df29340cd11003b5ab37e7d9a83e34cf34ef6e39899e569ad49&token=1511514983&lang=zh_CN#rd)
 58. [快给你的 Spring Boot 做个埋点监控吧！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496682&idx=1&sn=e69f74abda18c0141ae09381d7ec2320&chksm=fcf72c27cb80a5317914a779e5a8ca4182e9c69a129864029545594a0a81669e0fab1d6d0c1f&token=1511514983&lang=zh_CN#rd)
 59. [40 个 SpringBoot 常用注解：让生产力爆表！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497053&idx=1&sn=df7467c5dd0140455e5b1e7c0c3cdbe5&chksm=fcf72a90cb80a3865e4b2bb2d1e7947e20654757dfb7792025edbb0a8b709600e735d1a013d8&token=1511514983&lang=zh_CN#rd)
+60. [springboot + rabbitmq 用了消息确认机制，感觉掉坑里了](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497315&idx=1&sn=2d9048c6bc0f5e69220a53915450094f&chksm=fcf729aecb80a0b893ec0fc8bd296a1b6316bf4e7eaf9e93ec78942c3e3cca61e7a4e43e4732&token=1608740670&lang=zh_CN#rd)
+61. [SpringBoot 整合Smart-doc生成接口文档，一款比Swagger更nice的工具！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497448&idx=1&sn=e8e952fd061acc66a325466a7b73b324&chksm=fcf72925cb80a033ce17a263024cc462d1835cb1c9145fd823c5bbd051044ab70e9e5320b570&token=1608740670&lang=zh_CN#rd)
+62. [SpringBoot巧用 @Async 提升API接口并发能力](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497542&idx=1&sn=cbc21c66d266ddd46b87642536981811&chksm=fcf7288bcb80a19d5a93b9dc8ca0fd112e87d0f3548afbe2a650f458b9f8b0d13cae58559b93&token=1608740670&lang=zh_CN#rd)
+63. [聊聊spring事务失效的12种场景，太坑了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498081&idx=1&sn=002c27082f7d56d8bdc67341ada2d96a&chksm=fcf726accb80afbad6650cf755b46fe1b83e39505dfc260cfee0814d8035781852db5f1e33d7&token=1608740670&lang=zh_CN#rd)
+64. [SpringBoot+WebSocket 实时监控异常](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498277&idx=1&sn=e2f2d9d33d674682da0eb6f9869a4921&chksm=fcf725e8cb80acfef817f9d42c9cb97727b1a021cd7665aebaa3f08570b22797875499499b57&token=1608740670&lang=zh_CN#rd)
 
 
 
@@ -102,6 +107,9 @@
 1. [五十五张图告诉你微服务的灵魂摆渡者Nacos究竟有多强？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493854&idx=1&sn=4b3fb7f7e17a76000733899f511ef915&chksm=fcf73713cb80be05fe4473390f946dfbaf77848d7041c30f069bcb5a3629be782f4b1121bd6a&scene=178&cur_album_id=2042874937312346114#rd)
 2. [openFeign夺命连环9问，这谁受得了？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496653&idx=1&sn=7185077b3bdc1d094aef645d677ec472&chksm=fcf72c00cb80a516a8d1bc3b89400e202f2cbc1fd465e6c51e84a9a3543ec1c8bcfe8edeaec2&scene=178&cur_album_id=2042874937312346114#rd)
 3. [阿里面试这样问：Nacos、Apollo、Config配置中心如何选型？这10个维度告诉你！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496772&idx=1&sn=8a88b998920bb9b665f52320cf94d9c7&chksm=fcf72b89cb80a29f0c8f0d4a41857f2a5e3af01d0ffc85e826a3f4b434d9cbdffe56cf6433a5&scene=178&cur_album_id=2042874937312346114#rd)
+4. [阿里面试败北：5种微服务注册中心如何选型？这几个维度告诉你！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497371&idx=1&sn=df5aa872452970f5f46efff5fc777b34&chksm=fcf72956cb80a0409b4af506751645bbe942aacd362640337833dd76d7c6ae077a4262b28942&token=1608740670&lang=zh_CN#rd)
+5. [阿里限流神器Sentinel夺命连环 17 问？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498039&idx=1&sn=3a3caee655ff015b46249bd51aa4dc79&chksm=fcf726facb80afecea4d48faf94a9940b80ba21b325510cf4be6f7c7bce2f3c73266857f65d1&token=1608740670&lang=zh_CN#rd)
+6. [对比7种分布式事务方案，还是偏爱阿里开源的Seata，真香！(原理+实战)](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247499421&idx=1&sn=a55797652284bafd9216ea981f4125e0&chksm=fcf72150cb80a846e62beecc2a9f1e251bcd0e23136175504a7e28f1cce2ff5f5a26da1960a2&token=1608740670&lang=zh_CN#rd)
 
 
 
@@ -150,6 +158,9 @@
 40. [你还在用 BeanUtils？试试 MapStruct，优雅的对象转换解决方案！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496046&idx=1&sn=04ec38f0e3421557c4d16b67ded52b80&chksm=fcf72ea3cb80a7b529f097c7b2b564cdc10aa976f0423952727a435a359dbe2a092cd5f7a336&token=1511514983&lang=zh_CN#rd)
 41. [别再写上千行的类了，试试IDEA这些牛逼的重构技巧吧！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496490&idx=1&sn=17e098ff1adc40a4ea009220ef504845&chksm=fcf72ce7cb80a5f1204c69e1c1b24ee48b872d44ffe8690f6610a501698573492fd5f41bac30&token=1511514983&lang=zh_CN#rd)
 42. [还发愁画流程图？IDEA这款比visio快10倍的神仙插件全部帮你搞定！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496809&idx=1&sn=4f8a067406f1196ecbe30cc5149f527a&chksm=fcf72ba4cb80a2b27b71c045b8325b1d8782b0f166c075843eb7b192520b47ea1dda7b65ea7b&token=1511514983&lang=zh_CN#rd)
+43. [这款帅气逼人的 Redis 可视化工具，功能强大！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497507&idx=1&sn=f22011789cfa6506f06c63c11210e0ed&chksm=fcf728eecb80a1f8c8a0a20ed4be53451aae0c26cf6ae07a115d2f2c4fa5b307bc09d6e6e166&token=1608740670&lang=zh_CN#rd)
+44. [这 9 大工具助你玩转 Java 性能优化！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497566&idx=1&sn=145fc22d2534a85ccfc353f0d87c438f&chksm=fcf72893cb80a1854e4efd9b160826ab337af68cc1e6fd05e00cf781e18ea1a381a1a849e8d3&token=1608740670&lang=zh_CN#rd)
+45. [别再用swagger了，给你推荐几个在线文档生成神器！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498236&idx=1&sn=ae605d55c8eb84eaec65eaf28be05b98&chksm=fcf72631cb80af271bd67ac3a2c6c7a1d785f8b175616f2244cb5b30cd62f02feec736c90b27&token=1608740670&lang=zh_CN#rd)
 
 
 
@@ -173,6 +184,7 @@
 15. [消息队列MQ/JMS/Kafka，你都了解吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491951&idx=1&sn=dd4ccbfad1b558bba1567191fb17a026&chksm=fcf73ea2cb80b7b4c420d1ad3ddeae1eaf0e3d660d828b9aef91bad6ec440f2cb1f3990843c5&token=909257120&lang=zh_CN#rd)
 16. [分布式事务中使用RocketMQ的事务消息机制优化事务的处理逻辑](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247492700&idx=2&sn=8f0655bc476b0a90d4d9915af7de3765&chksm=fcf73b91cb80b2877ba580d424e5aa297c58b9cb0064f1881f6c35dd3bd887808be72bd3174e&token=933200230&lang=zh_CN#rd)
 17. [两万字长文，彻底搞懂Kafka](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494584&idx=2&sn=1153c9fe76c1bdd4ec12db7effc4d8d8&chksm=fcf73475cb80bd63bab1daa413ce2bdbbd1426322ec37dc265f0a140e032c7ac7fd956e5627f&token=1567630675&lang=zh_CN#rd)
+18. [网易终面：4款主流分布式MQ消息队列如何技术选型？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497650&idx=1&sn=7154f5a3910b1828c5f27905d8b91fbf&chksm=fcf7287fcb80a169e1051002e270b61d49fed80a759eff35e996ebb883ecc981dccb6e205d45&token=1608740670&lang=zh_CN#rd)
 
 
 
@@ -223,6 +235,9 @@
 43. [懵了~ 面试官Redis夺命连环20问！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496059&idx=1&sn=5c0be2d107b54b73bd40cc89b474c63c&chksm=fcf72eb6cb80a7a03b3d9b76adb13b23250ce71f94219d82989c3df7cdc9f8a6b32a7ae02d29&token=1511514983&lang=zh_CN#rd)
 44. [Redis 核心篇：唯快不破的秘密](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496069&idx=1&sn=d5f856eddadd02b03ac0457cce217aac&chksm=fcf72e48cb80a75eb05948ab0b5b7e6dc83eef9890a12abee17127b844f82da7848a70be0f8a&token=1511514983&lang=zh_CN#rd)
 45. [Redis 实战篇：Geo 算法教你找出附近 “女朋友”！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496744&idx=1&sn=fd3b1e95562c62cdb6be37d1df511e3d&chksm=fcf72be5cb80a2f33b2b3cbeea565476b21f0be29d1c1258cebc2c6c4317130d8da421d4d54c&token=1511514983&lang=zh_CN#rd)
+46. [很高兴，终于踩到了慢查询的坑了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497162&idx=1&sn=acf3faf7b74a415c2dcc801a22ce9fbd&chksm=fcf72a07cb80a3118ea2331431f169af1ff2dcfb5177c50eba5eea54718f526ca338ebbcb6dc&token=1608740670&lang=zh_CN#rd)
+47. [来，今天手把手教你调优！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497380&idx=1&sn=83c2ce6a71485c64140bbee4188f4161&chksm=fcf72969cb80a07fa5eef462ae48d126bd29112c99a1e8774cb7cf8e599531cf7a98b3071422&token=1608740670&lang=zh_CN#rd)
+48. [Redis 实战：巧用 Bitmap 实现亿级海量数据统计](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498202&idx=1&sn=29e93b70c55e0fba1f3dcacae9b37ebc&chksm=fcf72617cb80af018ff67e7b326b11401f044af9254c46a20e883ca0acabb6035f13f52ab939&token=1608740670&lang=zh_CN#rd)
 
 
 
@@ -317,6 +332,10 @@
 44. [你了解Log4j2中RollingFile的文件滚动更新机制吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494005&idx=2&sn=ca936e9afb5717e0c309019246700867&chksm=fcf736b8cb80bfae81f5eef79b801af7e911c52429823fd205ac5fad706cda34dab01f199f97&token=1272468938&lang=zh_CN#rd)
 45. [分布式定时任务框架选型，你知道哪几种？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494525&idx=1&sn=de31bc8d21965cd502e25584456a7ab8&chksm=fcf734b0cb80bda603be31d7758c76aafcc6367548c4d7504412abfda2312aa9184b6f93d54c&token=1272468938&lang=zh_CN#rd)
 46. [20 个实例玩转 Java 8 Stream，你真的会用吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494949&idx=1&sn=06adf1947bbfbcf424b855628578092e&chksm=fcf732e8cb80bbfecb19326896c06db3c2ae9ba12f6f8bf681ec134782d689da1b8324708e69&token=1567630675&lang=zh_CN#rd)
+47. [20个实例玩转 Java 8 异步神器 CompletableFuture，你真的会用吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497369&idx=1&sn=ccc17b22fb7544dd914778ced23304d1&chksm=fcf72954cb80a042fddfb9ed1f63bb0bc410513200fc65fe772518d698d61bc02c11546d40fb&token=1608740670&lang=zh_CN#rd)
+48. [EasyExcel，让excel导入导出更加简单](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497419&idx=2&sn=3405ed46396a969fc25b71c939693b75&chksm=fcf72906cb80a010409e4d17bb1b4bf14c9bdf2c8464db33b2db28423ab1361bdec7f06f0cd2&token=1608740670&lang=zh_CN#rd)
+49. [一口气说出分布式锁的8个坑，面试常问！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497486&idx=1&sn=f265578fd3b0b2be597c3805737308f3&chksm=fcf728c3cb80a1d5ca8584b76eeade45a0479961a133d49dc1e3eda94563848ad81b94a2f208&token=1608740670&lang=zh_CN#rd)
+50. [聊聊 Java泛型通配符 T，E，K，V，? 很多人还没用过！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247499489&idx=1&sn=86efa12652acf390019ddfa0d4c39300&chksm=fcf7212ccb80a83ac1242436db39ecd7c7f775d47bb3f9221627e5a16ab22081bd62337c81c9&token=1608740670&lang=zh_CN#rd)
 
 ## 架构
 
@@ -356,6 +375,8 @@
 34. [分库分表神器 Sharding-JDBC，几千万的数据你不搞一下？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496386&idx=1&sn=75571e38dbcc46327a04dd3b1f4aa54e&chksm=fcf72d0fcb80a419a875cf718351555669f0e98f15196ac903e1c07cb6f159425590f44300ae&token=1511514983&lang=zh_CN#rd)
 35. [一口气说出了七种分布式事务的解决方案，你知道哪几种？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496427&idx=1&sn=c4184cdf956406f10919f82c62335fb3&chksm=fcf72d26cb80a430fadf77feef826a327a076234c21914fbc7ff15748144fb39d152267c18e3&token=1511514983&lang=zh_CN#rd)
 36. [秒杀系统夺命9连斩，你hold住吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496671&idx=1&sn=815824eee238b708d6e6a7ada17a485d&chksm=fcf72c12cb80a504f1dd50af392a53a2bc93c0b646354f49bfc6076dd859427a6fb5ea4eccf4&token=1511514983&lang=zh_CN#rd)
+37. [阿里为什么建议给MVC三层架构多加一层Manager层？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498819&idx=1&sn=f1a3cca211fec670e75246fe54fcf43a&chksm=fcf7238ecb80aa987187ff43e6b4e048a47448bd472c4296df97e41e1a7d16633f1d82203b0d&token=1608740670&lang=zh_CN#rd)
+38. [Oauth2.0实现单点登录的原理流程，这次总该懂了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247499611&idx=1&sn=d04e32ff3b4f7789bfc35831acc3bac2&chksm=fcf72096cb80a9805db0f6271ebd478eb21bc8af676358934972492b7da1869c0cb038c9cd5b&token=1608740670&lang=zh_CN#rd)
 
 
 
@@ -371,6 +392,8 @@
 8. [实现全链路监控平台很难吗？Pinpoint、SkyWalking、Zipkin 选型对比](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491860&idx=2&sn=c0f8ffe354190d9c0502d601c5e75405&chksm=fcf73ed9cb80b7cfc90943204fd235543f2fa6ff48627048aeffc840fcd2a676bb327e17a680&token=909257120&lang=zh_CN#rd)
 9. [用没用过SpringCloud，就看你会不会这35个面试题！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491886&idx=2&sn=9c37cb0ca861917bf030a90811d28c79&chksm=fcf73ee3cb80b7f56594e9835ce74d6b6c04e50ea47d4fe1544a8e0dde63d46400b596c5846a&token=909257120&lang=zh_CN#rd)
 10. [五十五张图告诉你微服务的灵魂摆渡者Nacos究竟有多强？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493854&idx=1&sn=4b3fb7f7e17a76000733899f511ef915&chksm=fcf73713cb80be05fe4473390f946dfbaf77848d7041c30f069bcb5a3629be782f4b1121bd6a&token=1272468938&lang=zh_CN#rd)
+11. [狗东面试这样问：Nacos配置中心交互模型是 push 还是 pull ？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498111&idx=1&sn=ed64ab766a0b3b9b80121b8940e6ff73&chksm=fcf726b2cb80afa4a11913a4152301a9691027c69bb93174b0b7312382180454736879938bd0&token=1608740670&lang=zh_CN#rd)
+12. [在医院五天，我把「链路追踪」整明白了](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498789&idx=1&sn=23c4a23a885470ef7a83857c3d894aa9&chksm=fcf723e8cb80aafe73bbd4b0b6445b6eeacd838b14cda727ab09c4f01437ddee95b37420a4f1&token=1608740670&lang=zh_CN#rd)
 
 ## JVM
 
