@@ -1,0 +1,51 @@
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
+
+server:
+  port: 9023
+spring:
+  cloud:
+    nacos:
+      ## 注册中心配置
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848
+#    gateway:
+#      ## 路由
+#      routes:
+#        ## id只要唯一即可，名称任意
+#        - id: gateway-provider_1
+#          uri: lb://gateway-provider
+##          uri: http://localhost:9024
+#          ## 配置断言
+#          predicates:
+#            ## Path Route Predicate Factory断言，满足/gateway/provider/**这个请求路径的都会被路由到http://localhost:9024这个uri中
+#            - Path=/gateway/provider/**
+#            ## Weight Route Predicate Factory，同一分组按照权重进行分配流量，这里分配了80%
+##            - Weight=group1, 8
+#          ## 配置过滤器（局部）
+#          filters:
+#            - AddResponseHeader=X-Response-Foo, Bar
+#            - Time=true
+            ## AuthorizeGatewayFilterFactory自定义过滤器配置，值为true需要验证授权，false不需要
+#            - Authorize=true
+        ## id必须唯一
+#        - id: gateway-provider_2
+#          ## 路由转发的uri
+#          uri: lb://gateway-provider
+##          uri: http://localhost:9025
+#
+#          ## 配置断言
+#          predicates:
+#            ## Path Route Predicate Factory断言，满足/gateway/provider/**这个请求路径的都会被路由到http://localhost:9024这个uri中
+#            - Path=/gateway/provider/**
+#            ## Weight Route Predicate Factory，同一分组按照权重进行分配流量，这里分配了20%
+##            - Weight=group2, 2
+#          filters:
+#            - AddResponseHeader=X-Response-Foo, Bar
+#            - Time=true
+#            ## AuthorizeGatewayFilterFactory自定义过滤器配置，值为true需要验证授权，false不需要
+#            - Authorize=true
+
