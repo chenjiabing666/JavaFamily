@@ -26,7 +26,12 @@
         <module>seata-order9022</module>
         <module>cloud-gateway9023</module>
         <module>gateway-provider9024</module>
+        <module>gateway-sentinel9026</module>
     </modules>
+
+    <properties>
+        <swagger-version>3.0.0</swagger-version>
+    </properties>
 
     <dependencyManagement>
         <dependencies>
