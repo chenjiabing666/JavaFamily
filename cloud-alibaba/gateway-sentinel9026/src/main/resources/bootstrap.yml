@@ -1,0 +1,10 @@
+spring:
+  application:
+    ## 指定服务名称，在nacos中的名字
+    name: gateway-sentinel
+#  cloud:
+#    nacos:
+#      ## todo 此处作为演示，仅仅配置了后缀，其他分组，命名空间根据需要自己配置
+#      config:
+#        ## 指定文件后缀未yaml
+#        file-extension: yaml

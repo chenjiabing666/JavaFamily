@@ -1,0 +1,41 @@
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
+
+server:
+  port: 9026
+spring:
+  cloud:
+    ## 整合sentinel，配置sentinel控制台的地址
+    sentinel:
+      #配置限流之后，响应内容
+      scg:
+        fallback:
+          ## 两种模式，一种是response返回文字提示信息，一种是redirect，重定向跳转，需要同时配置redirect(跳转的uri)
+          mode: response
+          ## 响应的状态
+          response-status: 200
+          ## 响应体
+          response-body: '{"code": 200,"message": "请求失败，稍后重试！"}'
+#          mode: redirect
+#          redirect: http://www.baidu.com
+      transport:
+        ## 指定控制台的地址，默认端口8080
+        dashboard: localhost:8080
+    nacos:
+      ## 注册中心配置
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848
+    gateway:
+      ## 路由
+      routes:
+        ## id只要唯一即可，名称任意
+        - id: gateway-provider
+          uri: lb://gateway-provider
+          ## 配置断言
+          predicates:
+            ## Path Route Predicate Factory断言，满足/gateway/provider/**这个请求路径的都会被路由到http://localhost:9024这个uri中
+            - Path=/gateway/provider/**
+
