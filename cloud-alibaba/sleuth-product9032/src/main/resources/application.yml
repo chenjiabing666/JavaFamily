@@ -1,0 +1,33 @@
+server:
+  port: 9032
+spring:
+  cloud:
+    nacos:
+      ## 注册中心配置
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848
+  sleuth:
+    sampler:
+      # 日志数据采样百分比，默认0.1(10%)，这里为了测试设置成了100%，生产环境只需要0.1即可
+      probability: 1.0
+  zipkin:
+    #zipkin server的请求地址，集成MQ之后，这个配置将不需要
+#    base-url: http://127.0.0.1:9411
+    #让nacos把它当成一个URL，而不要当做服务名
+    discovery-client-enabled: false
+    # 数据传输模式，默认web（Http形式），还可以配置消息中间件，支持RabbitMQ，Kafka，ActiveMQ
+    sender:
+      type: rabbit
+
+  ## rabbitMQ相关的配置
+  rabbitmq:
+    addresses: 127.0.0.1
+    username: guest
+    password: guest
+
+## 设置openFeign和sleuth的日志级别为debug，方便查看日志信息
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug
+    org.springframework.cloud.sleuth: debug

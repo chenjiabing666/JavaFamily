@@ -27,6 +27,10 @@
         <module>cloud-gateway9023</module>
         <module>gateway-provider9024</module>
         <module>gateway-sentinel9026</module>
+        <module>gateway-sleuth9031</module>
+        <module>sleuth-product9032</module>
+        <module>sleuth-order9033</module>
+
     </modules>
 
     <properties>

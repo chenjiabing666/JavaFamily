@@ -1,0 +1,4 @@
+spring:
+  application:
+    ## 指定服务名称，在nacos中的名字
+    name: sleuth-order-service
