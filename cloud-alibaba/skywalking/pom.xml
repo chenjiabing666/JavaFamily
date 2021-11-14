@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloud-alibaba</artifactId>
+        <groupId>cn.myjszl</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>skywalking</artifactId>
+
+    <properties>
+        <project.release.version>8.7.0</project.release.version>
+    </properties>
+
+    <modules>
+        <module>skywalking-product1001</module>
+        <module>skywalking-order1002</module>
+        <module>skywalking-gateway1003</module>
+        <module>skywalking-alarm1004</module>
+    </modules>
+
+    <dependencies>
+        <!--logback-skywalking的依賴-->
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-logback-1.x</artifactId>
+            <version>${project.release.version}</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

@@ -30,7 +30,7 @@
         <module>gateway-sleuth9031</module>
         <module>sleuth-product9032</module>
         <module>sleuth-order9033</module>
-
+        <module>skywalking</module>
     </modules>
 
     <properties>

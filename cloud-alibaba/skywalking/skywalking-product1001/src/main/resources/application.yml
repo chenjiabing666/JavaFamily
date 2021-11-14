@@ -1,0 +1,13 @@
+server:
+  port: 1001
+spring:
+  cloud:
+    nacos:
+      ## 注册中心配置
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848
+## 设置openFeign和sleuth的日志级别为debug，方便查看日志信息
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug

@@ -1,0 +1,15 @@
+spring:
+  application:
+    ## 指定服务名称，在nacos中的名字
+    name: skywalking-gateway
+  cloud:
+    gateway:
+      ## 路由
+      routes:
+        ## id只要唯一即可，名称任意
+        - id: skywaking-order-service
+          uri: lb://skywaking-order-service
+          ## 配置断言
+          predicates:
+            ## Path Route Predicate Factory断言，满足/gateway/provider/**这个请求路径的都会被路由到http://localhost:9024这个uri中
+            - Path=/order/**
