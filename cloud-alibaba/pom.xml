@@ -31,10 +31,15 @@
         <module>sleuth-product9032</module>
         <module>sleuth-order9033</module>
         <module>skywalking</module>
+<!--        spring security相关的案例demo-->
+        <module>spring-security</module>
     </modules>
 
     <properties>
         <swagger-version>3.0.0</swagger-version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencyManagement>
