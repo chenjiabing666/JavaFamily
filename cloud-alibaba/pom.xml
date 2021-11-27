@@ -31,8 +31,6 @@
         <module>sleuth-product9032</module>
         <module>sleuth-order9033</module>
         <module>skywalking</module>
-<!--        spring security相关的案例demo-->
-        <module>spring-security</module>
     </modules>
 
     <properties>
