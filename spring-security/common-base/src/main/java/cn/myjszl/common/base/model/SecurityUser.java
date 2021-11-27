@@ -27,6 +27,9 @@ public class SecurityUser implements UserDetails {
         this.authorities = authorities;
     }
 
+    public SecurityUser(){}
+
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return authorities;

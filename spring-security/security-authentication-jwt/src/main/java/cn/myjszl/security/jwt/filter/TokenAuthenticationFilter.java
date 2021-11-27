@@ -1,7 +1,7 @@
 package cn.myjszl.security.jwt.filter;
 
-import cn.myjszl.security.jwt.constant.SecurityConstant;
-import cn.myjszl.security.jwt.utils.JwtUtils;
+import cn.myjszl.common.base.constant.SecurityConstant;
+import cn.myjszl.common.base.utils.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

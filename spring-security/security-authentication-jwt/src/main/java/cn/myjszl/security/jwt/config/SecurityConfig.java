@@ -1,9 +1,8 @@
 package cn.myjszl.security.jwt.config;
 
-import cn.myjszl.security.jwt.filter.JwtAuthenticationLoginFilter;
 import cn.myjszl.security.jwt.filter.TokenAuthenticationFilter;
-import cn.myjszl.security.jwt.handler.EntryPointUnauthorizedHandler;
-import cn.myjszl.security.jwt.handler.RequestAccessDeniedHandler;
+import cn.myjszl.common.base.handler.EntryPointUnauthorizedHandler;
+import cn.myjszl.common.base.handler.RequestAccessDeniedHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -48,7 +47,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/login", "/refreshToken","/login2")
                 .permitAll()
                 //hasRole()表示需要指定的角色才能访问资源
-                .antMatchers("/hello").hasRole("ADMIN")
+                .antMatchers("/hello").hasRole("admin")
                 // anyRequest() 所有请求   authenticated() 必须被认证
                 .anyRequest()
                 .authenticated()

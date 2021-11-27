@@ -1,4 +1,4 @@
-package cn.myjszl.security.jwt.utils;
+package cn.myjszl.common.base.utils;
 
 import cn.myjszl.common.base.model.SecurityUser;
 import io.jsonwebtoken.Claims;

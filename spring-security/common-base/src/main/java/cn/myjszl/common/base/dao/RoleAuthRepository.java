@@ -1,11 +1,13 @@
 package cn.myjszl.common.base.dao;
 
-import cn.myjszl.common.base.model.User;
+import cn.myjszl.common.base.model.RoleAuth;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public interface UserRepository extends JpaRepository<User,Long> {
+import java.util.List;
 
-    User findByUsernameAndStatus(String username,Integer status);
+@Repository
+public interface RoleAuthRepository extends JpaRepository<RoleAuth,Long> {
+
+    List<RoleAuth> findByRoleIdAndStatus(Long roleId,Integer status);
 }

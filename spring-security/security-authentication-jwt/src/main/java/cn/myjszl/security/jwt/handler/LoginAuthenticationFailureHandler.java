@@ -1,7 +1,7 @@
 package cn.myjszl.security.jwt.handler;
 
 import cn.myjszl.common.base.model.ResultMsg;
-import cn.myjszl.security.jwt.utils.ResponseUtils;
+import cn.myjszl.common.base.utils.ResponseUtils;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;

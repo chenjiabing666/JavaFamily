@@ -1,4 +1,4 @@
-package cn.myjszl.security.jwt.constant;
+package cn.myjszl.common.base.constant;
 
 public class SecurityConstant {
 

@@ -1,9 +1,9 @@
 package cn.myjszl.security.jwt.controller;
 
 import cn.myjszl.common.base.model.LoginToken;
-import cn.myjszl.security.jwt.constant.SecurityConstant;
+import cn.myjszl.common.base.constant.SecurityConstant;
 import cn.myjszl.common.base.model.ResultMsg;
-import cn.myjszl.security.jwt.utils.JwtUtils;
+import cn.myjszl.common.base.utils.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

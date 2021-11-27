@@ -1,4 +1,4 @@
-package cn.myjszl.security.jwt.handler;
+package cn.myjszl.common.base.handler;
 
 import cn.myjszl.common.base.model.ResultMsg;
 import cn.myjszl.common.base.utils.ResponseUtils;

@@ -2,8 +2,8 @@ package cn.myjszl.security.jwt.handler;
 
 import cn.myjszl.common.base.model.LoginToken;
 import cn.myjszl.common.base.model.ResultMsg;
-import cn.myjszl.security.jwt.utils.JwtUtils;
-import cn.myjszl.security.jwt.utils.ResponseUtils;
+import cn.myjszl.common.base.utils.JwtUtils;
+import cn.myjszl.common.base.utils.ResponseUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
