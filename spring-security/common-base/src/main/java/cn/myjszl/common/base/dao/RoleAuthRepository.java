@@ -10,4 +10,7 @@ import java.util.List;
 public interface RoleAuthRepository extends JpaRepository<RoleAuth,Long> {
 
     List<RoleAuth> findByRoleIdAndStatus(Long roleId,Integer status);
+
+    //多对多
+    List<RoleAuth> findByAuthIdAndStatus(Long authId,Integer status);
 }
