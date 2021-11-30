@@ -1,0 +1,8 @@
+server:
+  port: 2003
+  servlet:
+    context-path: /auth-server
+
+spring:
+  application:
+    name: auth-server-in-memory

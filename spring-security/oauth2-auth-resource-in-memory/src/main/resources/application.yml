@@ -1,0 +1,7 @@
+server:
+  port: 2004
+  servlet:
+    context-path: /auth-resource
+spring:
+  application:
+    name: auth-resource-in-memory
