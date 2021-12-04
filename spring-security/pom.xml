@@ -24,6 +24,7 @@
         <module>oauth2-auth-server-in-memory</module>
         <module>oauth2-auth-resource-in-memory</module>
         <module>oauth2-auth-server-jwt</module>
+        <module>oauth2-auth-resource-jwt</module>
     </modules>
 
     <dependencyManagement>

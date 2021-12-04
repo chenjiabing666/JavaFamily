@@ -1,0 +1,9 @@
+server:
+  port: 2006
+  servlet:
+    context-path: /auth-resource
+spring:
+  application:
+    name: auth-resource-jwt
+  main:
+    allow-bean-definition-overriding: true

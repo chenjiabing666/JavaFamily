@@ -1,0 +1,10 @@
+server:
+  port: 2005
+  servlet:
+    context-path: /auth-server
+
+spring:
+  application:
+    name: auth-server-jwt
+  main:
+    allow-bean-definition-overriding: true
