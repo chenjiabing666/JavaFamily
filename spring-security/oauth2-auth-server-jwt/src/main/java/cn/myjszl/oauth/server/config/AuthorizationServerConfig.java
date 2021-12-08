@@ -1,5 +1,8 @@
 package cn.myjszl.oauth.server.config;
 
+import cn.myjszl.oauth.server.exception.OAuthServerAuthenticationEntryPoint;
+import cn.myjszl.oauth.server.exception.OAuthServerWebResponseExceptionTranslator;
+import cn.myjszl.oauth.server.filter.OAuthServerClientCredentialsTokenEndpointFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -49,6 +52,9 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 
     @Autowired
     private JwtAccessTokenConverter jwtAccessTokenConverter;
+
+    @Autowired
+    private OAuthServerAuthenticationEntryPoint authenticationEntryPoint;
 
     /**
      * 配置客户端详情，并不是所有的客户端都能接入授权服务
@@ -110,8 +116,11 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
      * 配置令牌访问的端点
      */
     @Override
+    @SuppressWarnings("ALL")
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
         endpoints
+                //设置异常WebResponseExceptionTranslator，用于处理用户名，密码错误、授权类型不正确的异常
+                .exceptionTranslator(new OAuthServerWebResponseExceptionTranslator())
                 //授权码模式所需要的authorizationCodeServices
                 .authorizationCodeServices(authorizationCodeServices())
                 //密码模式所需要的authenticationManager
@@ -127,17 +136,18 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
      */
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) {
+        //自定义ClientCredentialsTokenEndpointFilter，用于处理客户端id，密码错误的异常
+        OAuthServerClientCredentialsTokenEndpointFilter endpointFilter = new OAuthServerClientCredentialsTokenEndpointFilter(security,authenticationEntryPoint);
+        endpointFilter.afterPropertiesSet();
+        security.addTokenEndpointAuthenticationFilter(endpointFilter);
+
         security
+                .authenticationEntryPoint(authenticationEntryPoint)
                 //开启/oauth/token_key验证端口权限访问
                 .tokenKeyAccess("permitAll()")
                 //开启/oauth/check_token验证端口认证权限访问
-                .checkTokenAccess("permitAll()")
-                //表示支持 client_id 和 client_secret 做登录认证
-                .allowFormAuthenticationForClients();
+                .checkTokenAccess("permitAll()");
+                //一定不要添加allowFormAuthenticationForClients，否则自定义的OAuthServerClientCredentialsTokenEndpointFilter不生效
+//                .allowFormAuthenticationForClients();
     }
-
-
-
-
-
 }

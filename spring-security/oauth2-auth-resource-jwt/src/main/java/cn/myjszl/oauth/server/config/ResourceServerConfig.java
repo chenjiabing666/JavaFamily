@@ -1,5 +1,7 @@
 package cn.myjszl.oauth.server.config;
 
+import cn.myjszl.oauth.server.exception.OAuthResourceAuthenticationEntryPoint;
+import cn.myjszl.oauth.server.exception.RequestAccessDeniedHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -30,6 +32,12 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
     @Autowired
     private JwtAccessTokenConverter jwtAccessTokenConverter;
 
+    @Autowired
+    private RequestAccessDeniedHandler requestAccessDeniedHandler;
+
+    @Autowired
+    private OAuthResourceAuthenticationEntryPoint authenticationEntryPoint;
+
     /**
      * 令牌服务的配置
      */
@@ -50,6 +58,10 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
     public void configure(ResourceServerSecurityConfigurer resources)  {
         //配置唯一资源id
         resources.resourceId("res1")
+                //定制令牌失效的提示信息
+                .authenticationEntryPoint(authenticationEntryPoint)
+                //定制权限不足的提示信息
+                .accessDeniedHandler(requestAccessDeniedHandler)
                 //配置令牌校验服务
                 .tokenServices(tokenServices());
     }
