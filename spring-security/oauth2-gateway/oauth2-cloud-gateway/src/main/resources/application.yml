@@ -1,0 +1,45 @@
+server:
+  port: 3001
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: oauth2-cloud-gateway
+  cloud:
+    nacos:
+      ## 注册中心配置
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848
+    gateway:
+      ## 路由
+      routes:
+        ## id只要唯一即可，名称任意
+        - id: oauth2-cloud-auth-server
+          uri: lb://oauth2-cloud-auth-server
+          predicates:
+            ## Path Route Predicate Factory断言
+            - Path=/oauth/**
+        - id: oauth2-cloud-order
+          uri: lb://oauth2-cloud-order
+          predicates:
+            ## Path Route Predicate Factory断言
+            - Path=/order/**
+  redis:
+    host: 127.0.01
+    password:
+    port: 6379
+    timeout: 15000
+    jedis:
+      pool:
+        max-active: 600
+        max-idle: 300
+        max-wait: 15000
+        min-idle: 10
+oauth2:
+  cloud:
+    sys:
+      parameter:
+        ignoreUrls:
+          - /oauth/**
+

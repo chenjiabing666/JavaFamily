@@ -25,6 +25,7 @@
         <module>oauth2-auth-resource-in-memory</module>
         <module>oauth2-auth-server-jwt</module>
         <module>oauth2-auth-resource-jwt</module>
+        <module>oauth2-gateway</module>
     </modules>
 
     <dependencyManagement>
@@ -74,15 +75,6 @@
     </dependencyManagement>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
