@@ -13,9 +13,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.stream.Collectors;
 
@@ -29,12 +27,14 @@ public class JwtTokenUserDetailsService implements UserDetailsService {
     public static List<SecurityUser> users=new ArrayList<>();
     static {
         SecurityUser admin = SecurityUser.builder()
+                .userId(UUID.randomUUID().toString().replaceAll("-",""))
                 .username("admin")
                 .password(new BCryptPasswordEncoder().encode("123456"))
                 .authorities(AuthorityUtils.createAuthorityList("ROLE_user", "ROLE_admin"))
                 .build();
 
         SecurityUser user = SecurityUser.builder()
+                .userId(UUID.randomUUID().toString().replaceAll("-",""))
                 .username("user")
                 .password(new BCryptPasswordEncoder().encode("123456"))
                 .authorities(AuthorityUtils.createAuthorityList("ROLE_user"))

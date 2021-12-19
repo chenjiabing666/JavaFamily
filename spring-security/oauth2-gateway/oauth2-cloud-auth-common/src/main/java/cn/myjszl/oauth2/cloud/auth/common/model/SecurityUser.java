@@ -1,7 +1,9 @@
 package cn.myjszl.oauth2.cloud.auth.common.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -13,7 +15,12 @@ import java.util.Collection;
  */
 @Data
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class SecurityUser implements UserDetails {
+
+    private String userId;
+
     //用户名
     private String username;
 
@@ -22,15 +29,6 @@ public class SecurityUser implements UserDetails {
 
     //权限+角色集合
     private Collection<? extends GrantedAuthority> authorities;
-
-    public SecurityUser(String username, String password, Collection<? extends GrantedAuthority> authorities) {
-        this.username = username;
-        this.password = password;
-        this.authorities = authorities;
-    }
-
-    public SecurityUser(){}
-
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

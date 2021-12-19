@@ -76,9 +76,13 @@ public class GlobalAuthenticationFilter implements GlobalFilter, Ordered {
             String user_name = additionalInformation.get("user_name").toString();
             //获取用户权限
             List<String> authorities = (List<String>) additionalInformation.get("authorities");
+            //从additionalInformation取出userId
+            String userId = additionalInformation.get(TokenConstant.USER_ID).toString();
             JSONObject jsonObject=new JSONObject();
             jsonObject.put(TokenConstant.PRINCIPAL_NAME, user_name);
             jsonObject.put(TokenConstant.AUTHORITIES_NAME,authorities);
+            //封装到JSON数据中
+            jsonObject.put(TokenConstant.USER_ID, userId);
             //将解析后的token加密放入请求头中，方便下游微服务解析获取用户信息
             String base64 = Base64.encode(jsonObject.toJSONString());
             //放入请求头中

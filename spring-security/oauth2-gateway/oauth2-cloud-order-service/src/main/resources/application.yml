@@ -9,3 +9,13 @@ spring:
       discovery:
         # nacos的服务地址，nacos-server中IP地址:端口号
         server-addr: 127.0.0.1:8848
+feign:
+  client:
+    config:
+      ## default 设置的全局超时时间，指定服务名称可以设置单个服务的超时时间
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+logging:
+  level:
+    cn.myjszl.oauth2.cloud.order.feign: debug

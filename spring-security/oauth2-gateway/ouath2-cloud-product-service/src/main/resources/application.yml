@@ -1,0 +1,11 @@
+server:
+  port: 3004
+spring:
+  application:
+    name: oauth2-cloud-product
+  cloud:
+    nacos:
+      ## 注册中心配置
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848

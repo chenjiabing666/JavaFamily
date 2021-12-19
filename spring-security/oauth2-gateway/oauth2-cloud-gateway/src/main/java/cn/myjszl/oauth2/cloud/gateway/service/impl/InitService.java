@@ -21,6 +21,7 @@ public class InitService {
     public void init(){
         redisTemplate.opsForHash().put(SysConstant.OAUTH_URLS,"/order/login/info", Lists.newArrayList("ROLE_admin","ROLE_user"));
         redisTemplate.opsForHash().put(SysConstant.OAUTH_URLS,"/order/login/admin", Lists.newArrayList("ROLE_admin"));
+        redisTemplate.opsForHash().put(SysConstant.OAUTH_URLS,"/order/info", Lists.newArrayList("ROLE_admin","ROLE_user"));
     }
 
 }
