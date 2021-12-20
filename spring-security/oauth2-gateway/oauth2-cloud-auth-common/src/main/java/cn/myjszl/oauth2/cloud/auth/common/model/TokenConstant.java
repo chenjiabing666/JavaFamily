@@ -14,4 +14,8 @@ public class TokenConstant {
     public static final String AUTHORITIES_NAME="authorities";
 
     public static final String USER_ID="user_id";
+
+    public static final String JTI="jti";
+
+    public static final String EXPR="expr";
 }

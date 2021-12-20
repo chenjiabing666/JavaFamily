@@ -37,6 +37,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         //todo 允许表单登录
         http.authorizeRequests()
+                //注销的接口需要放行
+                .antMatchers("/oauth/logout").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()

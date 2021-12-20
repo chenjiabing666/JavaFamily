@@ -39,6 +39,8 @@ public class AuthenticationFilter extends OncePerRequestFilter {
             //获取用户身份信息、权限信息
             String principal = jsonObject.getString(TokenConstant.PRINCIPAL_NAME);
             String userId=jsonObject.getString(TokenConstant.USER_ID);
+            String jti = jsonObject.getString(TokenConstant.JTI);
+            Long expireIn = jsonObject.getLong(TokenConstant.EXPR);
             JSONArray tempJsonArray = jsonObject.getJSONArray(TokenConstant.AUTHORITIES_NAME);
             //权限
             String[] authorities =  tempJsonArray.toArray(new String[0]);
@@ -47,6 +49,8 @@ public class AuthenticationFilter extends OncePerRequestFilter {
             loginVal.setUserId(userId);
             loginVal.setUsername(principal);
             loginVal.setAuthorities(authorities);
+            loginVal.setJti(jti);
+            loginVal.setExpireIn(expireIn);
             //放入request的attribute中
             request.setAttribute(RequestConstant.LOGIN_VAL_ATTRIBUTE,loginVal);
         }

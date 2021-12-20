@@ -41,5 +41,5 @@ oauth2:
     sys:
       parameter:
         ignoreUrls:
-          - /oauth/**
+          - /oauth/token
 
