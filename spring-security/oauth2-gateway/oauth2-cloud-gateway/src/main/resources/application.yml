@@ -42,4 +42,5 @@ oauth2:
       parameter:
         ignoreUrls:
           - /oauth/token
+          - /oauth/authorize
 
