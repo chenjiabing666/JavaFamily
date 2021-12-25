@@ -26,6 +26,7 @@
         <module>oauth2-auth-server-jwt</module>
         <module>oauth2-auth-resource-jwt</module>
         <module>oauth2-gateway</module>
+        <module>middleware</module>
     </modules>
 
     <dependencyManagement>
@@ -71,6 +72,11 @@
                 <version>8.0.15</version>
             </dependency>
 
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>5.7.17</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
