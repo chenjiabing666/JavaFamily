@@ -1,8 +1,9 @@
-package cn.myjszl.oauth2.cloud.auth.common.service.impl;
+package cn.myjszl.oauth2.cloud.auth.server.service.impl;
 
 import cn.myjszl.oauth2.cloud.auth.common.model.SecurityUser;
 import cn.myjszl.oauth2.cloud.auth.common.utils.ApplicationUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Description;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -21,8 +22,11 @@ import java.util.stream.Collectors;
  * @author 公众号：码猿技术专栏
  * 从数据库中根据用户名查询用户的详细信息，包括权限
  * 数据库设计：角色、用户、权限、角色<->权限、用户<->角色 总共五张表，遵循RBAC设计
+ *
+ * <br>集成RBAC之后，该类废弃，详情看JwtTokenUserDetailsServiceV2</br>
  */
 @Service
+@Deprecated
 public class JwtTokenUserDetailsService implements UserDetailsService {
     public static List<SecurityUser> users=new ArrayList<>();
     static {

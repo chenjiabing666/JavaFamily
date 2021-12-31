@@ -9,12 +9,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.ReactiveAuthenticationManager;
+import org.springframework.security.authorization.ReactiveAuthorizationManager;
 import org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity;
 import org.springframework.security.config.web.server.SecurityWebFiltersOrder;
 import org.springframework.security.config.web.server.ServerHttpSecurity;
 import org.springframework.security.oauth2.server.resource.web.server.ServerBearerTokenAuthenticationConverter;
 import org.springframework.security.web.server.SecurityWebFilterChain;
 import org.springframework.security.web.server.authentication.AuthenticationWebFilter;
+import org.springframework.security.web.server.authorization.AuthorizationContext;
 
 /**
  * @author 公众号：码猿技术专栏
@@ -29,7 +31,7 @@ public class SecurityConfig {
      * JWT的鉴权管理器
      */
     @Autowired
-    private JwtAccessManager accessManager;
+    private ReactiveAuthorizationManager<AuthorizationContext> accessManager;
 
     /**
      * token过期的异常处理

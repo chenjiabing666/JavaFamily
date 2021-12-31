@@ -11,8 +11,10 @@ import javax.annotation.PostConstruct;
 /**
  * 用于初始化uir的权限到redis中
  * TODO 实际开发中需要自己维护，此处只是为了演示方便
+ * 详情见 cn.myjszl.oauth2.cloud.auth.server.service.impl.LoadRolePermissionService
  */
-@Service
+//@Service
+@Deprecated
 public class InitService {
     @Autowired
     private RedisTemplate<String,Object> redisTemplate;

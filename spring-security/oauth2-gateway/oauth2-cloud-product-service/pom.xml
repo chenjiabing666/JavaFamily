@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ouath2-cloud-product-service</artifactId>
+    <artifactId>oauth2-cloud-product-service</artifactId>
 
     <dependencies>
         <!--nacos注册中心-->

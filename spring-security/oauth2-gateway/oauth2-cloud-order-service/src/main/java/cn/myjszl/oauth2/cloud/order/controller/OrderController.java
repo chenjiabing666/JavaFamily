@@ -48,7 +48,7 @@ public class OrderController {
         return OauthUtils.getCurrentUser();
     }
 
-    @PostMapping("/info")
+    @RequestMapping("/info")
     public ResultMsg info(@RequestParam(value = "orderId") Long orderId){
         ResultMsg resultMsg = productFeignService.listByOrderId(orderId);
         Order order = Order.builder()

@@ -21,9 +21,11 @@ import java.util.List;
  * 鉴权管理器 用于认证成功之后对用户的权限进行鉴权
  * TODO 此处的逻辑：从redis中获取对应的uri的权限，与当前用户的token的携带的权限进行对比，如果包含则鉴权成功
  *      企业中可能有不同的处理逻辑，可以根据业务需求更改鉴权的逻辑
+ *
  */
 @Slf4j
 @Component
+@Deprecated
 public class JwtAccessManager implements ReactiveAuthorizationManager<AuthorizationContext> {
 
     @Autowired

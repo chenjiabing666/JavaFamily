@@ -14,7 +14,7 @@
         <module>oauth2-cloud-auth-server</module>
         <module>oauth2-cloud-order-service</module>
         <module>oauth2-cloud-auth-common</module>
-        <module>ouath2-cloud-product-service</module>
+        <module>oauth2-cloud-product-service</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 <!--    OAuth2.0整合spring cloud gateway-->
