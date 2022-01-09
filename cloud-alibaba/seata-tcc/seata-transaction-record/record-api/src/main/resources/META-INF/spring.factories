@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.myjszl.seata.tcc.record.api.config.AutoConfig
+
