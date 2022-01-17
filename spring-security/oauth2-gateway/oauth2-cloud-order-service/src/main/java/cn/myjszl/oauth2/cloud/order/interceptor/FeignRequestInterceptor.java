@@ -3,21 +3,25 @@ package cn.myjszl.oauth2.cloud.order.interceptor;
 import cn.myjszl.oauth2.cloud.auth.common.utils.RequestContextUtils;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Enumeration;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-@Configuration
-@Slf4j
+/**
+ * @author 公众号：码猿技术专栏
+ * 用于实现令牌信息中继
+ */
+@Component
 public class FeignRequestInterceptor implements RequestInterceptor {
     @Override
     public void apply(RequestTemplate template) {
         HttpServletRequest httpServletRequest = RequestContextUtils.getRequest();
+        //获取RequestContextHolder中的信息
         Map<String, String> headers = getHeaders(httpServletRequest);
+        //放入feign的RequestTemplate中
         for (Map.Entry<String, String> entry : headers.entrySet()) {
             template.header(entry.getKey(), entry.getValue());
         }
