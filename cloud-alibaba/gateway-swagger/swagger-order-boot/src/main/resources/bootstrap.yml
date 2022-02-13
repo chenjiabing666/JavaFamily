@@ -1,0 +1,15 @@
+spring:
+  application:
+    ## 指定服务名称，在nacos中的名字
+    name: swagger-order-boot
+  cloud:
+    nacos:
+      ## 注册中心配置
+      discovery:
+        # nacos的服务地址，nacos-server中IP地址:端口号
+        server-addr: 127.0.0.1:8848
+  profiles:
+    active: dev
+server:
+  servlet:
+    context-path: /${spring.application.name}

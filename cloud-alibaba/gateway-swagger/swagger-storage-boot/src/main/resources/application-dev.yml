@@ -1,0 +1,16 @@
+server:
+  port: 3003
+spring:
+  swagger:
+    basePackage: cn.myjszl.storage.boot.controller
+    author:
+      name: 不才陈某
+      email: xxxx@qq.com
+      url: http://chenjiabing666.github.io
+    apiInfo:
+      title: 库存模块
+      description: 库存相关的接口
+      version: 1.0
+      termsOfServiceUrl: http://ip:${server.port}/${spring.application.name}
+      license: license
+      licenseUrl: licenseUrl

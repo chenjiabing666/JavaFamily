@@ -32,6 +32,7 @@
         <module>sleuth-order9033</module>
         <module>skywalking</module>
         <module>seata-tcc</module>
+        <module>gateway-swagger</module>
     </modules>
 
     <properties>
@@ -125,6 +126,26 @@
                 <artifactId>guava</artifactId>
                 <version>31.0.1-jre</version>
             </dependency>
+
+            <!--swagger-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-boot-starter</artifactId>
+                <version>3.0.0</version>
+            </dependency>
+
+            <!--swagger-ui  这里是用了一个好看一点ui界面-->
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>swagger-bootstrap-ui</artifactId>
+                <version>1.9.6</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.myjszl</groupId>
+                <artifactId>swagger-starter</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

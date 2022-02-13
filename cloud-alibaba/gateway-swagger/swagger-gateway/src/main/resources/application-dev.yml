@@ -1,0 +1,18 @@
+server:
+  port: 3001
+spring:
+  cloud:
+    gateway:
+      ## 路由
+      routes:
+        ## id只要唯一即可，名称任意
+        - id: swagger-order-boot
+          uri: lb://swagger-order-boot
+          predicates:
+            ## Path Route Predicate Factory断言
+            - Path=/swagger-order-boot/**
+        - id: swagger-storage-boot
+          uri: lb://swagger-storage-boot
+          predicates:
+            ## Path Route Predicate Factory断言
+            - Path=/swagger-storage-boot/**
