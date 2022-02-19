@@ -8,11 +8,24 @@
 ![](https://img.shields.io/badge/Spring%20Cloud%20Alibaba-2.2.5.RELEASE-yellowgreen)
 ![](https://img.shields.io/badge/Spring%20Cloud-Hoxton.SR3-yellowgreen)
 
-不才陈某的公众号的专栏文章。内容涵盖Java后端技术、Spring Boot、微服务架构、系统安全、前端、系统监控等相关的研究与知识分享。欢迎star
+不才陈某的公众号的专栏文章。内容涵盖**Java后端技术**、**Spring Boot**、**微服务架构**、**系统安全**、**前端**、系统监控等相关的研究与知识分享。欢迎**star**
 
 以下内容全部出自公众号**码猿技术专栏**，欢迎关注。
 
 ![](https://gitee.com/chenjiabing666/BlogImage/raw/master/@Async%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%BB%BA%E8%AE%AE%E4%BD%BF%E7%94%A8/16.jpg)
+
+针对后端技术陈某做出了以下分类，每个分类都有完整的入门到进阶的教程，如下：
+
+- **Spring Cloud** ：[点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=2042874937312346114#wechat_redirect)
+- **Spring Boot** ：[点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=1532834475389288449#wechat_redirect)
+- **Mybatis** ：[点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=1500819225232343046#wechat_redirect)
+- **MySQL** ：[点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=1493292455318847492#wechat_redirect)
+- **Redis** ：[点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=1617008442685063168#wechat_redirect)
+- **架构** ：[点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=2236979920851763200#wechat_redirect)
+- **Spring Security** : [点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=2151150065472569352#wechat_redirect)
+- **后端开发资源** ：[点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=1521052399702966274#wechat_redirect)
+- **消息队列** ：[点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=1963294855594311682#wechat_redirect)
+- **面试题** ： [点击前往](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU3MDAzNDg1MA==&action=getalbum&album_id=1834402129164173313#wechat_redirect)
 
 ## Mybatis 进阶
 
@@ -101,10 +114,15 @@
 62. [SpringBoot巧用 @Async 提升API接口并发能力](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497542&idx=1&sn=cbc21c66d266ddd46b87642536981811&chksm=fcf7288bcb80a19d5a93b9dc8ca0fd112e87d0f3548afbe2a650f458b9f8b0d13cae58559b93&token=1608740670&lang=zh_CN#rd)
 63. [聊聊spring事务失效的12种场景，太坑了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498081&idx=1&sn=002c27082f7d56d8bdc67341ada2d96a&chksm=fcf726accb80afbad6650cf755b46fe1b83e39505dfc260cfee0814d8035781852db5f1e33d7&token=1608740670&lang=zh_CN#rd)
 64. [SpringBoot+WebSocket 实时监控异常](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498277&idx=1&sn=e2f2d9d33d674682da0eb6f9869a4921&chksm=fcf725e8cb80acfef817f9d42c9cb97727b1a021cd7665aebaa3f08570b22797875499499b57&token=1608740670&lang=zh_CN#rd)
-64. [实战！Spring Boot Security+JWT前后端分离架构登录认证！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502546&idx=1&sn=bfb6fd9d96d8c5bf107a4981ba5e1547&chksm=fcf7151fcb809c09b7ae29de8c0af0d00976539a46ee5f9bf583a6a7b196ea82f26ce98fd982&token=1144087588&lang=zh_CN#rd)
-64. [实战！SpringBoot+MDC实现全链路调用日志跟踪~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502973&idx=1&sn=29f9905812a4ec38ec48f71df4acde63&chksm=fcf713b0cb809aa6f24d8a91b3d8bf77d63c656d114dc4294fcbeae81e564e62da53fee06b08&token=1144087588&lang=zh_CN#rd)
-64. [Spring Boot 2.6.0 发布！一大波新特性，禁止了循环依赖，还有哪些更新？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503493&idx=1&sn=be33b06057e80ab11212b5e2eb1d5d09&chksm=fcf71148cb80985e6039687cab14ff335aeab468af5b470dc9cb2492bace9d0a1369c08babc5&token=1144087588&lang=zh_CN#rd)
-64. [实战！Spring Boot 整合 阿里开源中间件 Canal 实现数据增量同步！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503534&idx=1&sn=415d5031e125d9034df1da5aa61623aa&chksm=fcf71163cb809875a3df006f24991e5a6d657d1740a62955c9e3f0423cc7863bc652bd3c9d7f&token=1144087588&lang=zh_CN#rd)
+65. [实战！Spring Boot Security+JWT前后端分离架构登录认证！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502546&idx=1&sn=bfb6fd9d96d8c5bf107a4981ba5e1547&chksm=fcf7151fcb809c09b7ae29de8c0af0d00976539a46ee5f9bf583a6a7b196ea82f26ce98fd982&token=1144087588&lang=zh_CN#rd)
+66. [实战！SpringBoot+MDC实现全链路调用日志跟踪~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502973&idx=1&sn=29f9905812a4ec38ec48f71df4acde63&chksm=fcf713b0cb809aa6f24d8a91b3d8bf77d63c656d114dc4294fcbeae81e564e62da53fee06b08&token=1144087588&lang=zh_CN#rd)
+67. [Spring Boot 2.6.0 发布！一大波新特性，禁止了循环依赖，还有哪些更新？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503493&idx=1&sn=be33b06057e80ab11212b5e2eb1d5d09&chksm=fcf71148cb80985e6039687cab14ff335aeab468af5b470dc9cb2492bace9d0a1369c08babc5&token=1144087588&lang=zh_CN#rd)
+68. [实战！Spring Boot 整合 阿里开源中间件 Canal 实现数据增量同步！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503534&idx=1&sn=415d5031e125d9034df1da5aa61623aa&chksm=fcf71163cb809875a3df006f24991e5a6d657d1740a62955c9e3f0423cc7863bc652bd3c9d7f&token=1144087588&lang=zh_CN#rd)
+69. [Spring Boot 如何解决多个定时任务阻塞问题？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504358&idx=1&sn=0ab6197320eb0ae4a700ed5a8831f853&chksm=fcf70e2bcb80873dc88c5c33ea33447e4ff7c75c0287247cd30d4b309d8db45e453f9afe10ef&token=1912891806&lang=zh_CN#rd)
+70. [Spring Boot启动时如何对配置文件进行校验？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504406&idx=1&sn=d695d6f835aac4c7ee061568d94e78f6&chksm=fcf70ddbcb8084cd717323ac9d9da62bde04ffbdf3a20697b939f9ea9ce8e34056a41efd7d80&token=1912891806&lang=zh_CN#rd)
+71. [Spring Boot 进阶 小册 V2.0 版本正式来袭，持续更新！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504471&idx=1&sn=f4cfd711899bb4b3a77e707d6ba319cb&chksm=fcf70d9acb80848c52beb6287bc11a5fe06f160f6fda8e60c5d744c98ba982d2b0eb558a19eb&token=1912891806&lang=zh_CN#rd)
+72. [Spring Boot 3.0.0 发布第一个里程碑版本M1，Java 17 成为未来主流版本？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504890&idx=1&sn=105d0d734fc33284d1ad87c4f4b28497&chksm=fcf70c37cb8085214043dd6884d823c50e117b9b8a0d42606ee15445e3dd8d75f37b1d8ff8d3&token=1912891806&lang=zh_CN#rd)
+73. [大文件上传：秒传、断点续传、分片上传](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505123&idx=1&sn=97fa6b5794b828e330ca0ddf4b6df8f5&chksm=fcf70b2ecb8082381734d764f229e6a71d86f22448ac497d9de76b92d8cd8038da3f1a3fa5f9&token=1912891806&lang=zh_CN#rd)
 
 
 
@@ -126,6 +144,12 @@
 14. [OAuth2.0实战！玩转认证、资源服务异常自定义这些骚操作！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502905&idx=1&sn=32ba3ae4e0a4097d238f64719c88b7f7&chksm=fcf713f4cb809ae2ccb706b8e9f8184739d3c7b97d388467bfe9ff31a8c15768b6de05054f08&token=1144087588&lang=zh_CN#rd)
 15. [实战干货！Spring Cloud Gateway 整合 OAuth2.0 实现分布式统一认证授权！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503249&idx=1&sn=b33ae3ff70a08b17ee0779d6ccb30b53&chksm=fcf7125ccb809b4aa4985da09e620e06c606754e6a72681c93dcc88bdc9aa7ba0cb64f52dbc3&token=1144087588&lang=zh_CN#rd)
 16. [字节面试这样问：跨库多表存在大量数据依赖问题有哪些解决方案？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503263&idx=1&sn=edc475e36127792e35112c4746e53d37&chksm=fcf71252cb809b44d7ae246e9503e1d6b91b29965c0cd7ebfc7da9c1a098fe186cd977736c40&token=1144087588&lang=zh_CN#rd)
+16. [实战！退出登录时如何借助外力使JWT令牌失效？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504322&idx=1&sn=4b0a2488a4edcb025d0694604e86f840&chksm=fcf70e0fcb808719b98a65891bc08e9490db09f07debd4521052978a319ab052f8a72b93c1a7&token=1912891806&lang=zh_CN#rd)
+16. [实战！Spring Cloud Gateway集成 RBAC 权限模型实现动态权限控制！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504442&idx=1&sn=48c1dd73c038e3d936db4e5134f7bbc2&chksm=fcf70df7cb8084e1556cac092fdb68ffd6503cbb287485ef76e9941611d134258c38d03e890a&token=1912891806&lang=zh_CN#rd)
+16. [实战！阿里神器 Seata 实现 TCC模式 解决分布式事务，真香！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504650&idx=1&sn=d7b3df7bcb8483a503749c863e0e0217&chksm=fcf70cc7cb8085d11b46fd08613e6749ee5be6d25183f0f6c2561506e34954564cfe2d7fd46a&token=1912891806&lang=zh_CN#rd)
+16. [实战！openFeign如何实现全链路JWT令牌信息不丢失？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504759&idx=1&sn=e50d5b44eb64debf43c6d644f55c68b5&chksm=fcf70cbacb8085aca5cd88688973ed45cd8bd9a4642ae97727f3684b431f80316e5c073d6946&token=1912891806&lang=zh_CN#rd)
+21. [微服务下蓝绿发布、滚动发布、灰度发布等方案，必须懂！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505342&idx=1&sn=3e701ee24e1a87ce3b438d840aa1c356&chksm=fcf70a73cb80836547debd445832ae757e0b786ee71fc9b4229025d07a1eebd3ef219a4c2438&token=1912891806&lang=zh_CN#rd)
+22. [微服务如何聚合 API 文档？这波秀~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505642&idx=1&sn=6e07461626c690dfeab4704941f1e55d&chksm=fcf70927cb8080312ea2a942d99e27ea70b4466f36fdf115bf837a5226011048f50175b347ee&token=1912891806&lang=zh_CN#rd)
 
 
 
@@ -179,6 +203,8 @@
 45. [别再用swagger了，给你推荐几个在线文档生成神器！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498236&idx=1&sn=ae605d55c8eb84eaec65eaf28be05b98&chksm=fcf72631cb80af271bd67ac3a2c6c7a1d785f8b175616f2244cb5b30cd62f02feec736c90b27&token=1608740670&lang=zh_CN#rd)
 45. [IntelliJ IDEA这样配置，代码效率嗖嗖的~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247499711&idx=1&sn=f3797244063f7c37b2da1f8246ce5ef1&chksm=fcf72072cb80a964973881b3adaac24ef1826dd6f29e2606b0f0721d3e63ecc79bb9408ea1d0&token=1144087588&lang=zh_CN#rd)
 45. [一款不错的性能调优利器 — 火焰图，你用过吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502556&idx=1&sn=9fc42ef4fe30bc00d609fbdecca31c0a&chksm=fcf71511cb809c076b3361d3d5720cae3b523adb8764cd630f3bd92cbf00c0536d8c0a399764&token=1144087588&lang=zh_CN#rd)
+45. [更快的Maven来了？听说速度提升了8倍，反正我是不信！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504344&idx=1&sn=9a9c3ea430ea5634651ec85e5d977ec3&chksm=fcf70e15cb80870380007a8285ec19fa1ca5904a48601c9c860f45e5fd049bdd2631e0172e85&token=1912891806&lang=zh_CN#rd)
+45. [SSH 远程神器之 MobaXterm，替代Xshell~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505242&idx=1&sn=65dd1aee406d6c7d93b779a4d7d0a907&chksm=fcf70a97cb808381ee04e861b358d99fec6c5c490d34a656799b87421e9b36cae783e035c023&token=1912891806&lang=zh_CN#rd)
 
 
 
@@ -204,67 +230,71 @@
 17. [两万字长文，彻底搞懂Kafka](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494584&idx=2&sn=1153c9fe76c1bdd4ec12db7effc4d8d8&chksm=fcf73475cb80bd63bab1daa413ce2bdbbd1426322ec37dc265f0a140e032c7ac7fd956e5627f&token=1567630675&lang=zh_CN#rd)
 18. [网易终面：4款主流分布式MQ消息队列如何技术选型？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497650&idx=1&sn=7154f5a3910b1828c5f27905d8b91fbf&chksm=fcf7287fcb80a169e1051002e270b61d49fed80a759eff35e996ebb883ecc981dccb6e205d45&token=1608740670&lang=zh_CN#rd)
 19. [字节二面：引入RabbitMQ后，你如何保证全链路数据100%不丢失？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247501141&idx=1&sn=39d8b19d66524d52d09e397f1355bd6f&chksm=fcf71a98cb80938e8d0db492b4fffe76b5f31b4ef0b843b409d1233e9a4a511af3034c42b07e&token=1144087588&lang=zh_CN#rd)
+19. [字节一面：MQ 幂等、去重 有哪些通用的解决方案？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504880&idx=1&sn=5ca44d91e982babeb0cd94e878812526&chksm=fcf70c3dcb80852bd2c05c9667edb7833ba59a0f10739ce394d9d427c4a24bf5317b728ee3c2&token=1912891806&lang=zh_CN#rd)
+19. [敢在简历上写消息队列，这几个问题必须拿下！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505258&idx=1&sn=5e3063ba529c2c77c35187a3abde48cd&chksm=fcf70aa7cb8083b17babc5e0669e6cf0b45a5aeb55f7a7862acdc464a7fbadc11cec913443ef&token=1912891806&lang=zh_CN#rd)
 
 
 
-## 数据库
+## MySQL
+
+1. [Mysql探索之Explain执行计划详解](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483728&idx=1&sn=f939a54d64192fd215e8c7a519e18c48&chksm=fcf4de9dcb83578bb0193447ad1cac2d6efc8aff6f7080768c4c3baaa81c394ae6a356a070e8&token=890958715&lang=zh_CN#rd)
+2. [面试官：索引是什么，如何实现？懵逼~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483797&idx=1&sn=115e9ece81a805ece3b8c0edba3fc4cf&chksm=fcf4de58cb83574ee3e975fe8d7f6947453ccb283da21d81943307b428b0401f0662edbe3975&token=890958715&lang=zh_CN#rd)
+3. [一文带你你搞懂索引如何优化！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483838&idx=1&sn=8136948deed57212f1dae0e20a5ecf50&chksm=fcf4de73cb835765ff6ad340b7a7b216dfea4c4e46c4cc94a41434867f40b64e60956f5b21a0&token=890958715&lang=zh_CN#rd)
+4. [吐血总结：MySQL性能如何优化？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483871&idx=1&sn=7ad822fe810f6716f59bf997b08faa71&chksm=fcf4de12cb83570426729d7f5ce1c6be972331441d2a14038be8f3d9e68d721078faef411f7a&token=890958715&lang=zh_CN#rd)
+5. [阿里三面：为什么使用了索引，查询还是慢？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486769&idx=1&sn=4adb1b9de9583bb900d54a5bb1ef5c96&chksm=fcf4d2fccb835bea890d857607d884be9a266b3e6ebb8c16de073c54bd45e982c30267e3f2d6&token=419876322&lang=zh_CN#rd)
+6. [面试三连问：你这个数据量多大？分库分表怎么做？用的哪个组件？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486653&idx=1&sn=34e66d4d1541b3a4f5da34787d2f1a58&chksm=fcf4d370cb835a667d1bf86cced63cb1179c53acd9b30ba2f117d6d1260d0c4743794148bf08&token=419876322&lang=zh_CN#rd)
+7. [1.3 万亿条数据查询，如何做到毫秒级响应？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487044&idx=1&sn=c9cb656c3cdf4d71c07e94eee9eb5a8c&chksm=fcf4d189cb83589fc10be476397530b7dccd1e193ad168ae0d54c46d7edc161d06f87ab1c123&token=741646917&lang=zh_CN#rd)
+8. [这篇 MySQL 索引和 B+Tree 讲的太通俗易懂！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487099&idx=1&sn=dfa5d6cae51d90d9b2e0d9422dca405b&chksm=fcf4d1b6cb8358a0a507406888e91183797834b8abec8f5ba8ed9df9fa60c0b2f7935b18d3eb&token=741646917&lang=zh_CN#rd)
+9. [SQL优化最干货总结-MySQL(2020最新版](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487121&idx=1&sn=7a1a6d5d22cdb411fc75c5694016659c&chksm=fcf4d15ccb83584a5588b58426fc5b881c58f9c96382afa7487621c25123e00f40a3db44a065&token=741646917&lang=zh_CN#rd)
+10. [SQL：事务你都阳性了，赶紧隔离吧~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488273&idx=2&sn=b9530bd2d4eff876c39e640e2be5b8a2&chksm=fcf4ccdccb8345ca4f1127fecdb510aa0c641a61685f68ad8fef550512a2a39728c642a317ac&token=1097290083&lang=zh_CN#rd)
+11. [强大的MySQL 官方压测神器，简单、易用！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488291&idx=2&sn=4180f31c9dead3532ab28c548f3d3d40&chksm=fcf4cceecb8345f88d2796c35a9e184911e403a7b8f2341870d262d05d93c3f0a1e93c1e2547&token=1559350210&lang=zh_CN#rd)
+12. [SQL优化极简法则，还有谁不会？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488347&idx=1&sn=83b05b72eeba6461805ea0389657886f&chksm=fcf4cc96cb834580fe3cabf06418f13cf435948dffbc73e6d80e0e13b57191fb1f44384550ac&token=1559350210&lang=zh_CN#rd)
+13. [CTO要我把这份MySQL规范贴在工位上！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488530&idx=1&sn=005204d3f170c8f8ab6d38a92684fc52&chksm=fcf4cbdfcb8342c9daf828d639fb62c7311439de2406eb8370cba2dd6b5d70d432afa61c8ca1&token=1559350210&lang=zh_CN#rd)
+14. [一次线上Mysql 索引优化的思考，奇怪的知识又增加了~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488741&idx=1&sn=57493d6664f56aa97b9ffb4071b72f3c&chksm=fcf4cb28cb83423ed6792ea4093aa0f7b691f16be0605509e335b157c357c279df08f0659368&token=206728157&lang=zh_CN#rd)
+15. [涨姿势了！delete后加 limit是个好习惯么？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488809&idx=2&sn=d6bd41d9613254b62aa701ac9ec363e3&chksm=fcf4cae4cb8343f27d1a302811ec3a608c6a758cb07ac5d9d24f5b6421ecff08b860b170af2c&token=906317358&lang=zh_CN#rd)
+16. [阿里规定超过三张表禁止join，Why？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489775&idx=2&sn=75052467ce4a3d448765929e562149a1&chksm=fcf4c722cb834e349c1dd113f0c15f7d97f829f43006b546eff66ed1ba1c004a3b75d91bd0cf&token=747593269&lang=zh_CN#rd)
+17. [52条SQL语句性能优化策略，建议收藏](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489849&idx=1&sn=e5814fa0de497a2ad75da1d3097b7bfb&chksm=fcf4c6f4cb834fe2c4613af219d504b29557571bc7c941f073df5a4c4f443d5eee12c22d4c96&token=747593269&lang=zh_CN#rd)
+18. [你写的 SQL 为啥执行这么慢 ？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489873&idx=1&sn=ba5a25926299f270b0b38dcb2c6f67be&chksm=fcf4c69ccb834f8a45027e9949b6ef47d52411c9aae86f1614afc56063de85c39acf5f5927d6&token=747593269&lang=zh_CN#rd)
+19. [血一般的教训，请慎用insert into select](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490169&idx=1&sn=aa72d289cf54c448dbd72645fcc03e50&chksm=fcf4c5b4cb834ca25de2716f807f1724febbff657473ec9f11b16dbc42389b1a7dbd4fd51028&token=1707245491&lang=zh_CN#rd)
+20. [一次深夜优化MySQL亿级数据分页的奇妙经历](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490264&idx=1&sn=07a6a8a6ae1bdc4e5b9c8cbba380b738&chksm=fcf4c515cb834c03f6912fa6305b45aee3777d9cf7ce1ca7d0daf425bb990d5a891a129d9f42&token=1707245491&lang=zh_CN#rd)
+21. [面试官：MySQL 唯一索引为什么会导致死锁？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490271&idx=1&sn=f5b044a9f92a6c6b9606532b11cd9d99&chksm=fcf4c512cb834c041c5b804ff7f4b0e54f3e6766be5fef1b8741bb435af80d8a1dce6379704f&token=1707245491&lang=zh_CN#rd)
+22. [场景+案例分析，SQL优化这么做就对了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490296&idx=2&sn=1dc9a145147da8f04d88ef95f3b81a42&chksm=fcf4c535cb834c23969d7856556416689750f80964e2d6f0e9db2abf2918748b7ba7793ee9c4&token=1707245491&lang=zh_CN#rd)
+23. [分库分表：如何做到永不迁移数据和避免热点？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490319&idx=2&sn=90aee955f20ab6f4a17bb5475f2223fe&chksm=fcf4c4c2cb834dd40f1813d8e0eb134992f68ac8974a263137bfea4e11fd637edc034714a5a1&token=1707245491&lang=zh_CN#rd)
+24. [干货篇：深入剖析 MySQL 索引和 SQL 调优实战](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490361&idx=1&sn=70c3c697b99362fe8542bc8aa83e1263&chksm=fcf4c4f4cb834de2564471f63652e83e1a866e328308e1dbd751a9ce4e7f9e062de1e9e31bf8&token=1707245491&lang=zh_CN#rd)
+25. [阿里终面：索引失效的场景有哪些？索引何时会失效？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490386&idx=1&sn=f85eeec933621b60e417edf2a13d85c2&chksm=fcf4c49fcb834d89c3dc54b166990086adfec1b22fae4fc2bf487db30bf9355e36b313cac3e5&token=1707245491&lang=zh_CN#rd)
+26. [MySQL 的 Binlog 日志处理的4款工具对比](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491860&idx=1&sn=82b65a3769d7ee267e02caa7aae6981f&chksm=fcf73ed9cb80b7cfc8d7c65311aced0ae90a10251ea40639bedca85c4f7afe9d4ac400462392&token=909257120&lang=zh_CN#rd)
+27. [同事升级了MySQL驱动8.0，导致应用大量超时](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491878&idx=1&sn=db5aa9b46e390312002a957c735f035d&chksm=fcf73eebcb80b7fdc4dfba689280cd1b10de273f37677fb4911c83b245cc39bc4de186d48221&token=909257120&lang=zh_CN#rd)
+28. [如果mysql磁盘满了，会发生什么？还真被我遇到了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493011&idx=2&sn=b902595e07faca908ea318511ad2c9cb&chksm=fcf73a5ecb80b348e2433e26ab7c438401104214ee1f9ddfe0a7e87ab9841c4b687e569cdc1c&token=933200230&lang=zh_CN#rd)
+29. [DBA整理的万字详解MySQL性能优化，值得收藏！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493961&idx=2&sn=7461406cc05a3a1c412c054643f45520&chksm=fcf73684cb80bf924ac5426fe27bc5f5a595e04c6fccd1e279959aa0c616af1dc461a80b8519&token=1272468938&lang=zh_CN#rd)
+30. [精心为你准备的最全的20道Mysql面试题](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495678&idx=1&sn=4f410323f08cb6d968fdd96e7dd19433&chksm=fcf73033cb80b925c62f88b17f8ecbaf19d95fe6f010e2b6e567008188cbe6183ab0394a36e2&token=1511514983&lang=zh_CN#rd)
+31. [很高兴，终于踩到了慢查询的坑了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497162&idx=1&sn=acf3faf7b74a415c2dcc801a22ce9fbd&chksm=fcf72a07cb80a3118ea2331431f169af1ff2dcfb5177c50eba5eea54718f526ca338ebbcb6dc&token=1608740670&lang=zh_CN#rd)
+32. [来，今天手把手教你调优！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497380&idx=1&sn=83c2ce6a71485c64140bbee4188f4161&chksm=fcf72969cb80a07fa5eef462ae48d126bd29112c99a1e8774cb7cf8e599531cf7a98b3071422&token=1608740670&lang=zh_CN#rd)
+
+
+## Redis
 
 1. [师兄，为什么删除数据后，Redis内存占用依然很高？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486534&idx=1&sn=5e2d987fea438284e2d75b68dd55da7f&chksm=fcf4d38bcb835a9d17908215ee7702d1dc67c36b59f51be99011007fb0b44031d1a17dd4e875&token=890958715&lang=zh_CN#rd)
 2. [单线程的Redis有哪些 "慢" 动作？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486108&idx=1&sn=0dde4b9908c226f1d54afb3adaaa0b41&chksm=fcf4d551cb835c47fd5e27927b746c61c5e06f6e0b283d722ecdf7f30f63e9c31b90a2d0681f&scene=178&cur_album_id=1617008442685063168#rd)
 3. [宕机了，Redis数据丢了怎么办？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486180&idx=1&sn=771d80a7197f1c8fd4eddc6b5b0da2cc&chksm=fcf4d529cb835c3f92ae1437d515fce978cd331733f7a4a5816bfa6ae725ebf6826e6fd8c0f5&scene=178&cur_album_id=1617008442685063168#rd)
 4. [给你一个亿的keys，Redis如何统计？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486429&idx=1&sn=adfd270b5f4663b836b65de5603bcd0e&chksm=fcf4d410cb835d068eaa08dcbae99afada0977bda3a439d72139119caec2f7651ad2787f1aa5&scene=178&cur_album_id=1617008442685063168#rd)
 5. [运维和开发慌了，Redis突然 "慢" 了，到底谁背锅？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486544&idx=1&sn=7632120bf9516dad441a03e23b3e35ab&chksm=fcf4d39dcb835a8be3d0893bcbf6ed91393d50ffeb84314697e636a60422895fb1d2a5c74ebc&scene=178&cur_album_id=1617008442685063168#rd)
-6. [Mysql探索之Explain执行计划详解](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483728&idx=1&sn=f939a54d64192fd215e8c7a519e18c48&chksm=fcf4de9dcb83578bb0193447ad1cac2d6efc8aff6f7080768c4c3baaa81c394ae6a356a070e8&token=890958715&lang=zh_CN#rd)
-7. [面试官：索引是什么，如何实现？懵逼~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483797&idx=1&sn=115e9ece81a805ece3b8c0edba3fc4cf&chksm=fcf4de58cb83574ee3e975fe8d7f6947453ccb283da21d81943307b428b0401f0662edbe3975&token=890958715&lang=zh_CN#rd)
-8. [一文带你你搞懂索引如何优化！！！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483838&idx=1&sn=8136948deed57212f1dae0e20a5ecf50&chksm=fcf4de73cb835765ff6ad340b7a7b216dfea4c4e46c4cc94a41434867f40b64e60956f5b21a0&token=890958715&lang=zh_CN#rd)
-9. [吐血总结：MySQL性能如何优化？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247483871&idx=1&sn=7ad822fe810f6716f59bf997b08faa71&chksm=fcf4de12cb83570426729d7f5ce1c6be972331441d2a14038be8f3d9e68d721078faef411f7a&token=890958715&lang=zh_CN#rd)
-10. [首长，Redis性能优化十三条军规立好了，请过目~](https://mp.weixin.qq.com/s?__biz=MzIxMDQwODMzNg==&mid=2247484183&idx=1&sn=81564a4f6ffed07cbcc080960929a72d&chksm=976445e8a013ccfe6c90b1475651158b3f677f537d70856df02c80c7d8d20aab1d73a5ac4c56&token=342810233&lang=zh_CN#rd)
-11. [阿里三面：为什么使用了索引，查询还是慢？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486769&idx=1&sn=4adb1b9de9583bb900d54a5bb1ef5c96&chksm=fcf4d2fccb835bea890d857607d884be9a266b3e6ebb8c16de073c54bd45e982c30267e3f2d6&token=419876322&lang=zh_CN#rd)
-12. [面试三连问：你这个数据量多大？分库分表怎么做？用的哪个组件？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486653&idx=1&sn=34e66d4d1541b3a4f5da34787d2f1a58&chksm=fcf4d370cb835a667d1bf86cced63cb1179c53acd9b30ba2f117d6d1260d0c4743794148bf08&token=419876322&lang=zh_CN#rd)
-13. [1.3 万亿条数据查询，如何做到毫秒级响应？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487044&idx=1&sn=c9cb656c3cdf4d71c07e94eee9eb5a8c&chksm=fcf4d189cb83589fc10be476397530b7dccd1e193ad168ae0d54c46d7edc161d06f87ab1c123&token=741646917&lang=zh_CN#rd)
-14. [这篇 MySQL 索引和 B+Tree 讲的太通俗易懂！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487099&idx=1&sn=dfa5d6cae51d90d9b2e0d9422dca405b&chksm=fcf4d1b6cb8358a0a507406888e91183797834b8abec8f5ba8ed9df9fa60c0b2f7935b18d3eb&token=741646917&lang=zh_CN#rd)
-15. [SQL优化最干货总结-MySQL(2020最新版](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247487121&idx=1&sn=7a1a6d5d22cdb411fc75c5694016659c&chksm=fcf4d15ccb83584a5588b58426fc5b881c58f9c96382afa7487621c25123e00f40a3db44a065&token=741646917&lang=zh_CN#rd)
-16. [SQL：事务你都阳性了，赶紧隔离吧~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488273&idx=2&sn=b9530bd2d4eff876c39e640e2be5b8a2&chksm=fcf4ccdccb8345ca4f1127fecdb510aa0c641a61685f68ad8fef550512a2a39728c642a317ac&token=1097290083&lang=zh_CN#rd)
-17. [强大的MySQL 官方压测神器，简单、易用！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488291&idx=2&sn=4180f31c9dead3532ab28c548f3d3d40&chksm=fcf4cceecb8345f88d2796c35a9e184911e403a7b8f2341870d262d05d93c3f0a1e93c1e2547&token=1559350210&lang=zh_CN#rd)
-18. [SQL优化极简法则，还有谁不会？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488347&idx=1&sn=83b05b72eeba6461805ea0389657886f&chksm=fcf4cc96cb834580fe3cabf06418f13cf435948dffbc73e6d80e0e13b57191fb1f44384550ac&token=1559350210&lang=zh_CN#rd)
-19. [CTO要我把这份MySQL规范贴在工位上！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488530&idx=1&sn=005204d3f170c8f8ab6d38a92684fc52&chksm=fcf4cbdfcb8342c9daf828d639fb62c7311439de2406eb8370cba2dd6b5d70d432afa61c8ca1&token=1559350210&lang=zh_CN#rd)
-20. [我用Redis实现了一个轻量级的搜索引擎！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488632&idx=2&sn=9a84edd5980032c000e27402d1054579&chksm=fcf4cbb5cb8342a333d3693b1359171fea7ced6434e83da61842dcca325a1e32ee3b3172e089&token=206728157&lang=zh_CN#rd)
-21. [分布式缓存的十个坑，你能挨住几个？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488732&idx=1&sn=028499aaa22a4fed7f8a51c29d3449e4&chksm=fcf4cb11cb834207223c902ec4fac82a88721aedfa6eafc83226284314c9a02f677ebcef2c2c&token=206728157&lang=zh_CN#rd)
-22. [一次线上Mysql 索引优化的思考，奇怪的知识又增加了~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488741&idx=1&sn=57493d6664f56aa97b9ffb4071b72f3c&chksm=fcf4cb28cb83423ed6792ea4093aa0f7b691f16be0605509e335b157c357c279df08f0659368&token=206728157&lang=zh_CN#rd)
-23. [涨姿势了！delete后加 limit是个好习惯么？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488809&idx=2&sn=d6bd41d9613254b62aa701ac9ec363e3&chksm=fcf4cae4cb8343f27d1a302811ec3a608c6a758cb07ac5d9d24f5b6421ecff08b860b170af2c&token=906317358&lang=zh_CN#rd)
-24. [阿里规定超过三张表禁止join，Why？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489775&idx=2&sn=75052467ce4a3d448765929e562149a1&chksm=fcf4c722cb834e349c1dd113f0c15f7d97f829f43006b546eff66ed1ba1c004a3b75d91bd0cf&token=747593269&lang=zh_CN#rd)
-25. [52条SQL语句性能优化策略，建议收藏](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489849&idx=1&sn=e5814fa0de497a2ad75da1d3097b7bfb&chksm=fcf4c6f4cb834fe2c4613af219d504b29557571bc7c941f073df5a4c4f443d5eee12c22d4c96&token=747593269&lang=zh_CN#rd)
-26. [你写的 SQL 为啥执行这么慢 ？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489873&idx=1&sn=ba5a25926299f270b0b38dcb2c6f67be&chksm=fcf4c69ccb834f8a45027e9949b6ef47d52411c9aae86f1614afc56063de85c39acf5f5927d6&token=747593269&lang=zh_CN#rd)
-27. [天猫二面：内存耗尽后Redis会发生什么？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490083&idx=1&sn=4da431f6a237c7d33ff7a35145921d41&chksm=fcf4c5eecb834cf88cd8ccd869093890aab7817093157c76d709920fe110f641872edd5dfd94&token=1707245491&lang=zh_CN#rd)
-28. [血一般的教训，请慎用insert into select](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490169&idx=1&sn=aa72d289cf54c448dbd72645fcc03e50&chksm=fcf4c5b4cb834ca25de2716f807f1724febbff657473ec9f11b16dbc42389b1a7dbd4fd51028&token=1707245491&lang=zh_CN#rd)
-29. [一次深夜优化MySQL亿级数据分页的奇妙经历](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490264&idx=1&sn=07a6a8a6ae1bdc4e5b9c8cbba380b738&chksm=fcf4c515cb834c03f6912fa6305b45aee3777d9cf7ce1ca7d0daf425bb990d5a891a129d9f42&token=1707245491&lang=zh_CN#rd)
-30. [面试官：MySQL 唯一索引为什么会导致死锁？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490271&idx=1&sn=f5b044a9f92a6c6b9606532b11cd9d99&chksm=fcf4c512cb834c041c5b804ff7f4b0e54f3e6766be5fef1b8741bb435af80d8a1dce6379704f&token=1707245491&lang=zh_CN#rd)
-31. [场景+案例分析，SQL优化这么做就对了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490296&idx=2&sn=1dc9a145147da8f04d88ef95f3b81a42&chksm=fcf4c535cb834c23969d7856556416689750f80964e2d6f0e9db2abf2918748b7ba7793ee9c4&token=1707245491&lang=zh_CN#rd)
-32. [分库分表：如何做到永不迁移数据和避免热点？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490319&idx=2&sn=90aee955f20ab6f4a17bb5475f2223fe&chksm=fcf4c4c2cb834dd40f1813d8e0eb134992f68ac8974a263137bfea4e11fd637edc034714a5a1&token=1707245491&lang=zh_CN#rd)
-33. [干货篇：深入剖析 MySQL 索引和 SQL 调优实战](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490361&idx=1&sn=70c3c697b99362fe8542bc8aa83e1263&chksm=fcf4c4f4cb834de2564471f63652e83e1a866e328308e1dbd751a9ce4e7f9e062de1e9e31bf8&token=1707245491&lang=zh_CN#rd)
-34. [阿里终面：索引失效的场景有哪些？索引何时会失效？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490386&idx=1&sn=f85eeec933621b60e417edf2a13d85c2&chksm=fcf4c49fcb834d89c3dc54b166990086adfec1b22fae4fc2bf487db30bf9355e36b313cac3e5&token=1707245491&lang=zh_CN#rd)
-35. [MySQL 的 Binlog 日志处理的4款工具对比](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491860&idx=1&sn=82b65a3769d7ee267e02caa7aae6981f&chksm=fcf73ed9cb80b7cfc8d7c65311aced0ae90a10251ea40639bedca85c4f7afe9d4ac400462392&token=909257120&lang=zh_CN#rd)
-36. [Java+Redis位图实现点赞签到相关功能](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491878&idx=2&sn=61a10bee8a5ec52b408e5e4408ad0c74&chksm=fcf73eebcb80b7fd0b177eeb79845fb7dbbd6394b0f842ac397478b6716342c486e949fad556&token=909257120&lang=zh_CN#rd)
-37. [同事升级了MySQL驱动8.0，导致应用大量超时](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491878&idx=1&sn=db5aa9b46e390312002a957c735f035d&chksm=fcf73eebcb80b7fdc4dfba689280cd1b10de273f37677fb4911c83b245cc39bc4de186d48221&token=909257120&lang=zh_CN#rd)
-38. [如果mysql磁盘满了，会发生什么？还真被我遇到了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493011&idx=2&sn=b902595e07faca908ea318511ad2c9cb&chksm=fcf73a5ecb80b348e2433e26ab7c438401104214ee1f9ddfe0a7e87ab9841c4b687e569cdc1c&token=933200230&lang=zh_CN#rd)
-39. [DBA整理的万字详解MySQL性能优化，值得收藏！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493961&idx=2&sn=7461406cc05a3a1c412c054643f45520&chksm=fcf73684cb80bf924ac5426fe27bc5f5a595e04c6fccd1e279959aa0c616af1dc461a80b8519&token=1272468938&lang=zh_CN#rd)
-40. [一口气说出 Redis 16 个常见使用场景](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494318&idx=2&sn=458981537a6050aa602ad05542f762b8&chksm=fcf73563cb80bc752a29bd266924c219cd71df24a9856379ee3309c78b1887dd994f1530f1d4&token=1272468938&lang=zh_CN#rd)
-41. [缓存和数据库到底先写哪个？这次整明白了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494666&idx=2&sn=b79b8e8a002c6afc8e754602f952ccfa&chksm=fcf733c7cb80bad1622df6aa30109cfc9794333bc8924de618269835225d98ba0d268839feda&token=1567630675&lang=zh_CN#rd)
-42. [精心为你准备的最全的20道Mysql面试题](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247495678&idx=1&sn=4f410323f08cb6d968fdd96e7dd19433&chksm=fcf73033cb80b925c62f88b17f8ecbaf19d95fe6f010e2b6e567008188cbe6183ab0394a36e2&token=1511514983&lang=zh_CN#rd)
-43. [懵了~ 面试官Redis夺命连环20问！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496059&idx=1&sn=5c0be2d107b54b73bd40cc89b474c63c&chksm=fcf72eb6cb80a7a03b3d9b76adb13b23250ce71f94219d82989c3df7cdc9f8a6b32a7ae02d29&token=1511514983&lang=zh_CN#rd)
-44. [Redis 核心篇：唯快不破的秘密](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496069&idx=1&sn=d5f856eddadd02b03ac0457cce217aac&chksm=fcf72e48cb80a75eb05948ab0b5b7e6dc83eef9890a12abee17127b844f82da7848a70be0f8a&token=1511514983&lang=zh_CN#rd)
-45. [Redis 实战篇：Geo 算法教你找出附近 “女朋友”！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496744&idx=1&sn=fd3b1e95562c62cdb6be37d1df511e3d&chksm=fcf72be5cb80a2f33b2b3cbeea565476b21f0be29d1c1258cebc2c6c4317130d8da421d4d54c&token=1511514983&lang=zh_CN#rd)
-46. [很高兴，终于踩到了慢查询的坑了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497162&idx=1&sn=acf3faf7b74a415c2dcc801a22ce9fbd&chksm=fcf72a07cb80a3118ea2331431f169af1ff2dcfb5177c50eba5eea54718f526ca338ebbcb6dc&token=1608740670&lang=zh_CN#rd)
-47. [来，今天手把手教你调优！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247497380&idx=1&sn=83c2ce6a71485c64140bbee4188f4161&chksm=fcf72969cb80a07fa5eef462ae48d126bd29112c99a1e8774cb7cf8e599531cf7a98b3071422&token=1608740670&lang=zh_CN#rd)
-48. [Redis 实战：巧用 Bitmap 实现亿级海量数据统计](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498202&idx=1&sn=29e93b70c55e0fba1f3dcacae9b37ebc&chksm=fcf72617cb80af018ff67e7b326b11401f044af9254c46a20e883ca0acabb6035f13f52ab939&token=1608740670&lang=zh_CN#rd)
-48. [实战！Redis 性能优化 13 条军规！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502918&idx=1&sn=446ad348df362259e26b5e48e6da2044&chksm=fcf7138bcb809a9d25b8265af62cfa0281fb8599ad4117f52f1f4933a5e9977e31c2c5a8cbeb&token=1144087588&lang=zh_CN#rd)
-48. [实战！玩转Redis必备的几款运维工具！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503427&idx=1&sn=bbab845ea04ec24339bb8f052ebc9367&chksm=fcf7118ecb80989828802711ca61acc4ee91998fa5d4a24ca1f3aa2b05fa9985dd154af9034b&token=1144087588&lang=zh_CN#rd)
-
-
-
-
-
-
+5. [首长，Redis性能优化十三条军规立好了，请过目~](https://mp.weixin.qq.com/s?__biz=MzIxMDQwODMzNg==&mid=2247484183&idx=1&sn=81564a4f6ffed07cbcc080960929a72d&chksm=976445e8a013ccfe6c90b1475651158b3f677f537d70856df02c80c7d8d20aab1d73a5ac4c56&token=342810233&lang=zh_CN#rd)
+6. [我用Redis实现了一个轻量级的搜索引擎！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488632&idx=2&sn=9a84edd5980032c000e27402d1054579&chksm=fcf4cbb5cb8342a333d3693b1359171fea7ced6434e83da61842dcca325a1e32ee3b3172e089&token=206728157&lang=zh_CN#rd)
+7. [分布式缓存的十个坑，你能挨住几个？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247488732&idx=1&sn=028499aaa22a4fed7f8a51c29d3449e4&chksm=fcf4cb11cb834207223c902ec4fac82a88721aedfa6eafc83226284314c9a02f677ebcef2c2c&token=206728157&lang=zh_CN#rd)
+8. [天猫二面：内存耗尽后Redis会发生什么？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490083&idx=1&sn=4da431f6a237c7d33ff7a35145921d41&chksm=fcf4c5eecb834cf88cd8ccd869093890aab7817093157c76d709920fe110f641872edd5dfd94&token=1707245491&lang=zh_CN#rd)
+9. [Java+Redis位图实现点赞签到相关功能](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491878&idx=2&sn=61a10bee8a5ec52b408e5e4408ad0c74&chksm=fcf73eebcb80b7fd0b177eeb79845fb7dbbd6394b0f842ac397478b6716342c486e949fad556&token=909257120&lang=zh_CN#rd)
+10. [一口气说出 Redis 16 个常见使用场景](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494318&idx=2&sn=458981537a6050aa602ad05542f762b8&chksm=fcf73563cb80bc752a29bd266924c219cd71df24a9856379ee3309c78b1887dd994f1530f1d4&token=1272468938&lang=zh_CN#rd)
+11. [缓存和数据库到底先写哪个？这次整明白了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494666&idx=2&sn=b79b8e8a002c6afc8e754602f952ccfa&chksm=fcf733c7cb80bad1622df6aa30109cfc9794333bc8924de618269835225d98ba0d268839feda&token=1567630675&lang=zh_CN#rd)
+12. [懵了~ 面试官Redis夺命连环20问！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496059&idx=1&sn=5c0be2d107b54b73bd40cc89b474c63c&chksm=fcf72eb6cb80a7a03b3d9b76adb13b23250ce71f94219d82989c3df7cdc9f8a6b32a7ae02d29&token=1511514983&lang=zh_CN#rd)
+13. [Redis 核心篇：唯快不破的秘密](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496069&idx=1&sn=d5f856eddadd02b03ac0457cce217aac&chksm=fcf72e48cb80a75eb05948ab0b5b7e6dc83eef9890a12abee17127b844f82da7848a70be0f8a&token=1511514983&lang=zh_CN#rd)
+14. [Redis 实战篇：Geo 算法教你找出附近 “女朋友”！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496744&idx=1&sn=fd3b1e95562c62cdb6be37d1df511e3d&chksm=fcf72be5cb80a2f33b2b3cbeea565476b21f0be29d1c1258cebc2c6c4317130d8da421d4d54c&token=1511514983&lang=zh_CN#rd)
+15. [Redis 实战：巧用 Bitmap 实现亿级海量数据统计](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498202&idx=1&sn=29e93b70c55e0fba1f3dcacae9b37ebc&chksm=fcf72617cb80af018ff67e7b326b11401f044af9254c46a20e883ca0acabb6035f13f52ab939&token=1608740670&lang=zh_CN#rd)
+16. [实战！Redis 性能优化 13 条军规！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502918&idx=1&sn=446ad348df362259e26b5e48e6da2044&chksm=fcf7138bcb809a9d25b8265af62cfa0281fb8599ad4117f52f1f4933a5e9977e31c2c5a8cbeb&token=1144087588&lang=zh_CN#rd)
+17. [实战！玩转Redis必备的几款运维工具！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503427&idx=1&sn=bbab845ea04ec24339bb8f052ebc9367&chksm=fcf7118ecb80989828802711ca61acc4ee91998fa5d4a24ca1f3aa2b05fa9985dd154af9034b&token=1144087588&lang=zh_CN#rd)
+18. [实战！Redis 巧用数据类型实现亿级数据统计！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504851&idx=1&sn=ae39a78bdf23d28d49710fce6afc9a9c&chksm=fcf70c1ecb8085080e106ae3b4a718060c33fa0cb222193db8bb76a374e55f0058fab69f023a&token=1912891806&lang=zh_CN#rd)
+18. [Redis 夺命十二问，拿捏了~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505270&idx=1&sn=e80f5ff3291975363e8df1a9202ddd01&chksm=fcf70abbcb8083adcf2aae4a1d2a50de335cdd96fb5d558b9e257d53bab1e6218577e5d939a6&token=1912891806&lang=zh_CN#rd)
+18. [七种方案！探讨Redis分布式锁的正确使用姿势](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505354&idx=1&sn=c9ba2e861fc6c8d3b1f841474f07726f&chksm=fcf70a07cb8083113a5e0416598bb32e970cd0da1d471bf4041105f06daaee1bbdf0c8e7d4e1&token=1912891806&lang=zh_CN#rd)
+18. [分布式缓存，就该这样设计！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505697&idx=1&sn=a14bba6d82548bbfee085b405b4ffabb&chksm=fcf708eccb8081fa184001eff584d46233d809948daa66843e28977d07b3ff7e97bb56b2b422&token=1912891806&lang=zh_CN#rd)
 
 ## 并发编程
 
@@ -303,6 +333,7 @@
 25. [面试官：分布式环境下，如何实现session共享](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247494472&idx=2&sn=3ed2210463718b4cb75dd087e9935a1e&chksm=fcf73485cb80bd9378157558a0eab5f25c2690c55c985ecb3165183753e26c9dfb013eb1b84a&token=1272468938&lang=zh_CN#rd)
 26. [美团二面：生成订单30分钟未支付，则自动取消，该怎么实现？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247496607&idx=1&sn=549b38336cba0dd6ffc92f97d6674cab&chksm=fcf72c52cb80a5442d840235a1a1e70117cd078584c14e66574a21baca9bd8b40ad557c782e5&token=1511514983&lang=zh_CN#rd)
 26. [Spring 夺命连环18问？拿捏了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247500998&idx=1&sn=23f861c0dcea376d5a6c52349bf4adf9&chksm=fcf71b0bcb80921d63135367fc05d6e2f6ee413492d59966cf0a7340655f4ddaaa4ddeb26828&token=1144087588&lang=zh_CN#rd)
+26. [虾皮面试真题：虾皮后端15连问！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503739&idx=1&sn=76bd912f3d68f37a7a1f91050a41afed&chksm=fcf710b6cb8099a04c5f30337b914c69fa6d70bc31c1222e4a947e852f24ee2704e58259068f&token=1912891806&lang=zh_CN#rd)
 
 
 
@@ -368,6 +399,11 @@
 50. [Java 8 的Stream流那么强大，你知道它的原理吗？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502851&idx=1&sn=8d48e9aa1036416a2bb1850f697d2800&chksm=fcf713cecb809ad818f10fd415a3a52d216e71d74d58ed663d49cc5a02d0da1001bc646c4dd2&token=1144087588&lang=zh_CN#rd)
 50. [Java 8 的异步编程利器 CompletableFuture 真香！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503099&idx=1&sn=6785c7bb71ec1b162f8df1c21d66b9da&chksm=fcf71336cb809a2018edb350b95bc9c524fd022e9410aab8cf33da06b8f5a59de2fb0533a1ed&token=1144087588&lang=zh_CN#rd)
 50. [一口气说出 4 种 API 版本控制方案！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503177&idx=1&sn=484ffcb3164a48f295354ee1e8f64377&chksm=fcf71284cb809b92915b26025178c7c9d54a06e5724e9f544827b4c905c9025e8f57808deee3&token=1144087588&lang=zh_CN#rd)
+50. [大厂也在用的 6种 数据脱敏方案，别做泄密内鬼！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504633&idx=1&sn=85f0e78d990a0fc6d3c1135dd3b49b4a&chksm=fcf70d34cb80842246fe7623cc5dba23ed316a33b9447f1ff6e71367f941e0891f6e815c7c0f&token=1912891806&lang=zh_CN#rd)
+50. [不切换 Git 分支，却能同时在多个分支上工作，我是怎么做到的？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504729&idx=1&sn=119d754b93a1cf6afdef4b09e07e0a70&chksm=fcf70c94cb8085824d4b40c24c47bf737942cb849e8a1bf9ff4f8154dcb264dd57695f23ee86&token=1912891806&lang=zh_CN#rd)
+50. [Java 8 的 Stream 不好调试？试试 IDEA 的调试神器 Stream Trace！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505150&idx=1&sn=66aa49d609c7b530d7fd707e96ab54db&chksm=fcf70b33cb8082253d2494ea0b0c89af18ca49a84ab548ffb1bb992cb732d8bd1a67c65bd28f&token=1912891806&lang=zh_CN#rd)
+50. [9条消除if...else的锦囊妙计，解决代码的坏味道！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505320&idx=1&sn=2ebbe083029a084fdf9f9b1626bc6488&chksm=fcf70a65cb80837336a74db3ec4bf79939cdae4d2cbbcb141d24a8a0a351a2084edec465561b&token=1912891806&lang=zh_CN#rd)
+50. [学会这 4 个 Intellij IDEA 调试魔法，阅读源码更简单！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505524&idx=1&sn=685862eaf69991935de365ab2ddbea8a&chksm=fcf709b9cb8080af1aae9b8bb6869ab676dfc98fca925165cb120bd25df538194918919ded74&token=1912891806&lang=zh_CN#rd)
 
 ## 架构
 
@@ -410,23 +446,11 @@
 37. [阿里为什么建议给MVC三层架构多加一层Manager层？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498819&idx=1&sn=f1a3cca211fec670e75246fe54fcf43a&chksm=fcf7238ecb80aa987187ff43e6b4e048a47448bd472c4296df97e41e1a7d16633f1d82203b0d&token=1608740670&lang=zh_CN#rd)
 38. [Oauth2.0实现单点登录的原理流程，这次总该懂了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247499611&idx=1&sn=d04e32ff3b4f7789bfc35831acc3bac2&chksm=fcf72096cb80a9805db0f6271ebd478eb21bc8af676358934972492b7da1869c0cb038c9cd5b&token=1608740670&lang=zh_CN#rd)
 38. [一口气说出 4 种 API 版本控制方案！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247503177&idx=1&sn=484ffcb3164a48f295354ee1e8f64377&chksm=fcf71284cb809b92915b26025178c7c9d54a06e5724e9f544827b4c905c9025e8f57808deee3&token=1144087588&lang=zh_CN#rd)
+38. [大厂也在用的 6种 数据脱敏方案，别做泄密内鬼！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247504633&idx=1&sn=85f0e78d990a0fc6d3c1135dd3b49b4a&chksm=fcf70d34cb80842246fe7623cc5dba23ed316a33b9447f1ff6e71367f941e0891f6e815c7c0f&token=1912891806&lang=zh_CN#rd)
+38. [阿里终面：业务主表读写缓慢如何优化？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505030&idx=1&sn=54e3d3724a0669467f36f88a502a277d&chksm=fcf70b4bcb80825df084e9ee1a0e6fc4e566eea1e4a9c2df17e3a2ca456396f50f8b8b218d88&token=1912891806&lang=zh_CN#rd)
+38. [我总结的30条架构原则~](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247505594&idx=1&sn=39d5751bd12b503938671526c06e4ab6&chksm=fcf70977cb808061ed5e1aac2f454830099eb2bb0676955f4de93a6bc6aa76ad67e9ce77d356&token=1912891806&lang=zh_CN#rd)
 
 
-
-## 微服务
-
-1. [SpringCloud微服务架构中分布式事务解决方案](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489751&idx=2&sn=3bc98dbbbdb8f808e2b2569e8ec2fa64&chksm=fcf4c71acb834e0c4ab62f985efd854535a0b4cc143ed8ac48a5567269396f15951a5b7b80a5&token=747593269&lang=zh_CN#rd)
-2. [微服务技术栈详细总结](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247489722&idx=2&sn=05fe44c344d59be342e2ab326cfcdf9d&chksm=fcf4c777cb834e6111ab0e0958571fe0095823d91fb1b7c417fed66f13cbd4ab3b346b659564&token=747593269&lang=zh_CN#rd)
-3. [这可能是你看过最好的微服务架构详解文章](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486340&idx=1&sn=99010f44720116ea59eb81350823b87a&chksm=fcf4d449cb835d5fec606eb991687f7d82b7a2e629a79cd5eec89a698ef7764a034c24743a64&token=890958715&lang=zh_CN#rd)
-4. [不懂分布式事务，别说你懂微服务！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247486210&idx=1&sn=0fb4ad670032b1f933c090eda4763f57&chksm=fcf4d4cfcb835dd9a47d6e446db4d94539017e23c4578146d7fc1a731be000431cb9612256b7&token=890958715&lang=zh_CN#rd)
-5. [主流微服务全链路监控系统之战](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490414&idx=2&sn=573f35def000bbe84be1a0f23e0501b7&chksm=fcf4c4a3cb834db5ffe3bbf669fdf1012718ef31ed014cf67c2d9be6778b067c0fdb08e9e792&token=1707245491&lang=zh_CN#rd)
-6. [基于 Kubernetes 的微服务项目设计与实现](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490551&idx=2&sn=6057bc7dac1c26c38f78be53ec92d2f7&chksm=fcf4c43acb834d2cc06661147305f758003e2085344b1d0ce1c536589cda8b2f99704ab90752&token=1707245491&lang=zh_CN#rd)
-7. [详解大型分布式电商系统架构](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247490878&idx=2&sn=c6f99a82876cd6266b091b910926bc77&chksm=fcf4c2f3cb834be5a8973c8f91c4e96cd8fa931ea1a693301e77f36ade7a65946f01da718441&token=1707245491&lang=zh_CN#rd)
-8. [实现全链路监控平台很难吗？Pinpoint、SkyWalking、Zipkin 选型对比](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491860&idx=2&sn=c0f8ffe354190d9c0502d601c5e75405&chksm=fcf73ed9cb80b7cfc90943204fd235543f2fa6ff48627048aeffc840fcd2a676bb327e17a680&token=909257120&lang=zh_CN#rd)
-9. [用没用过SpringCloud，就看你会不会这35个面试题！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247491886&idx=2&sn=9c37cb0ca861917bf030a90811d28c79&chksm=fcf73ee3cb80b7f56594e9835ce74d6b6c04e50ea47d4fe1544a8e0dde63d46400b596c5846a&token=909257120&lang=zh_CN#rd)
-10. [五十五张图告诉你微服务的灵魂摆渡者Nacos究竟有多强？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493854&idx=1&sn=4b3fb7f7e17a76000733899f511ef915&chksm=fcf73713cb80be05fe4473390f946dfbaf77848d7041c30f069bcb5a3629be782f4b1121bd6a&token=1272468938&lang=zh_CN#rd)
-11. [狗东面试这样问：Nacos配置中心交互模型是 push 还是 pull ？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498111&idx=1&sn=ed64ab766a0b3b9b80121b8940e6ff73&chksm=fcf726b2cb80afa4a11913a4152301a9691027c69bb93174b0b7312382180454736879938bd0&token=1608740670&lang=zh_CN#rd)
-12. [在医院五天，我把「链路追踪」整明白了](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247498789&idx=1&sn=23c4a23a885470ef7a83857c3d894aa9&chksm=fcf723e8cb80aafe73bbd4b0b6445b6eeacd838b14cda727ab09c4f01437ddee95b37420a4f1&token=1608740670&lang=zh_CN#rd)
 
 ## JVM
 
