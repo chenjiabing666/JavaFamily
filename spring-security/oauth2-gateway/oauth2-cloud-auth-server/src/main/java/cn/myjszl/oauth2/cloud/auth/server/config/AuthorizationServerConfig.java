@@ -3,28 +3,33 @@ package cn.myjszl.oauth2.cloud.auth.server.config;
 import cn.myjszl.oauth2.cloud.auth.server.exception.OAuthServerAuthenticationEntryPoint;
 import cn.myjszl.oauth2.cloud.auth.server.exception.OAuthServerWebResponseExceptionTranslator;
 import cn.myjszl.oauth2.cloud.auth.server.filter.OAuthServerClientCredentialsTokenEndpointFilter;
+import cn.myjszl.oauth2.cloud.auth.server.sms.MobilePwdGranter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 import org.springframework.security.oauth2.provider.ClientDetailsService;
+import org.springframework.security.oauth2.provider.CompositeTokenGranter;
+import org.springframework.security.oauth2.provider.TokenGranter;
 import org.springframework.security.oauth2.provider.client.JdbcClientDetailsService;
 import org.springframework.security.oauth2.provider.code.AuthorizationCodeServices;
-import org.springframework.security.oauth2.provider.code.InMemoryAuthorizationCodeServices;
 import org.springframework.security.oauth2.provider.code.JdbcAuthorizationCodeServices;
+import org.springframework.security.oauth2.provider.request.DefaultOAuth2RequestFactory;
 import org.springframework.security.oauth2.provider.token.AuthorizationServerTokenServices;
 import org.springframework.security.oauth2.provider.token.DefaultTokenServices;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 
 import javax.sql.DataSource;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * @author  公众号：码猿技术专栏
@@ -128,6 +133,11 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     @Override
     @SuppressWarnings("ALL")
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) {
+        //将自定义的授权类型添加到tokenGranters中
+        List<TokenGranter> tokenGranters = new ArrayList<>(Collections.singletonList(endpoints.getTokenGranter()));
+        tokenGranters.add(new MobilePwdGranter(authenticationManager, tokenServices(), clientDetailsService,
+                new DefaultOAuth2RequestFactory(clientDetailsService)));
+
         endpoints
                 //设置异常WebResponseExceptionTranslator，用于处理用户名，密码错误、授权类型不正确的异常
                 .exceptionTranslator(new OAuthServerWebResponseExceptionTranslator())
@@ -137,6 +147,8 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .authenticationManager(authenticationManager)
                 //令牌管理服务，无论哪种模式都需要
                 .tokenServices(tokenServices())
+                //添加进入tokenGranter
+                .tokenGranter(new CompositeTokenGranter(tokenGranters))
                 //只允许POST提交访问令牌，uri：/oauth/token
                 .allowedTokenEndpointRequestMethods(HttpMethod.POST);
     }
