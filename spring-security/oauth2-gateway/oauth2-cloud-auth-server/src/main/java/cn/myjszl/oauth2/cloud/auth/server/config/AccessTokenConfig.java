@@ -38,6 +38,11 @@ public class AccessTokenConfig {
         JwtAccessTokenConverter converter = new JwtAccessTokenEnhancer();
         // 设置秘钥
         converter.setSigningKey(TokenConstant.SIGN_KEY);
+        /*
+         * 设置自定义得的令牌转换器，从map中转换身份信息
+         * fix(*)：修复刷新令牌无法获取用户详细信息的问题
+         */
+        converter.setAccessTokenConverter(new JwtEnhanceAccessTokenConverter());
         return converter;
     }
 
@@ -51,14 +56,17 @@ public class AccessTokenConfig {
          */
         @Override
         public OAuth2AccessToken enhance(OAuth2AccessToken accessToken, OAuth2Authentication authentication) {
-            //获取userDetailService中查询到用户信息
-            SecurityUser user=(SecurityUser)authentication.getUserAuthentication().getPrincipal();
-            //将额外的信息放入到LinkedHashMap中
-            LinkedHashMap<String,Object> extendInformation=new LinkedHashMap<>();
-            //设置用户的userId
-            extendInformation.put(TokenConstant.USER_ID,user.getUserId());
-            //添加到additionalInformation
-            ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(extendInformation);
+            Object principal = authentication.getUserAuthentication().getPrincipal();
+            if (principal instanceof SecurityUser){
+                //获取userDetailService中查询到用户信息
+                SecurityUser user=(SecurityUser)principal;
+                //将额外的信息放入到LinkedHashMap中
+                LinkedHashMap<String,Object> extendInformation=new LinkedHashMap<>();
+                //设置用户的userId
+                extendInformation.put(TokenConstant.USER_ID,user.getUserId());
+                //添加到additionalInformation
+                ((DefaultOAuth2AccessToken) accessToken).setAdditionalInformation(extendInformation);
+            }
             return super.enhance(accessToken, authentication);
         }
     }
