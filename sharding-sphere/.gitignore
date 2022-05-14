@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example SysUserDetails template template
+### Example SysUserDetails template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+target
+*.log
+
+
