@@ -1,0 +1,80 @@
+server:
+  port: 1003
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: sharding-jdbc-003
+  # Sharding-JDBC的配置
+  shardingsphere:
+    datasource:
+      names: ds
+      ds:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/user_db?useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: Nov2014
+    sharding:
+      tables:
+        t_user:
+          actual-data-nodes: ds.t_user_$->{1..2}
+          # 分表策略
+          table‐strategy:
+            inline:
+              sharding‐column: user_id
+              algorithm‐expression: t_user_$->{user_id%2+1}
+          # 主键生成策略
+          key-generator:
+            # 主键
+            column: user_id
+            # 生成算法
+            type: SNOWFLAKE
+      encrypt-rule:
+        encryptors:
+          # md5加密算法-sharding-jdbc内置的算法，这里名称任意
+          encryptor_md5:
+            type: MD5
+          # aes加密算法-sharding-jdbc内置的算法，这里名称任意
+          encryptor_aes:
+            type: aes
+            props:
+              # 设置秘钥
+              aes.key.value: myjszl
+          # sha256加密算法，自定义的
+          encryptor_sha256:
+            type: SHA256
+          encryptor_sha256_assisted:
+            type: SHA256_Assisted
+          # Base64加密算法，自定义的
+          encryptor_base64_assisted:
+            type: Base64_Assisted
+        tables:
+          t_user:
+            columns:
+              # 逻辑列，sharding-jdbc中写SQL需要用到的列
+              password:
+                # 存储明文的字段
+                #plainColumn: password
+                # 存储密文的字段
+                cipherColumn: cipher_pwd
+                # 指定加密器
+                encryptor: encryptor_sha256
+              # 身份证号的逻辑列，使用aes这种可逆的加密算法
+              id_card:
+                cipherColumn: id_card
+                encryptor: encryptor_aes
+              # 手机号的逻辑列，使用aes这种可逆的加密算法
+              mobile:
+                # 密文存储的列
+                cipherColumn: mobile
+                # 辅助查询列，表中真实的字段名
+                assistedQueryColumn: mobile_data
+                encryptor: encryptor_base64_assisted
+    props:
+      sql:
+        # 日志显示具体的SQL
+        show: true
