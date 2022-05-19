@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: prod
+  application:
+    name: springboot-minio
+  servlet:
+    multipart:
+      max-file-size: -1
+server:
+  port: 8085
+minio:
+  # 访问的url
+  endpoint: http://192.168.47.148
+  # API的端口
+  port: 9001
+  # 秘钥
+  accessKey: HQGWFYLWGC6FVJ0CQFOG
+  secretKey: pUGhAgQhZDxJaLmN3uz65YX7Bb3FyLdLglBvcCr1
+  secure: false
+  bucket-name: test # 桶名 我这是给出了一个默认桶名
+  image-size: 10485760 # 我在这里设定了 图片文件的最大大小
+  file-size: 1073741824 # 此处是设定了文件的最大大小
