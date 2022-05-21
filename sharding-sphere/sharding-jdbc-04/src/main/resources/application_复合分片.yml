@@ -1,0 +1,41 @@
+server:
+  port: 1002
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: sharding-jdbc-002
+  # Sharding-JDBC的配置
+  shardingsphere:
+    datasource:
+      # 数据源，这里配置两个，分别是ds1，ds2
+      names: ds1
+      # ds1的配置信息
+      ds1:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/order_db?useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: Nov2014
+    # 分片的配置
+    sharding:
+      # 表的分片策略
+      tables:
+        t_order:
+          # 数据节点配置，采用Groovy表达式，分库分表策略，这样是4个节点，ds1.product_base_$_1/ds1.product_base_$_2/ds2.product_base_$_1/ds2.product_base_$_2
+          actual-data-nodes: ds1.t_order_$->{1..2}
+          # 分表策略
+          table‐strategy:
+            # 复合分片策略
+            complex:
+              # 分片键，支持多个，用逗号分隔
+              sharding‐columns: order_id,user_id
+              # 复合分片算法的实现类，同时支持精确查询、范围查询，需要自己定义规则
+              algorithm-class-name: com.java.family.shardingjdbc004.algorithm.TablesComplexKeysShardingAlgorithm
+    props:
+      sql:
+        # 日志显示具体的SQL
+        show: true
