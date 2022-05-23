@@ -1,0 +1,105 @@
+server:
+  port: 1005
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: sharding-jdbc-005
+  # Sharding-JDBC的配置
+  shardingsphere:
+    datasource:
+      # 数据源，这里配置两个，分别是ds1，ds2
+      names: ds1,ds2,ds3,ds4
+      # 主库 product_db1
+      ds1:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.47.149:3306/product_db1?useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: 123456
+      # 从库 product_db1
+      ds2:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.47.149:3307/product_db1?useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: 123456
+      # 主库 product_db2
+      ds3:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.47.149:3306/product_db2?useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: 123456
+      # 从库 product_db2
+      ds4:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.47.149:3307/product_db2?useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: 123456
+    # 分片的配置
+    sharding:
+      # 主从节点配置
+      master-slave-rules:
+        # 第一个主从节点的名称，名称随意，但是要唯一
+        m1:
+          master-data-source-name: ds1
+          slave-data-source-names:
+            - ds2
+          load-balance-algorithm-type: ROUND_ROBIN
+        # 第二个主从节点的名称，名称随意，但是要唯一
+        m2:
+          master-data-source-name: ds3
+          slave-data-source-names:
+            - ds4
+          load-balance-algorithm-type: HINT-MASTER
+       #表的分片策略
+      tables:
+        product_base:
+          # 数据节点配置，采用Groovy表达式，分库分表策略，这样是4个节点，ds1.product_base_$_1/ds1.product_base_$_2/ds2.product_base_$_1/ds2.product_base_$_2
+          actual-data-nodes: m$->{1..2}.product_base_$->{1..2}
+          # 分表策略
+          table‐strategy:
+            inline:
+              # 分片键为店铺ID
+              sharding‐column: product_id
+              # 分片策略取模
+              algorithm‐expression: product_base_$->{product_id%2+1}
+          database‐strategy:
+            inline:
+              sharding‐column: shop_id
+              algorithm‐expression: m$->{shop_id%2+1}
+          # 主键生成策略
+          key-generator:
+            # 主键
+            column: product_id
+            # 生成算法
+            type: SNOWFLAKE
+        product_description:
+          # 数据节点配置，采用Groovy表达式
+          actual-data-nodes: m$->{1..2}.product_description_$->{1..2}
+          table‐strategy:
+            inline:
+              sharding‐column: product_id
+              algorithm‐expression: product_description_$->{product_id%2+1}
+          # 分库策略
+          database‐strategy:
+            inline:
+              sharding‐column: shop_id
+              algorithm‐expression: m$->{shop_id%2+1}
+      # 默认的数据源，由于使用了读写分离，这里使用m1/m2
+      default-data-source-name: m1
+      ## 绑定表的规则配置，可以配置多个，集合形式
+      binding-tables:
+        - product_base,product_description
+      ## 指定广播表，集合形式
+      broadcast‐tables:
+        - product_type
+    props:
+      sql:
+        # 日志显示具体的SQL
+        show: true
