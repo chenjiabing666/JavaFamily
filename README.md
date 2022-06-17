@@ -12,7 +12,7 @@
 
 以下内容全部出自公众号**码猿技术专栏**，欢迎关注。
 
-![](https://gitee.com/chenjiabing666/BlogImage/raw/master/@Async%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E5%BB%BA%E8%AE%AE%E4%BD%BF%E7%94%A8/16.jpg)
+![](https://www.java-family.cn/BlogImage/%E5%8D%95%E6%8E%A8/16.jpg)
 
 笔者将公众号的优质文章全部汇总到了[个人网站](https://www.java-family.cn)：www.java-family.cn
 
