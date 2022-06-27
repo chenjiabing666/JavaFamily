@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta content="text/html;charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>登录页面</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script th:src="@{/layui/layui.js}"></script>
+    <script th:src="@{/layui/lay/modules/layer.js}"></script>
+    <link th:href="@{/layui/css/layui.css}" rel="stylesheet">
+    <link th:href="@{/layui/css/modules/layer/default/layer.css}" rel="stylesheet">
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+</head>
+<body onkeydown="enterlogin(event);">
+
+    <div class="login-main">
+        <header class="layui-elip">登录</header>
+
+        <div class="layadmin-user-login-box layadmin-user-login-body layui-form">
+            <div class="layui-form-item">
+                <label class="layadmin-user-login-icon layui-icon layui-icon-username" for="username"></label>
+                <input type="text" name="username" id="username" placeholder="用户名" class="layui-input">
+            </div>
+            <div class="layui-form-item">
+                <label class="layadmin-user-login-icon layui-icon layui-icon-password" for="password"></label>
+                <input type="password" name="password" id="password" placeholder="密码" class="layui-input">
+            </div>
+            <div class="layui-form-item">
+                <button class="layui-btn layui-btn-fluid" onclick="userLogin()">登 入</button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript">
+        //回车登录
+        function enterlogin(e) {
+            var key = window.event ? e.keyCode : e.which;
+            if (key === 13) {
+                userLogin();
+            }
+        }
+
+        //用户密码登录
+        function userLogin() {
+            //获取用户名、密码
+            var username = $("#username").val();
+            var password = $("#password").val();
+
+            if (username == null || username === "") {
+                layer.msg('请输入登陆用户名！', {
+                    offset: '15px'
+                    ,icon: 1
+                });
+                return;
+            }
+            if (password == null || password === "") {
+                layer.msg('请输入登陆密码！', {
+                    offset: '15px'
+                    ,icon: 1
+                });
+                return;
+            }
+
+            $.ajax({
+                url: "/check",
+                type: "POST",
+                dataType: "json",
+                async: false,
+                data: {
+                    "username": username,
+                    "password": password
+                },
+                success: function (data) {
+                    if (data.code !=null && data.code == "200") {
+                        var href = '/user/userIndex';
+                        if (data.redirect_uri != null){
+                            href = data.redirect_uri;
+                        }
+                        //登入成功的提示与跳转
+                        layer.msg('登入成功', {
+                            offset: '15px'
+                            ,icon: 1
+                            ,time: 1000
+                        }, function(){
+                            window.location.href = decodeURIComponent(href);
+                        });
+                    } else if (data.result != null) {
+                        layer.msg(data.result, {
+                            offset: '15px'
+                            ,icon: 1
+                        });
+                    } else {
+                        layer.msg(data.msg, {
+                            offset: '15px'
+                            ,icon: 1
+                        });
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

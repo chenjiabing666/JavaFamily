@@ -1,0 +1,49 @@
+server:
+  port: 7002
+  servlet:
+    session.timeout: 300
+
+logging:
+  level:
+    #日志优先级（只会输出指定优先级及以上的日志信息）：trace<debug<info<warn<error
+    org.springframework.web: debug
+    cn.zifangsky: debug
+#  file: logs/kafka-websocket.log
+
+spring:
+  #Druid
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/rbac_db?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&failOverReadOnly=false&useSSL=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+  #Thymeleaf
+  thymeleaf:
+    mode: LEGACYHTML5
+    prefix: classpath:/templates/
+    suffix: .html
+    template-resolver-order: 0
+    cache: false
+
+  #redis
+  redis:
+      cluster:
+        nodes: namenode22:6379,datanode23:6379,datanode24:6379
+        max-redirects: 6
+      timeout: 300000
+      jedis:
+        pool:
+          max-active: 8
+          max-wait: 100000
+          max-idle: 8
+          min-idle: 0
+      #自定义的监听的TOPIC路径
+      message:
+        topic-name: topic-test
+
+#mybatis
+mybatis:
+  type-aliases-package: cn.zifangsky.mqwebsocket.mapper
+  mapper-locations: classpath:cn/zifangsky/mqwebsocket/mapper/xml/*.xml
