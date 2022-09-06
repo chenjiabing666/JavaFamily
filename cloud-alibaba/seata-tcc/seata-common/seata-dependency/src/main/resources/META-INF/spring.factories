@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  cn.myjszl.seata.dependency.config.AutoConfig
-
