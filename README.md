@@ -19,8 +19,8 @@
   - [Spring](#Spring)
   - [SpringMVC](#SpringMVC)
   - [SpringBoot](#SpringBoot)
-  - [Spring Cloud](#Spring Cloud)
-  - [微服务授权、鉴权](#微服务授权、鉴权)
+  - [SpringCloud](#SpringCloud)
+  - [微服务授权鉴权](#微服务授权鉴权)
 - [Java进阶](#Java进阶)
   - [并发](#并发)
   - [JVM](#JVM)
@@ -180,7 +180,7 @@ todo........
 
 
 
-### Spring Cloud
+### SpringCloud
 
 - [五十五张图告诉你微服务的灵魂摆渡者Nacos究竟有多强？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247493854&idx=1&sn=4b3fb7f7e17a76000733899f511ef915&chksm=fcf73713cb80be05fe4473390f946dfbaf77848d7041c30f069bcb5a3629be782f4b1121bd6a&scene=178&cur_album_id=2042874937312346114#rd)
 - [Nacos 如何实现生产环境中的灰度配置？](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247507709&idx=1&sn=108cff92ccf5b5a8f61394962ef7cb06&chksm=fcf70130cb808826436623aea885c4f17c279706a80dbc2953539716db1c217730d4db2f94ec&scene=178&cur_album_id=2042874937312346114#rd)
@@ -231,7 +231,7 @@ todo........
 
 
 
-### 微服务授权、鉴权
+### 微服务授权鉴权
 
 - [妹子始终没搞懂OAuth2.0，今天整合Spring Cloud Security 一次说明白！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502682&idx=1&sn=52a15b623ab6135c134b8262bd605946&chksm=fcf71497cb809d81f1d2dbce76b3e00170f085306b2a2a67a807a6d9e2cf03bf1de3b8f203a2&scene=178&cur_album_id=2042874937312346114#rd)
 - [OAuth2.0实战！使用JWT令牌认证！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247502801&idx=1&sn=56b1af09bfa25d5e44193a7d75dfa623&chksm=fcf7141ccb809d0a1b0b2d7f6d9893c7d3e560dd8996296276f0274d2578236ee87e9124810d&scene=178&cur_album_id=2042874937312346114#rd)
@@ -263,7 +263,7 @@ todo........
 * [Java并发指南10：Java 读写锁 ReentrantReadWriteLock 源码分析](docs/java/currency/Java并发指南10：Java%20读写锁%20ReentrantReadWriteLock%20源码分析.md)
 * [Java并发指南11：解读 Java 阻塞队列 BlockingQueue](docs/java/currency/Java并发指南11：解读%20Java%20阻塞队列%20BlockingQueue.md)
 * [Java并发指南12：深度解读 java 线程池设计思想及源码实现](docs/java/currency/Java并发指南12：深度解读%20java%20线程池设计思想及源码实现.md)
-* [Java并发指南13：Java 中的 HashMap 和 ConcurrentHashMap 全解析](docs/java/currency/Java并发指南13：Java 中的 HashMap 和 ConcurrentHashMap 全解析.md)
+* [Java并发指南13：Java 中的 HashMap 和 ConcurrentHashMap 全解析](docs/java/currency/Java并发指南13：Java中的HashMap和 ConcurrentHashMap全解析.md)
 * [Java并发指南14：JUC中常用的Unsafe和Locksupport](docs/java/currency/Java并发指南14：JUC中常用的Unsafe和Locksupport.md)
 * [Java并发指南15：Fork join并发框架与工作窃取算法剖析](docs/java/currency/Java并发编程指南15：Fork%20join并发框架与工作窃取算法剖析.md)
 
