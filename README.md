@@ -12,6 +12,8 @@
 
 ## 目录
 
+- [Java全栈学习路线](#Java全栈学习路线)
+
 - [Java基础](#Java基础)
   - [基础知识](#基础知识)
   - [容器](#容器)
@@ -38,6 +40,18 @@
 - [开发工具](#开发工具)
 - [微信公众号](#微信公众号)
   - [码猿技术专栏](#码猿技术专栏)
+
+
+
+## Java全栈学习路线
+
+[在线浏览地址](https://www.processon.com/view/link/63491868e401fd06f762fc15)
+
+> 访问密码：6666
+
+图片如下：
+
+![](https://www.java-family.cn/BlogImage/20230129160229.png)
 
 ## Java基础
 
@@ -430,6 +444,8 @@ todo....
 - [别用 VMware 了，这款虚拟机简单、轻量、好用还免费...](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247520633&idx=1&sn=fee4565a498d6291083fa24e8f3b5be8&chksm=fcf74eb4cb80c7a2695cf68607d98b1623b742de4ce9a0c7c0acdbc1b7b53b77faa909ffd1bc&scene=178&cur_album_id=1521052399702966274#rd)
 - [干掉 powerdesigner，设计数据库表用它就够了！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247521269&idx=1&sn=722502b21d406016f714d5dd13ba4e86&chksm=fcf74c38cb80c52e788a19747cc352ac9f4cfb5498c399ead903ade4a52613161268a92e4f67&scene=178&cur_album_id=1521052399702966274#rd)
 - [别总写代码，这130个网站比涨工资都重要！](https://mp.weixin.qq.com/s?__biz=MzU3MDAzNDg1MA==&mid=2247521276&idx=1&sn=1ac605ef91a04ceb92613f895e13e89f&chksm=fcf74c31cb80c527c63acdbcf5d87036542d5d48a1528a8416ba05673ab634e4b22077978807&scene=178&cur_album_id=1521052399702966274#rd)
+
+
 
 ## 微信公众号
 
